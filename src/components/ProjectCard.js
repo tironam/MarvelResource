@@ -1,6 +1,7 @@
 import React from 'react';
 
 const ProjectCard = () => {
+    
     return (
         <div className="card" style="width: 18rem;">
             <img src="https://lumiere-a.akamaihd.net/v1/images/p_thefalconandthewintersoldier_disneyplus_20653-1_a0638b8c.jpeg" className="card-img-top" alt="The Falcon and the Winter Soldier poster">
@@ -18,7 +19,7 @@ const ProjectCard = () => {
                     <a href="#" className="card-link">Another link</a>
                 </div>
         </div>
-    )
+    );
 };
 
-export default ProjectCard;
+export default ProjectCard; 
