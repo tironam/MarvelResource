@@ -14,10 +14,10 @@ const ProjectCard = props => {
                     <li className="list-group-item">Director: {props.director}</li>
                     <li className="list-group-item">Writer: {props.writer}</li>
                 </ul>
-                <div className="card-body">
+                {/* <div className="card-body">
                     <a href="#" className="card-link">Card link</a>
                     <a href="#" className="card-link">Another link</a>
-                </div>
+                </div> */}
         </div>
     );
 };
