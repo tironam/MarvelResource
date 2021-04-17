@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <ProjectCard />
+      <ProjectCard title="The Falcon and the Winter Soldier" />
     </div>
     // <div>Hello World</div>
   );
