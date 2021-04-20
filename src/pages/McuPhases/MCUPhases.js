@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import ProjectCard from '../../components/ProjectCard';
+import ProjectCard from '../../components/ShowCard';
 
 const MCUPhases = () => {
 

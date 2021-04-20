@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = props => {
+const ShowCard = props => {
 
     return (
         <div className="card" style={{ width: '22rem' }}>
@@ -23,4 +23,4 @@ const ProjectCard = props => {
     );
 };
 
-export default ProjectCard; 
+export default ShowCard; 

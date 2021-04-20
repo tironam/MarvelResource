@@ -6,7 +6,7 @@ import {
   Redirect 
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import ProjectCard from './components/ProjectCard';
+import ProjectCard from './components/ShowCard';
 import Home from './pages/Home';
 import MCUPhases from './pages/MCUPhases';
 import Upcoming from './pages/Upcoming';
