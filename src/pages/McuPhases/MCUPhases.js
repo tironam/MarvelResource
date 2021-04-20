@@ -20,6 +20,17 @@ const MCUPhases = () => {
                 writer="Malcom Spellman"
                 trailer="https://www.youtube.com/watch?v=IWBsDaFWyTE"
             />
+            <ShowCard
+                poster="https://lumiere-a.akamaihd.net/v1/images/p_wandavision_disneyplus_poster03_20118_66028c77.jpeg"
+                alt="WandaVision poster"
+                title="WandaVision"
+                synopsis="Marvel Studios’ “WandaVision” blends the style of classic sitcoms with the Marvel Cinematic Universe in which Wanda Maximoff (Elizabeth Olsen) and Vision (Paul Bettany)—two super-powered beings living their ideal suburban lives—begin to suspect that everything is not as it seems."
+                date="January 15, 2021"
+                director="Matt Shakman"
+                writer="Jac Schaeffer"
+                trailer="https://www.youtube.com/watch?v=UBhlqe2OTt4"
+            />
+            <h2>Phase 3:</h2>
             <MovieCard />
         </div>
     )
