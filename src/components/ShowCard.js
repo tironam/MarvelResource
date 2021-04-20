@@ -13,7 +13,7 @@ const ShowCard = props => {
                     <li className="list-group-item">Release Date: {props.date}</li>
                     <li className="list-group-item">Director: {props.director}</li>
                     <li className="list-group-item">Writer: {props.writer}</li>
-                    <li className="list-group-item">Length: {props.length}</li>
+                    <li className="list-group-item">Number of Episodes: {props.Episodes}</li>
                 </ul>
                 {/* <div className="card-body">
                     <a href="#" className="card-link">Card link</a>
