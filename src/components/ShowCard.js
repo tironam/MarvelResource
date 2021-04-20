@@ -15,10 +15,9 @@ const ShowCard = props => {
                     <li className="list-group-item">Head Writer: {props.writer}</li>
                     <li className="list-group-item">Number of Episodes: {props.Episodes}</li>
                 </ul>
-                {/* <div className="card-body">
-                    <a href="#" className="card-link">Card link</a>
-                    <a href="#" className="card-link">Another link</a>
-                </div> */}
+                <div className="card-body">
+                    <a href={props.trailer} className="card-link">Trailer</a>
+                </div>
         </div>
     );
 };
