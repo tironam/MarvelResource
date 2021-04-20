@@ -16,7 +16,7 @@ const ShowCard = props => {
                     <li className="list-group-item">Number of Episodes: {props.Episodes}</li>
                 </ul>
                 <div className="card-body">
-                    <a href={props.trailer} className="card-link">Trailer</a>
+                    <a href={props.trailer} target="blank" className="card-link">Trailer</a>
                 </div>
         </div>
     );

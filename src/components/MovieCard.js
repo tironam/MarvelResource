@@ -15,7 +15,7 @@ const MovieCard = props => {
                     <li className="list-group-item">Writer(s): {props.writer}</li>
                 </ul>
                 <div className="card-body">
-                    <a href={props.trailer} className="card-link">Trailer</a>
+                    <a href={props.trailer} target="blank" className="card-link">Trailer</a>
                 </div>
         </div>
     );
