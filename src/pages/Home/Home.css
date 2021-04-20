@@ -1,7 +1,16 @@
 body {
-    background-color: #ab0303;
+    background-color: #ab0303 !important;
 }
 
 .text {
     color: white;
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    padding: 7px;
 }
