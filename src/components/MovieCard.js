@@ -14,10 +14,9 @@ const MovieCard = props => {
                     <li className="list-group-item">Director(s): {props.director}</li>
                     <li className="list-group-item">Writer(s): {props.writer}</li>
                 </ul>
-                {/* <div className="card-body">
-                    <a href="#" className="card-link">Card link</a>
-                    <a href="#" className="card-link">Another link</a>
-                </div> */}
+                <div className="card-body">
+                    <a href={props.trailer} className="card-link">Trailer</a>
+                </div>
         </div>
     );
 };
