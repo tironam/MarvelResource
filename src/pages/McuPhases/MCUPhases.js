@@ -1,17 +1,16 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import Navbar from '../components/Navbar';
-import ProjectCard from '../components/ProjectCard';
+import Navbar from '../../components/Navbar';
+import ProjectCard from '../../components/ProjectCard';
 
-const MCUPhases = props => {
-    constructor(props) {
-        super(props)
-    }
+const MCUPhases = () => {
 
     return (
         <div>
-            <Navbar />
+            <h1>MCU Phases so far</h1>
             <ProjectCard />
         </div>
     )
 }
+
+export default MCUPhases;
