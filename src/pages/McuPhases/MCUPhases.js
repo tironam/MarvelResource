@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import ShowCard from '../../components/ShowCard';
 import MovieCard from '../../components/MovieCard';
+import './MCUPhases.css';
 
 const MCUPhases = () => {
 
