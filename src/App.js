@@ -18,7 +18,11 @@ const App = () => {
     <Router>
         <div>
           <Switch>
-            <Route exact path='/Home'>
+            <Route exact path='/'>
+              <Navbar />
+              <Home />
+            </Route>
+            <Route exapct path='/Home'>
               <Navbar />
               <Home />
             </Route>
