@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { 
+  BrowserRouter as Router, 
+  Switch, 
+  Route, 
+  Redirect 
+} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import ProjectCard from './components/ShowCard';
+import Home from './pages/Home';
+import MCUPhases from './pages/MCUPhases';
+import Upcoming from './pages/Upcoming';
+import DisneyParks from './pages/DisneyParks';
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <div>
+          <Switch>
+            <Route exact path='/Home'>
+              <Navbar />
+              <Home />
+            </Route>
+            <Route exact path='/MCUPhases'>
+              <Navbar />
+              <MCUPhases />
+            </Route>
+            <Route exact path='/Upcoming'>
+              <Navbar />
+              <Upcoming />
+            </Route>
+            <Route exact path='/DisneyParks'>
+              <Navbar />
+              <DisneyParks />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
   );
-}
+};
 
 export default App;
