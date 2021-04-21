@@ -1,5 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
+// import {
+//     Collapse,
+//     Navbar as Nbar,
+//     NavbarToggler,
+//     NavbarBrand,
+//     Nav,
+//     NavItem,
+//     NavLink as NLink,
+//     UncontrolledDropdown,
+//     DropdownToggle,
+//     DropdownMenu,
+//     DropdownItem,
+//     NavbarText
+// } from 'reactstrap';
 // import MCUPhases from '../pages/MCUPhases';
 
 const Navbar = () => {
@@ -24,6 +38,16 @@ const Navbar = () => {
                         <NavLink to='DisneyParks' className="nav-link">
                             Marvel in the Disney Parks
                         </NavLink>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+          </a>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a className="dropdown-item" href="#">Action</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                     </div>
                 </div>
             </div>
