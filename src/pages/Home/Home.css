@@ -5,12 +5,15 @@ body {
 .text {
     color: white;
     text-align: center;
+    Margin: 25px 0 25px 0;
 }
 
 .card {
-    margin: 20px;
+    margin: 20px auto 20px auto;
+
 }
 
 .card-img-top {
     padding: 7px;
 }
+

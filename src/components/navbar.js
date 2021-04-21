@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-light bg-light">
             <div className="container-fluid">
                     <NavLink to='/Home' className="navbar-brand" >
                         MCU & You

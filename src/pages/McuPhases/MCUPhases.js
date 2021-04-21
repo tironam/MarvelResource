@@ -11,10 +11,10 @@ const MCUPhases = () => {
         <div className="container-fluid">
                 <h1 className="text">The MCU so far</h1>
                 <h2 className="text">Phase 4:</h2>
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-lg-6">
                         <ShowCard 
-                            className="col"
+                            className="card"
                             poster="https://lumiere-a.akamaihd.net/v1/images/p_thefalconandthewintersoldier_disneyplus_20653-1_a0638b8c.jpeg"
                             alt="The Falcon and the Winter Soldier poster"
                             title="The Falcon and the Winter Soldier" 
@@ -22,10 +22,13 @@ const MCUPhases = () => {
                             date="March 19, 2021"
                             director="Kari Skogland"
                             writer="Malcom Spellman"
+                            episodes="6"
                             trailer="https://www.youtube.com/watch?v=IWBsDaFWyTE"
                         />
-                        <ShowCard
-                            className="col"
+                </div>
+                <div className="col-lg-6">
+                    <ShowCard
+                            className="card"
                             poster="https://lumiere-a.akamaihd.net/v1/images/p_wandavision_disneyplus_poster03_20118_66028c77.jpeg"
                             alt="WandaVision poster"
                             title="WandaVision"
@@ -33,16 +36,18 @@ const MCUPhases = () => {
                             date="January 15, 2021"
                             director="Matt Shakman"
                             writer="Jac Schaeffer"
+                            episodes="9"
                             trailer="https://www.youtube.com/watch?v=UBhlqe2OTt4"
                         />
-                    </div>
                 </div>
-                
+            </div>
+                <h1 className="text">The Infinity Saga</h1>
                 <h2 className="text">Phase 3:</h2>
+                <div className="row text-center">
                 <MovieCard 
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ffh_poster_onesheet.jpg"
                     title="Spider-Man: Far From Home"
-                    synopsis="Following the events of Avengers: Endgame, Peter Parker (Tom Holland) returns in Spider-Man: Far From Home. Our friendly neighborhood Super Hero decides to join his best friends Ned, MJ, and the rest of the gang on a European vacation. However, Peter’s plan to leave super heroics behind for a few weeks is quickly scrapped when he begrudgingly agrees to help Nick Fury (Samuel L. Jackson) uncover the mystery of several elemental creature attacks. Spider-Man and Mysterio (Jake Gyllenhaal) join forces to fight the havoc unleashed across the continent but all is not as it seems."
+                    synopsis="Our friendly neighborhood Super Hero decides to join his best friends Ned, MJ, and the rest of the gang on a European vacation. However, Peter’s plan to leave super heroics behind for a few weeks is quickly scrapped when he begrudgingly agrees to help Nick Fury (Samuel L. Jackson) uncover the mystery of several elemental creature attacks. Spider-Man and Mysterio (Jake Gyllenhaal) join forces to fight the havoc unleashed across the continent but all is not as it seems."
                     date="July 2, 2019"
                     director="Jon Watts"
                     writer="Chris McKenna & Erik Sommers"
@@ -66,6 +71,7 @@ const MCUPhases = () => {
                     writer="Anna Boden, Ryan Fleck, Geneva Robertson-Dworet"
                     trailer="https://www.youtube.com/watch?v=0LHxvxdRnYc"
                 />
+                </div>
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ant-manthewasp_lob_crd_01_0.jpg"
                     title="Ant-Man and the Wasp"
