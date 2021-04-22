@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import ShowCard from '../../components/ShowCard';
 import MovieCard from '../../components/MovieCard';
+import Phase1 from '../../components/Phase1';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 import './InfinitySaga.css';
 
@@ -14,7 +15,7 @@ const InfinitySaga = () => {
     return (
         <div>
             <h1 className="text">The Infinity Saga</h1>
-            <div className="align-center">
+            <div>
                 <Button className="phaseBtn" onClick={toggle} color="primary" id="phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
                 </Button>
@@ -25,6 +26,7 @@ const InfinitySaga = () => {
                     Phase 3
                 </Button>
             </div>
+            <Phase1 />
         </div>
     );
 }
