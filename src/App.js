@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Phase4 from './pages/Phase4';
 import InfinitySaga from './pages/InfinitySaga';
 import DisneyParks from './pages/DisneyParks';
+import FAQ from './pages/FAQ';
 
 const App = () => {
 
@@ -37,6 +38,10 @@ const App = () => {
             <Route exact path='/DisneyParks'>
               <Navbar />
               <DisneyParks />
+            </Route>
+            <Route exact path='/FAQ'>
+              <Navbar />
+              <FAQ />
             </Route>
           </Switch>
         </div>
