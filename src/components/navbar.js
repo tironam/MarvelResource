@@ -45,7 +45,7 @@ const Navbar = () => {
                             <NavL href="/DisneyParks">Marvel & The Disney Parks</NavL>
                         </NavItem>
                         <NavItem>
-                            <NavL href="/Upcoming">FAQ</NavL>
+                            <NavL href="/FAQ">FAQ</NavL>
                         </NavItem>
                     </Nav>
                 </Collapse>
