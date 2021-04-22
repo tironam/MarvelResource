@@ -1,0 +1,20 @@
+.phaseBtn {
+    margin: 10px;
+}
+
+.phase1 {
+    color: white;
+    background-color: blue;
+    border-color: white;
+}
+
+.phase2 {
+    color: white;
+    background-color: #9e0cab;
+    border-color: white;
+}
+
+.phase3 {
+    color: white;
+    border-color: white;
+}
