@@ -30,7 +30,7 @@ const App = () => {
               <Navbar />
               <Phase4 />
             </Route>
-            <Route exact path='/Upcoming'>
+            <Route exact path='/InfinitySaga'>
               <Navbar />
               <InfinitySaga />
             </Route>

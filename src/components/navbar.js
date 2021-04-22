@@ -36,7 +36,7 @@ const Navbar = () => {
                                 <DropdownItem href="/Phase4">
                                     Phase 4 & Beyond
                                 </DropdownItem>
-                                <DropdownItem>
+                                <DropdownItem href="/InfinitySaga">
                                     The Infinity Saga
                                 </DropdownItem>
                                 <DropdownItem divider />
