@@ -1,35 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
-// import {
-//     Collapse,
-//     Navbar as Nbar,
-//     NavbarToggler,
-//     NavbarBrand,
-//     Nav,
-//     NavItem,
-//     NavLink as NLink,
-//     UncontrolledDropdown,
-//     DropdownToggle,
-//     DropdownMenu,
-//     DropdownItem,
-//     NavbarText
-// } from 'reactstrap';
+import {
+    Collapse,
+    Navbar as NavB,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink as NavL,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    NavbarText
+} from 'reactstrap';
 // import MCUPhases from '../pages/MCUPhases';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
-            <div className="container-fluid">
+        <NavB className="navbar navbar-expand-md navbar-light bg-light">
+            {/* <div className="container-fluid">
                     <NavLink to='/Home' className="navbar-brand" >
                         MCU & You
                     </NavLink>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <NavbarToggler onClick={toggle} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                </button>
+                </NavbarToggler>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
+                    <div className="navbar-nav"> */}
                         {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
-                        <NavLink to='/MCUPhases' className="nav-link">
+                        {/* <NavLink to='/MCUPhases' className="nav-link">
                             The MCU So Far
                         </NavLink>
                         <NavLink to='/Upcoming' className="nav-link">
@@ -50,8 +54,37 @@ const Navbar = () => {
                         </li>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </div> */}
+            <NavB color="light" light expand="md">
+                <NavbarBrand href="/">MCU & You</NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse className="navbar-right" isOpen={isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle nav caret>
+                                The MCU So Far
+                            </DropdownToggle>
+                            <DropdownMenu right>
+                                <DropdownItem href="/MCUPhases">
+                                    Phase 4 & Beyond
+                                </DropdownItem>
+                                <DropdownItem>
+                                    The Infinity Saga
+                                </DropdownItem>
+                                <DropdownItem divider />
+                                <DropdownItem>
+                                    Phases? Saga? MCU FAQ!
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        <NavItem>
+                            <NavL href="Upcoming">What's Next?</NavL>
+                        </NavItem>
+                    </Nav>
+                    <NavbarText>Marvel & The Disney Parks</NavbarText>
+                </Collapse>
+            </NavB>
+        </NavB>
     )
 };
 
