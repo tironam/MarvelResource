@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from '../../components/Navbar';
 import ShowCard from '../../components/ShowCard';
 import MovieCard from '../../components/MovieCard';
@@ -10,9 +10,6 @@ import { Button } from 'reactstrap';
 import './InfinitySaga.css';
 
 const InfinitySaga = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
 
     return (
         <div>
