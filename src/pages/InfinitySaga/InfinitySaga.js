@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar';
 import ShowCard from '../../components/ShowCard';
 import MovieCard from '../../components/MovieCard';
 import Phase1 from '../../components/Phase1';
+import Phase2 from '../../components/Phase2';
+import Phase3 from '../../components/Phase3';
 import { Button } from 'reactstrap';
 import './InfinitySaga.css';
 
@@ -29,8 +31,9 @@ const InfinitySaga = () => {
             <section id="phase1"></section>
             <Phase1 />
             <section id="phase2"></section>
-            <Phase1 />
+            <Phase2 />
             <section id="phase3"></section>
+            
         </div>
     );
 }
