@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import ProjectCard from './components/ShowCard';
 import Home from './pages/Home';
 import Phase4 from './pages/Phase4';
-import Upcoming from './pages/Upcoming';
+import InfinitySaga from './pages/InfinitySaga';
 import DisneyParks from './pages/DisneyParks';
 
 const App = () => {
@@ -32,7 +32,7 @@ const App = () => {
             </Route>
             <Route exact path='/Upcoming'>
               <Navbar />
-              <Upcoming />
+              <InfinitySaga />
             </Route>
             <Route exact path='/DisneyParks'>
               <Navbar />
