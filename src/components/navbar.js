@@ -32,24 +32,20 @@ const Navbar = () => {
                             <DropdownToggle nav caret>
                                 The MCU So Far
                             </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem href="/Phase4">
-                                    Phase 4 & Beyond
-                                </DropdownItem>
-                                <DropdownItem href="/InfinitySaga">
+                            <DropdownMenu right className="text-center">
+                                <DropdownItem href="/InfinitySaga" >
                                     The Infinity Saga
                                 </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Phases? Saga? MCU FAQ!
+                                <DropdownItem href="/Phase4">
+                                    Phase 4 & Beyond
                                 </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavL href="/Upcoming">What's Next?</NavL>
+                            <NavL href="/DisneyParks">Marvel & The Disney Parks</NavL>
                         </NavItem>
                         <NavItem>
-                            <NavL href="/DisneyParks">Marvel & The Disney Parks</NavL>
+                            <NavL href="/Upcoming">FAQ</NavL>
                         </NavItem>
                     </Nav>
                 </Collapse>
