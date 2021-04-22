@@ -9,8 +9,8 @@ const Phase4 = () => {
 
     return (
         <div className="container-fluid">
-                <h1 className="text">Phase 4 & Beyond</h1>
-                <h2 className="text">Phase 4:</h2>
+                <h1 className="text">Phase 4 And Beyond</h1>
+                <h2 className="text">Phase 4 (So Far):</h2>
                 <div className="row text-center">
                 <div className="col-lg-6">
                     <ShowCard
@@ -41,6 +41,7 @@ const Phase4 = () => {
                         />
                 </div>
             </div>
+            <h1 className="text">What's Next?</h1>
         </div>
     )
 }
