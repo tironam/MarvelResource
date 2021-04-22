@@ -7,6 +7,7 @@ import Phase1 from '../../components/Phase1';
 import Phase2 from '../../components/Phase2';
 import Phase3 from '../../components/Phase3';
 import { Button } from 'reactstrap';
+import ScrollUpButton from "react-scroll-up-button";
 import './InfinitySaga.css';
 
 const InfinitySaga = () => {
@@ -14,6 +15,7 @@ const InfinitySaga = () => {
     return (
         <div>
             <h1 className="text">The Infinity Saga</h1>
+            <ScrollUpButton />
             <div className="text">
                 <Button className="phaseBtn phase1" color="primary" href="#phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
