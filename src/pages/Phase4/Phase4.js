@@ -89,8 +89,8 @@ const Phase4 = () => {
                             synopsis="Ms. Marvel, a newer character to Marvel comics has grabbed the world's imagination and we are excited to announce Iman Vellani as Kamala Khan. Ms. Marvel, an Original Series from Marvel Studios, is coming late 2021 to #DisneyPlus."
                             date="Late 2021"
                             director="Adil El Arbi & Bilall Fallah, Meera Menon and Sharmeen Obaid-Chinoy"
-                            writer="Unknown"
-                            episodes="Unknown"
+                            writer="TBA"
+                            episodes="TBA"
                             trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
                         />
                         <UpcomingShow 
@@ -99,8 +99,8 @@ const Phase4 = () => {
                             synopsis="Follows original Avenger Clint Barton aka Hawkeye (Jeremy Renner) and fan-favorite Marvel comics character Kate Bishop (Hailee Steinfeld), who picks up the bow and quiver."
                             date="Late 2021"
                             director="Rhys Thomas, Bert and Bertie"
-                            writer="Unknown"
-                            episodes="Unknown"
+                            writer="TBA"
+                            episodes="TBA"
                         />
                         <UpcomingMovie 
                             poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
@@ -127,8 +127,8 @@ const Phase4 = () => {
                             synopsis="Marc Spector (Oscar Isaac) is a former CIA agent that's left for dead in the Egyptian desert, before his life is saved by the Moon God Khonshu and he becomes Moon Knight."
                             date="TBA 2022"
                             director="Mohamed Diab"
-                            writer="Unknown"
-                            episodes="unknown"
+                            writer="TBA"
+                            episodes="TBA"
                         />
                         <UpcomingShow 
                             poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_01_0.jpg"
@@ -139,6 +139,49 @@ const Phase4 = () => {
                             writer="Jessica Gao"
                             episodes="10"
                         />
+                        <UpcomingMovie 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_01_0.jpg"
+                            title="Black Panther 2"
+                            synopsis="The follow up to 2018's Best Picture nominee 'Black Panther.'"
+                            date="July 8, 2022"
+                            director="Ryan Coogler"
+                            writer="Ryan Coogler"
+                        />
+                        <UpcomingMovie 
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
+                            title="Captain Marvel 2"
+                            synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from 'WandaVision' and Ms. Marvel herself Kamala Khan (Iman Vellani)."
+                            date="November 11, 2022"
+                            director="Nia DaCosta"
+                            writer="TBA"
+                        />
+                        <UpcomingMovie 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/antman_lob_crd_01_0.jpg"
+                            title="Ant-Man and the Wasp: Quantumania"
+                            synopsis="Scott Lang aka Ant-Man (Paul Rudd) and Hope Van Dyne aka The Wasp (Evangeline Lilly) return with Jonathan Majors taking on the role of villainous Kang the Conqueror."
+                            date="TBA"
+                            director="Peyton Reed"
+                            writer="Jeff Loveness"
+                        />
+                        <UpcomingShow 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/secretinvasion_lob_crd_01.jpg"
+                            title="Secret Invasion"
+                            synopsis="Based on the hit Marvel comics storyline, Nick Fury (Samuel L. Jackson) and Talos (Ben Mendelsohn) face a secret Skrull invasion of Earth in Marvel Studios' next big event, joined by Kinsgley Ben-Adir, Olivia Colman, and Emilia Clarke."
+                            date="TBA"
+                            director="TBA"
+                            writer="TBA"
+                            episodes="TBA"
+                        />
+                        <UpcomingShow 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/gotg-holiday_lob_crd_01_0.jpg"
+                            title="The Guardians of the Galaxy Holiday Special"
+                            synopsis="The Guardians of the Galaxy return for a holiday special. Yes, it's canon."
+                            date="Holidays 2022"
+                            director="James Gunn"
+                            writer="James Gunn"
+                            episodes="1"
+                        />
+
                     </div>
         </div>
     )
