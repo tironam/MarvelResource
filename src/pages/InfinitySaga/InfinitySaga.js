@@ -32,6 +32,7 @@ const InfinitySaga = () => {
             <section id="phase2"></section>
             <Phase2 />
             <section id="phase3"></section>
+            <Phase3 />
         </div>
     );
 }
