@@ -121,8 +121,24 @@ const Phase4 = () => {
                     </div>   
                     <h1 className="text">What's Next?</h1>
                     <div className="row">
-                        <UpcomingMovie />
-                        <UpcomingShow />
+                        <UpcomingShow 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_02_0.jpg"
+                            title="Moon Knight"
+                            synopsis="Marc Spector (Oscar Isaac) is a former CIA agent that's left for dead in the Egyptian desert, before his life is saved by the Moon God Khonshu and he becomes Moon Knight."
+                            date="TBA 2022"
+                            director="Mohamed Diab"
+                            writer="Unknown"
+                            episodes="unknown"
+                        />
+                        <UpcomingShow 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_01_0.jpg"
+                            title="She-Hulk"
+                            synopsis="Tatiana Maslany plays Jennifer Walters aka She-Hulk in the upcoming comedy series. The show sees the return of Tim Roth's Abomination and Hulk himself Mark Ruffalo."
+                            date="TBA 2022"
+                            director="Kat Coiro and Anu Valia"
+                            writer="Jessica Gao"
+                            episodes="10"
+                        />
                     </div>
         </div>
     )
