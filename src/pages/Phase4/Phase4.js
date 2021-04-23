@@ -181,7 +181,15 @@ const Phase4 = () => {
                             writer="James Gunn"
                             episodes="1"
                         />
-
+                        <UpcomingShow 
+                            poster=""
+                            title=""
+                            synopsis=""
+                            date=""
+                            director=""
+                            writer=""
+                            episodes=""
+                        />
                     </div>
         </div>
     )
