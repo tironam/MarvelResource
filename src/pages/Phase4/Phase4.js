@@ -193,7 +193,11 @@ const Phase4 = () => {
                         <UpcomingShow 
                              poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/armorwars_lob_crd_01_0.jpg"
                              title="Armor Wars"
-                             synopsis="James"
+                            synopsis="Tony Stark's armor has fallen into the wrong hands, and James 'Rhodey' Rhodes aka War Machine (Don Cheadle) returns to put an end to it."
+                            date="TBA"
+                            director="TBA"
+                            writer="TBA"
+                            episodes="TBA"
                         />
                     </div>
         </div>
