@@ -120,7 +120,7 @@ const Phase4 = () => {
                         />
                     </div>   
                     <h1 className="text">What's Next?</h1>
-                    <div className="row">
+                    <div className="row text-center">
                         <UpcomingShow 
                             poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_02_0.jpg"
                             title="Moon Knight"
@@ -182,13 +182,18 @@ const Phase4 = () => {
                             episodes="1"
                         />
                         <UpcomingShow 
-                            poster=""
-                            title=""
-                            synopsis=""
-                            date=""
-                            director=""
-                            writer=""
-                            episodes=""
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironheart_lob_crd_01_0.jpg"
+                            title="Ironheart"
+                            synopsis="Dominique Thorne takes on the roll of Riri Williams, young genius inventor who creates her own suit of technologically advanced armor."
+                            date="TBA"
+                            director="TBA"
+                            writer="TBA"
+                            episodes="TBA"
+                        />
+                        <UpcomingShow 
+                             poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/armorwars_lob_crd_01_0.jpg"
+                             title="Armor Wars"
+                             synopsis="James"
                         />
                     </div>
         </div>

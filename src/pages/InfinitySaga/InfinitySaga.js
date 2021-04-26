@@ -17,10 +17,10 @@ const InfinitySaga = () => {
             <h1 className="text">The Infinity Saga</h1>
             <ScrollUpButton />
             <div className="text">
-                <Button className="phaseBtn phase1" color="primary" href="#phase1" style={{ marginBottom: '1rem' }}>
+                <Button className="phaseBtn phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
                 </Button>
-                <Button className="phaseBtn phase2" color="info" href="#phase2" style={{ marginBottom: '1rem' }}>
+                <Button className="phaseBtn phase2" color="danger" href="#phase2" style={{ marginBottom: '1rem' }}>
                     Phase 2
                 </Button>
                 <Button className="phaseBtn phase3" color="danger" href="#phase3" style={{ marginBottom: '1rem' }}>

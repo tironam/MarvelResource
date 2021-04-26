@@ -10,6 +10,7 @@ const UpcomingShow = props => {
                 <p className="card-text">{props.synopsis}</p>
             </div>
             <ul className="list-group list-group-flush">
+                <li className="list-group-item">Disney+ Original Series</li>
                 <li className="list-group-item">Release Date: {props.date}</li>
                 <li className="list-group-item">Director(s): {props.director}</li>
                 <li className="list-group-item">Head Writer: {props.writer}</li>
