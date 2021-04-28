@@ -102,6 +102,15 @@ const Phase4 = () => {
                             writer="TBA"
                             episodes="TBA"
                         />
+                        <MovieCard 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"
+                            title="Spider-Man: No Way Home"
+                            synopsis="Following the jaw-dropping cliffhanger from 'Spider-Man: Far From Home,' Peter Parker aka Spider-Man (Tom Holland) is joined by Doctor Strange (Benedict Cumberbatch) for this new adventure. Jamie Foxx and Alfred Molina return."
+                            date="December 17, 2021"
+                            director="Jon Watts"
+                            writer="Chris McKenna & Erik Sommers"
+                            trailer="Chris McKenna & Erik Sommers"
+                        />
                         <UpcomingMovie 
                             poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
                             title="Doctor Strange in the Multiverse of Madness"
@@ -148,7 +157,7 @@ const Phase4 = () => {
                             writer="Ryan Coogler"
                         />
                         <UpcomingMovie 
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
                             title="Captain Marvel 2"
                             synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from 'WandaVision' and Ms. Marvel herself Kamala Khan (Iman Vellani)."
                             date="November 11, 2022"
@@ -187,14 +196,54 @@ const Phase4 = () => {
                             synopsis="Dominique Thorne takes on the roll of Riri Williams, young genius inventor who creates her own suit of technologically advanced armor."
                             date="TBA"
                             director="TBA"
-                            writer="TBA"
-                            episodes="TBA"
+                            writer="Chinaka Hodge"
+                            episodes="6"
                         />
                         <UpcomingShow 
                              poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/armorwars_lob_crd_01_0.jpg"
                              title="Armor Wars"
-                            synopsis="Tony Stark's armor has fallen into the wrong hands, and James 'Rhodey' Rhodes aka War Machine (Don Cheadle) returns to put an end to it."
+                             synopsis="Tony Stark's armor has fallen into the wrong hands, and James 'Rhodey' Rhodes aka War Machine (Don Cheadle) returns to put an end to it."
+                             date="TBA"
+                             director="TBA"
+                             writer="TBA"
+                             episodes="TBA"
+                        />
+                        <UpcomingMovie 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/fantasticfour_lob_crd_01_0.jpg"
+                            title="Fantastic Four"
+                            synopsis="Marvel's first family comes home in this upcoming adaption of the beloved comic from 'Spider-Man' director Jon Watts."
                             date="TBA"
+                            director="Jon Watts"
+                            writer="TBA"
+                        />
+                        <UpcomingMovie 
+                            poster="https://i.pinimg.com/originals/fe/51/89/fe51897d65b86b2d96e3e325670ff53e.jpg"
+                            title="Guardians of the Galaxy Vol. 3 (Official title not yet confirmed)"
+                            synopsis="The Guardians of the Galaxy return for another adventure."
+                            date="TBA 2023"
+                            director="James Gunn"
+                            writer="James Gunn"
+                        />
+                        <UpcomingMovie
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blade_lob_crd_01_0.jpg"
+                            title="Blade"
+                            synopsis="Academy Award winner Mahershala Ali takes on the mantle of Blade in this new take on the iconic vampire hunter from Marvel Studios."
+                            date="TBA"
+                            director="TBA"
+                            writer="TBA"
+                        />
+                        <UpcomingShow 
+                            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_01_0.jpg"
+                            title="I Am Groot"
+                            synopsis="A series of animated shorts following the galaxy-saving Groot."
+                            director="TBA"
+                            writer="TBA"
+                            episodes="TBA"
+                        />
+                        <UpcomingShow 
+                            poster="https://tv-fanatic-res.cloudinary.com/iu/s--3457zZKz--/f_auto,q_auto/v1612280249/ryan-coogler-attends-black-panther-premiere"
+                            title="Untitled show about Wakanda"
+                            synopsis="Ryan Coogler (Black Panther, Black Panther 2) is developing an untitled show about Wakanda for Disney+."
                             director="TBA"
                             writer="TBA"
                             episodes="TBA"
