@@ -16,12 +16,12 @@ const NextSaga = () => {
             <h1 className="text">Phase 4 And Beyond</h1>
             <div className="row text-center">
                 <Phase4 />
-            </div>   
+            </div>
             <div className="row text-center">
                 <WhatsNext />
             </div>
         </div>
-    )
+    );
 }
 
 export default NextSaga;
