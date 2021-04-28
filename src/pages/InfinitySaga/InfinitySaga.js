@@ -16,6 +16,7 @@ const InfinitySaga = () => {
         <div>
             <h1 className="text">The Infinity Saga</h1>
             <ScrollUpButton />
+            <h5 className="text">The Marvel Cinematic Universe begins here.</h5>
             <div className="text">
                 <Button className="phaseBtn phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
