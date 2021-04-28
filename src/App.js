@@ -8,7 +8,7 @@ import {
 import Navbar from './components/Navbar';
 import ProjectCard from './components/ShowCard';
 import Home from './pages/Home';
-import Phase4 from './pages/Phase4';
+import NextSaga from './pages/NextSaga';
 import InfinitySaga from './pages/InfinitySaga';
 import DisneyParks from './pages/DisneyParks';
 import FAQ from './pages/FAQ';
@@ -27,9 +27,9 @@ const App = () => {
               <Navbar />
               <Home />
             </Route>
-            <Route exact path='/Phase4'>
+            <Route exact path='/NextSaga'>
               <Navbar />
-              <Phase4 />
+              <NextSaga />
             </Route>
             <Route exact path='/InfinitySaga'>
               <Navbar />
