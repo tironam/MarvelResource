@@ -13,8 +13,8 @@ const NextSaga = () => {
 
     return (
         <div className="container-fluid">
-            <h1 className="text">Phase 4 And Beyond</h1>
-            <h5 className="text">The Infinity Saga is complete. Where does the MCU go next?</h5>
+            <h1 className="text">TO PHASE 4 AND BEYOND</h1>
+            <h5 className="text descriptor">The Infinity Saga is complete. The world is changed forever and there's no going back. Now what?</h5>
             <div className="row text-center">
                 <Phase4 />
             </div>
