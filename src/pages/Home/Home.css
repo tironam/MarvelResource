@@ -10,7 +10,7 @@ body {
 
 .card {
     margin: 20px auto 20px auto;
-
+    border: none;
 }
 
 .card-img-top {
@@ -24,4 +24,19 @@ body {
 
 .info {
     color: white;
+}
+
+.card-link {
+    color: white;
+}
+
+.attraction-card {
+    width: 22rem;
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .attraction-card {
+        width: 40rem;
+    }
 }

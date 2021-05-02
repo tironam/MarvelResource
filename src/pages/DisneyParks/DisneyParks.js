@@ -14,7 +14,7 @@ const DisneyParks = () => {
                     image="https://www.slashfilm.com/wp/wp-content/images/Guardians-of-the-Galaxy-Mission-Breakout-easter-eggs.jpg"
                     name="Guardians of the Galaxy - Mission: BREAKOUT!"
                     synopsis="Tanaleer Tivan aka The Collector (Benecio Del Toro) has brought his collection to Tera for the first time, and you're invited to see his newest additions... The Guardians of the Galaxy. Held captive high up in his fortress, Rocket (Bradley Cooper) escapes to enlist your help to break out Star-Lord (Chris Pratt), Gamora (Zoe Saldana), Drax (Dave Bautista), and Groot to the soundtrack of six pop hits, each offering unique scenes and drop sequences."
-                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers Campus."
+                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers"
                     date="May 27, 2017"
                 />
             </div>

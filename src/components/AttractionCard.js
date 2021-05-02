@@ -3,7 +3,7 @@ import React from 'react';
 const AttractionCard = props => {
 
     return (
-        <div className="card" style={{ width: '22rem', backgroundColor: 'transparent' }} >
+        <div className="card attraction-card" >
             <img src={props.image} className="card-img-top" alt={props.alt} />
             <div className="card-body">
                 <h5 className="card-title info">{props.name}</h5>
@@ -14,6 +14,7 @@ const AttractionCard = props => {
                 <li className="list-group-item info" style={{ backgroundColor: 'transparent' }}>Opening Date: {props.date}</li>
             </ul>
         </div>
+        
     );
 };
 
