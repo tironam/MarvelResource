@@ -26,6 +26,10 @@ body {
     color: white;
 }
 
+.movie-item {
+    background-color: transparent;
+}
+
 .card-link {
     color: white;
 }

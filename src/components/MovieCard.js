@@ -10,9 +10,9 @@ const MovieCard = props => {
                     <p className="card-text info">{props.synopsis}</p>
                 </div>
             <ul className="list-group list-group-flush">
-                    <li className="list-group-item info" style={{ backgroundColor: 'transparent' }} >Release Date: {props.date}</li>
-                    <li className="list-group-item info" style={{ backgroundColor: 'transparent' }} >Director(s): {props.director}</li>
-                    <li className="list-group-item info" style={{ backgroundColor: 'transparent' }} >Writer(s): {props.writer}</li>
+                    <li className="list-group-item info movie-item" >Release Date: {props.date}</li>
+                    <li className="list-group-item info movie-item" >Director(s): {props.director}</li>
+                    <li className="list-group-item info movie-item" >Writer(s): {props.writer}</li>
                 </ul>
                 <div className="card-body">
                     <a href={props.trailer} target="blank" className="card-link">Trailer</a>
