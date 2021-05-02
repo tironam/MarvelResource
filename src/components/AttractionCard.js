@@ -6,7 +6,7 @@ const AttractionCard = props => {
         <div className="card attraction-card" >
             <img src={props.image} className="card-img-top" alt={props.alt} />
             <div className="card-body">
-                <h5 className="card-title info">{props.name}</h5>
+                <h4 className="card-title info">{props.name}</h4>
                 <p className="card-text info">{props.synopsis}</p>
             </div>
             <ul className="list-group list-group-flush" >
@@ -14,7 +14,6 @@ const AttractionCard = props => {
                 <li className="list-group-item info" style={{ backgroundColor: 'transparent' }}>Opening Date: {props.date}</li>
             </ul>
         </div>
-        
     );
 };
 
