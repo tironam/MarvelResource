@@ -3,7 +3,7 @@ import React from 'react';
 const UpcomingAttraction = props => {
 
     return (
-        <div className="card" style={{ width: '22rem' }}>
+        <div className="card attraction-card" >
             <img src={props.image} className="card-img-top" alt={props.alt} />
             <div className="card-body">
                 <h5 className="card-title">{props.name}</h5>
