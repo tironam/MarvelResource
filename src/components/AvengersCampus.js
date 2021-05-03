@@ -24,7 +24,7 @@ const AvengersCampus = () => {
                     date="May 27, 2017"
                 />
                 <AttractionCard
-                    image="https://d23.com/app/uploads/2020/03/780w-463h_030920_avengers-campus-3.jpg"
+                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/08/sdhbvwuy4y9u133-1024x469.jpg"
                     name="WEB SLINGERS: A Spider-Man Adventure"
                     synopsis="The Worldwide Engineering Brigade (or W.E.B. for short) is home to some of the brightest young minds in the world like Peter Parker, come together to help develop new technology for the greatest Super Heroes in the world. When Spider-Bots start running amok around Avengers Campus, it's up to you to board the WEB Slinger to help Spider-Man shoot webs and wrangle them up."
                     locale="Avengers Campus"
