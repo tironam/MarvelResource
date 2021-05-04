@@ -28,7 +28,7 @@ const WhatsNext = () => {
                 />
                 <UpcomingMovie
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_01_0.jpg"
-                    title="Black Panther 2"
+                    title="Black Panther: Wakanda Forever"
                     synopsis="The follow up to 2018's Best Picture nominee 'Black Panther.'"
                     date="July 8, 2022"
                     director="Ryan Coogler"
@@ -36,7 +36,7 @@ const WhatsNext = () => {
                 />
                 <UpcomingMovie
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
-                    title="Captain Marvel 2"
+                    title="The Marvels"
                     synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from 'WandaVision' and Ms. Marvel herself Kamala Khan (Iman Vellani)."
                     date="November 11, 2022"
                     director="Nia DaCosta"
@@ -46,7 +46,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/antman_lob_crd_01_0.jpg"
                     title="Ant-Man and the Wasp: Quantumania"
                     synopsis="Scott Lang aka Ant-Man (Paul Rudd) and Hope Van Dyne aka The Wasp (Evangeline Lilly) return with Jonathan Majors taking on the role of villainous Kang the Conqueror."
-                    date="TBA"
+                    date="February 17, 2023"
                     director="Peyton Reed"
                     writer="Jeff Loveness"
                 />
@@ -96,9 +96,9 @@ const WhatsNext = () => {
                 />
                 <UpcomingMovie
                     poster="https://i.pinimg.com/originals/fe/51/89/fe51897d65b86b2d96e3e325670ff53e.jpg"
-                    title="Guardians of the Galaxy Vol. 3 (Official title not yet confirmed)"
+                    title="Guardians of the Galaxy Vol. 3"
                     synopsis="The Guardians of the Galaxy return for another adventure."
-                    date="TBA 2023"
+                    date="May 5th, 2023"
                     director="James Gunn"
                     writer="James Gunn"
                 />
