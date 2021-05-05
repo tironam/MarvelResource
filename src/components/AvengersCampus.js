@@ -22,7 +22,7 @@ const AvengersCampus = () => {
                     name="Guardians of the Galaxy - Mission: BREAKOUT!"
                     synopsis="Tanaleer Tivan aka The Collector has brought his collection to Tera for the first time, and you're invited to see his newest additions... The Guardians of the Galaxy. Held captive high up in his fortress, Rocket escapes to enlist your help to break out his fellow Guardians to the soundtrack of six pop hits, each offering unique scenes and drop sequences."
                     info='Benecio Del Toro, Bradley Cooper, Chris Pratt, Zoe Saldana, and Dave Bautista all reprise their roles for the attraction. The scenes for the attraction were largely filmed during production of "Guardians of the Galaxy Vol. 2. The Fortress is filled with Marvel and Disney Park easter eggs, including a destroyed Ultron sentry, Inhuman Terrigen Crystals, and Figment from the "Journey Into Imagination" attraction at EPCOT.'
-                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers"
+                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers Campus"
                     date="May 27, 2017"
                 />
                 <AttractionCard
@@ -30,7 +30,7 @@ const AvengersCampus = () => {
                     name="Guardians of the Galaxy - Monsters After Dark"
                     synopsis="After escaping the Collector's Fortress, Rocket returns to rescue a left behind Groot while the once captive creatures now run loose."
                     info='Set to the backdrop of an original song by Tyler Bates, the composer of the films. This version of the attraction can be found after dark during the Halloween season and acts as a sequel to the story of the regular version of the attraction. The main monster in the attraction is the Fire Dragon that belonged to Surtur from "Thor: Ragnarok"'
-                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers"
+                    locale="Located in Disney California Adventure's Hollywood Land. Soon to be part of Avengers Campus"
                     date="September 15, 2017"
                 />
                 <AttractionCard
@@ -45,7 +45,7 @@ const AvengersCampus = () => {
                     name="Untitled Avengers Attraction"
                     synopsis="Enter Avengers Headquarters, where you'll board a Quinjet and join Earth's Mightiest Heroes on an exciting journey to save the day."
                     info="This E-Ticket attraction promises to feature an innovative ride system. Concept art for the attraction showed the guest's seats in the Quinjet splitting off and moving around a battle independently, which may hint at the ride system in mind. It also depicted a battle happening in Wakanda, but it's unclear if that will still be a location destined for the attraction following Chadwick Boseman's untimely passing."
-                    date="Phase two of Avengers Campus (TBA)"
+                    date="Phase 2 of Avengers Campus (TBA)"
                 />
             </div>
             <h4 className="text">Heroic Encounters in Avengers Campus</h4>
