@@ -5,31 +5,35 @@ const WDW = () => {
 
     return (
         <div>
-            <h4 className="text">Walt Disney World</h4>
+            <h4 className="text">Walt Disney World Resort</h4>
+            <h5 className="text">Marvel Attractions</h5>
             <div className="row text-center">
                 <AttractionCard
-                    image="https://i.ytimg.com/vi/5BsCmT898ts/maxresdefault.jpg"
-                    name="Super Hero HQ"
-                    synopsis="The original West Coast home to some of the greatest Super Heroes in the world. Visit Thor in Asgard, see Iron Man's hall of armor, and meet Spider-Man."
-                    info="Super Hero HQ occupied the second floor of the former Innoventions building and right above Star Wars Launch Bay. It housed character meet and greets and interactive experiences and exhibits, including Captain America before becoming Super Hero HQ. It closed on April 2, 2016, just a few months after opening."
-                    locale="Tomorrowland in Disneyland"
-                    date="November 16, 2015"
+                    image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/image_wdw_epcotguardianscosmicrewind4.jpg"
+                    name="Guardians of the Galaxy: Cosmic Rewind"
+                    synopsis="Enter the Galaxarium, an educational exhibition that explores the similarities and mysteries of the formation of Earth's Galaxy and Xandar. When the Guardians of the Galaxy arrive, a cosmos-spanning adventure begins!"
+                    info="The first Marvel attraction at Walt Disney World based on one of the few MCU properties Disney is allowed to use in Florida. Described as a storytelling rollercoaster, the ride vehicles rotate 360 degrees to face you towards the story while zooming along on the track. Originally slated to open in time for Walt Disney World's 50th anniversary in 2021, the attraction's current opening date is unclear."
+                    locale="World Discovery in Epcot"
+                    date="2021/2022 TBA"
                 />
-                <AttractionCard
-                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/02/sohruit7875862.jpg"
-                    name="Summer of Heroes"
-                    synopsis='A special summertime event to mark the opening of "Guardians of the Galaxy - Mission: BREAKOUT! It brought with it themed food, special Marvel experiences like a short compilation of the MCU so far in the Sunset Showcase Theatre, and "Avengers Training Initiative," a show that allowed children to learn how to become Avengers with the help of S.H.I.E.L.D. agents, Black Widow, and Hawkeye.'
-                    info='The fourth event at the resort to be centered around Marvel, after the Super Heroes Half Marathons the three years before. The "Avengers Training Initiative" show featured a video cameo from Iron Man, who was calling in from Hong Kong. This was a reference to the "Iron Man Experience" attraction at Hong Kong Disneyland. The summer event last until September 10th.'
-                    locale="Hollywood Land in Disney California Adventure"
-                    date="May 27, 2017"
+            </div>
+            <h5 className="text">Other Marvel Experiences at Walt Disney World</h5>
+            <div className="row text-center">
+                <AttractionCard 
+                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/06/bnvhvgfter.jpg"
+                    name="Guardians of the Galaxy - Awesome Mix Live!"
+                    synopsis="Star-Lord and Gamora from Guardians of the Galaxy will take guests on a musical journey through the cosmos"
+                    info="Taking place in the American Pavilion, this stage show featured the two Guardians grooving along with a live alien band. This show was part of Walt Disney World's Incredible Summer in 2018 and returned for the 2019 summer season. It was slated to return for 2020, but never did, likely because of covid restrictions at the resort."
+                    locale="America Gardens Theatre at Epcot"
+                    date="June 9, 2018"
                 />
-                <AttractionCard
-                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/05/kdjn0820.jpg"
-                    name="Guardians of the Galaxy: Awesome Dance Off!"
-                    synopsis="After escaping the Collector's Fortress, Star-Lord and Gamora return to retrieve an object of great importance that was left behind, which turns out to be Star-Lord's pop hit-filled boombox. When the Collector's security systems track down the Guardians, the only way to get out of it is with an epic dance off. Obviously."
-                    info="The show takes place directly in front of the attraction, with screens that reveal themselves to showcase Rocket calling in. The show's changed its soundtrack once since opening with the attraction in 2017. A full-size Groot meet and greet character comes out to greet guests at the end of the show."
-                    locale="Hollywood Land in Disney California Adventure"
-                    date="May 27, 2017"
+                <AttractionCard 
+                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2018/04/bncbdfet-624x352.jpg"
+                    name="Character Encounters"
+                    synopsis="When his film released in the fall of 2016, Doctor Strange could be found wandering the streets of Disney's Hollywood Studios displaying his magical prowess. Star-Lord and Baby Groot could also be found in the ''One Man's Dream'' attraction greeting guests."
+                    info="Doctor Strange's appearances in the park were only for a limited time, while Star-Lord and Baby Groot had a much lengthier stay with a themed location."
+                    locale="Disney's Hollywood Studios"
+                    date="Fall 2016"
                 />
             </div>
         </div>
