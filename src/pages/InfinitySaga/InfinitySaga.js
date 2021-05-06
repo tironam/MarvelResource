@@ -1,11 +1,9 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import ShowCard from '../../components/ShowCard';
-import MovieCard from '../../components/MovieCard';
-import Phase1 from '../../components/Phase1';
-import Phase2 from '../../components/Phase2';
-import Phase3 from '../../components/Phase3';
+import Phase1 from '../../components/Movies/Phase1';
+import Phase2 from '../../components/Movies/Phase2';
+import Phase3 from '../../components/Movies/Phase3';
 import { Button } from 'reactstrap';
 import ScrollUpButton from "react-scroll-up-button";
 import './InfinitySaga.css';

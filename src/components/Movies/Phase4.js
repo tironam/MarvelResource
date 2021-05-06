@@ -1,8 +1,8 @@
 import React from 'react';
 import MovieCard from './MovieCard.js';
-import ShowCard from './ShowCard.js';
+import ShowCard from '../Shows/ShowCard.js';
 import UpcomingMovie from './UpcomingMovie.js';
-import UpcomingShow from './UpcomingShow.js';
+import UpcomingShow from '../Shows/UpcomingShow.js';
 
 const Phase4 = () => {
     return (

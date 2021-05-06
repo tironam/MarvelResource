@@ -6,7 +6,6 @@ import {
   Redirect 
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import ProjectCard from './components/ShowCard';
 import Home from './pages/Home';
 import NextSaga from './pages/NextSaga';
 import InfinitySaga from './pages/InfinitySaga';
