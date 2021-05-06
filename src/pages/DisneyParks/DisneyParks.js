@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar';
 import AvengersCampus from '../../components/ThemeParks/AvengersCampus';
 import DLR from '../../components/ThemeParks/DLR';
 import WDW from '../../components/ThemeParks/WDW';
+import HK from '../../components/ThemeParks/HK';
 
 const DisneyParks = () => {
 
@@ -20,6 +21,9 @@ const DisneyParks = () => {
             </div>
             <div className="text-center">
                 <WDW />
+            </div>
+            <div className="text-center">
+                <HK />
             </div>
         </div>
     )
