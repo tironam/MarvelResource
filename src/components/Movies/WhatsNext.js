@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard.js'
 import UpcomingMovie from './UpcomingMovie.js'
-import UpcomingShow from './UpcomingShow.js'
+import UpcomingShow from '../Shows/UpcomingShow.js'
 
 const WhatsNext = () => {
     return (

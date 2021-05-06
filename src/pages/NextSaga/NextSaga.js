@@ -1,12 +1,8 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import ShowCard from '../../components/ShowCard';
-import MovieCard from '../../components/MovieCard';
-import UpcomingShow from '../../components/UpcomingShow';
-import UpcomingMovie from '../../components/UpcomingMovie';
-import Phase4 from '../../components/Phase4';
-import WhatsNext from '../../components/WhatsNext';
+import Phase4 from '../../components/Movies/Phase4';
+import WhatsNext from '../../components/Movies/WhatsNext';
 import './NextSaga.css';
 
 const NextSaga = () => {
