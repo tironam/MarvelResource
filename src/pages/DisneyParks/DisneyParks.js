@@ -6,6 +6,7 @@ import DLR from '../../components/ThemeParks/DLR';
 import WDW from '../../components/ThemeParks/WDW';
 import HK from '../../components/ThemeParks/HK';
 import DLP from '../../components/ThemeParks/DLP';
+import DCL from '../../components/ThemeParks/DCL';
 
 const DisneyParks = () => {
 
@@ -28,6 +29,9 @@ const DisneyParks = () => {
             </div>
             <div className="text-center">
                 <DLP />
+            </div>
+            <div className="text-center">
+                <DCL />
             </div>
         </div>
     )
