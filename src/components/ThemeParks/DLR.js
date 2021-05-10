@@ -19,8 +19,8 @@ const DLR = () => {
                 <AttractionCard 
                     image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/02/sohruit7875862.jpg"
                     name="Summer of Heroes"
-                    synopsis='A special summertime event to mark the opening of "Guardians of the Galaxy - Mission: BREAKOUT! It brought with it themed food, special Marvel experiences like a short compilation of the MCU so far in the Sunset Showcase Theatre, and "Avengers Training Initiative," a show that allowed children to learn how to become Avengers with the help of S.H.I.E.L.D. agents, Black Widow, and Hawkeye.'
-                    info='The fourth event at the resort to be centered around Marvel, after the Super Heroes Half Marathons the three years before. The "Avengers Training Initiative" show featured a video cameo from Iron Man, who was calling in from Hong Kong. This was a reference to the "Iron Man Experience" attraction at Hong Kong Disneyland. The summer event last until September 10th.'
+                    synopsis="A special summertime event to mark the opening of Guardians of the Galaxy - Mission: BREAKOUT! It brought with it themed food, special Marvel experiences like a short compilation of the MCU so far in the Sunset Showcase Theatre, and Avengers Training Initiative, a show that allowed children to learn how to become Avengers with the help of S.H.I.E.L.D. agents, Black Widow, and Hawkeye."
+                    info="The fourth event at the resort to be centered around Marvel, after the Super Heroes Half Marathons the three years before. The Avengers Training Initiative show featured a video cameo from Iron Man, who was calling in from Hong Kong. This was a reference to the Iron Man Experience attraction at Hong Kong Disneyland. The summer event last until September 10th."
                     replace=""
                     locale="Hollywood Land in Disney California Adventure"
                     date="May 27, 2017"

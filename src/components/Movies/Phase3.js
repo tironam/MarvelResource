@@ -18,7 +18,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrange_lob_crd_01_7.jpg"
                     title="Doctor Strange"
-                    synopsis="From Marvel Studios comes “Doctor Strange,” the story of world-famous neurosurgeon Dr. Stephen Strange whose life changes forever after a horrific car accident robs him of the use of his hands. When traditional medicine fails him, he is forced to look for healing, and hope, in an unlikely place—a mysterious enclave known as Kamar-Taj. Before long Strange—armed with newly acquired magical powers—is forced to choose whether to return to his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence."
+                    synopsis="From Marvel Studios comes Doctor Strange, the story of world-famous neurosurgeon Dr. Stephen Strange whose life changes forever after a horrific car accident robs him of the use of his hands. When traditional medicine fails him, he is forced to look for healing, and hope, in an unlikely place—a mysterious enclave known as Kamar-Taj. Before long Strange—armed with newly acquired magical powers—is forced to choose whether to return to his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence."
                     date="November 4, 2016"
                     director="Scott Derrickson"
                     writer="Jon Spaihts, Scott Derrickson, C. Robert Cargill"
@@ -54,7 +54,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther_lob_crd_01_5.jpg"
                     title="Black Panther"
-                    synopsis="Marvel Studios’ “Black Panther” follows T’Challa who, after the death of his father, the King of Wakanda, returns home to the isolated, technologically advanced African nation to succeed to the throne and take his rightful place as king. But when a powerful old enemy reappears, T’Challa’s mettle as king—and Black Panther—is tested when he is drawn into a formidable conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people and their way of life."
+                    synopsis="Marvel Studios’ Black Panther follows T’Challa who, after the death of his father, the King of Wakanda, returns home to the isolated, technologically advanced African nation to succeed to the throne and take his rightful place as king. But when a powerful old enemy reappears, T’Challa’s mettle as king—and Black Panther—is tested when he is drawn into a formidable conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people and their way of life."
                     date="February 16, 2018"
                     director="Ryan Coogler"
                     writer="Ryan Coogler, Joe Robert Cole"
@@ -63,7 +63,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersinfinitywar_lob_crd_02.jpg"
                     title="Avengers: Infinity War"
-                    synopsis="An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios' 'Avengers: Infinity War' brings to the screen the ultimate, deadliest showdown of all time.
+                    synopsis="An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios' Avengers: Infinity War brings to the screen the ultimate, deadliest showdown of all time.
                     As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain."
                     date="April 27, 2018"
                     director="Anthony Russo, Joe Russo"
@@ -73,7 +73,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ant-manthewasp_lob_crd_01_0.jpg"
                     title="Ant-Man and the Wasp"
-                    synopsis="In the aftermath of 'Captain America: Civil War,' Scott Lang (Paul Rudd) grapples with the consequences of his choices as both a Super Hero and a father. As he struggles to rebalance his home life with his responsibilities as Ant-Man, he’s confronted by Hope van Dyne (Evangeline Lilly) and Dr. Hank Pym (Michael Douglas) with an urgent new mission. Scott must once again put on the suit and learn to fight alongside The Wasp as the team works together to uncover secrets from their past."
+                    synopsis="In the aftermath of Captain America: Civil War, Scott Lang (Paul Rudd) grapples with the consequences of his choices as both a Super Hero and a father. As he struggles to rebalance his home life with his responsibilities as Ant-Man, he’s confronted by Hope van Dyne (Evangeline Lilly) and Dr. Hank Pym (Michael Douglas) with an urgent new mission. Scott must once again put on the suit and learn to fight alongside The Wasp as the team works together to uncover secrets from their past."
                     date="July 6, 2018"
                     director="Peyton Reed"
                     writer="Chris McKenna, Erik Sommers, Andrew Barrer, Gabriel Ferrari, Paul Rudd"
@@ -82,7 +82,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel_lob_crd_06.jpg"
                     title="Captain Marvel"
-                    synopsis="Set in the 1990s, Marvel Studios' 'Captain Marvel' is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe that follows the journey of Carol Danvers as she becomes one of the universe's most powerful heroes. While a galactic war between two alien races reaches Earth, Danvers finds herself and a small cadre of allies at the center of the maelstrom."
+                    synopsis="Set in the 1990s, Marvel Studios' Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe that follows the journey of Carol Danvers as she becomes one of the universe's most powerful heroes. While a galactic war between two alien races reaches Earth, Danvers finds herself and a small cadre of allies at the center of the maelstrom."
                     date="March 8, 2019"
                     director="Anna Boden, Ryan Fleck"
                     writer="Anna Boden, Ryan Fleck, Geneva Robertson-Dworet"
@@ -91,7 +91,7 @@ const Phase3 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg"
                     title="Avengers: Endgame"
-                    synopsis="The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films,  'Avengers: Endgame.'"
+                    synopsis="The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films,  Avengers: Endgame."
                     date="April 26, 2019"
                     director="Anthony Russo, Joe Russo"
                     writer="Christopher Markus, Stephen McFeely"

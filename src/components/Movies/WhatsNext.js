@@ -29,7 +29,7 @@ const WhatsNext = () => {
                 <UpcomingMovie
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_01_0.jpg"
                     title="Black Panther: Wakanda Forever"
-                    synopsis="The follow up to 2018's Best Picture nominee 'Black Panther.'"
+                    synopsis="The follow up to 2018's Best Picture nominee Black Panther."
                     date="July 8, 2022"
                     director="Ryan Coogler"
                     writer="Ryan Coogler"
@@ -37,7 +37,7 @@ const WhatsNext = () => {
                 <UpcomingMovie
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
                     title="The Marvels"
-                    synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from 'WandaVision' and Ms. Marvel herself Kamala Khan (Iman Vellani)."
+                    synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from WandaVision and Ms. Marvel herself Kamala Khan (Iman Vellani)."
                     date="November 11, 2022"
                     director="Nia DaCosta"
                     writer="TBA"
