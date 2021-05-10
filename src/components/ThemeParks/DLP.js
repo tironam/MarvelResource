@@ -5,7 +5,7 @@ const DLP = () => {
 
     return (
         <div>
-            <h4 className="text">Walt Disney Studios Park - Disneyland Paris</h4>
+            <h4 className="text">Disneyland Paris</h4>
             <div className="text-center">
                 <AttractionCard
                     image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/09/kdjflbh4jb3oui4nj2-1024x468.jpg"
