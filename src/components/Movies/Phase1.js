@@ -45,7 +45,7 @@ const Phase1 = () => {
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainamericathefirstavenger_lob_crd_01_0.jpg"
                     title="Captain America: The First Avenger"
-                    synopsis="Marvel's ' Captain America: The First Avenger' focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America."
+                    synopsis="Marvel's Captain America: The First Avenger focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America."
                     date="July 22, 2011"
                     director="Joe Johnston"
                     writer="Christopher Markus, Stephen McFeely"
