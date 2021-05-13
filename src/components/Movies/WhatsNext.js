@@ -27,7 +27,7 @@ const WhatsNext = () => {
                     episodes="10"
                 />
                 <UpcomingMovie
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_01_0.jpg"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_02.jpg"
                     title="Black Panther: Wakanda Forever"
                     synopsis="The follow up to 2018's Best Picture nominee Black Panther."
                     date="July 8, 2022"
