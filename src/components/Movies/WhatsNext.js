@@ -55,8 +55,8 @@ const WhatsNext = () => {
                     title="Secret Invasion"
                     synopsis="Based on the hit Marvel comics storyline, Nick Fury (Samuel L. Jackson) and Talos (Ben Mendelsohn) face a secret Skrull invasion of Earth in Marvel Studios' next big event, joined by Kinsgley Ben-Adir, Olivia Colman, and Emilia Clarke."
                     date="TBA"
-                    director="TBA"
-                    writer="TBA"
+                    director="Thomas Bezuka and Ali Selim"
+                    writer="Kyle Bradstreet"
                     episodes="TBA"
                 />
                 <UpcomingShow

@@ -1,5 +1,6 @@
 body {
     background-color: #8c0101 !important;
+    /* background: linear-gradient(to bottom, #ca0303 0%, #870101 100%) */
 }
 
 .text {
@@ -7,6 +8,28 @@ body {
     text-align: center;
     Margin: 25px 0 25px 0;
     font-family: "Audiowide", sans-serif;
+}
+
+.header-card-text {
+    color: white;
+    text-align: center;
+    /* margin: 25px 0px 25px 0px; */
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    /* text-shadow: 10px 10px 10px #ababab; */
+}
+
+/* .header-card {
+    width: 100% !important;
+    height: 15% !importantl
+} */
+
+.jumbotron {
+    /* background-image: url("https://allears.net/wp-content/uploads/2020/04/Spider-man-web-slingers-avengers-campus-disneyland-april-2020.png"); background-size: cover; */
+}
+
+.header-img {
+    opacity: 0.4;
 }
 
 .card {
