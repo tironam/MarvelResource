@@ -9,6 +9,7 @@ const Home = () => {
         <div>
             <h1 className="text text-center">WELCOME TO MCU AND YOU</h1>
             <h4 className="text">The ultimate resource for new and seasoned fans of the MCU</h4>
+            <Carousel />
         </div>
     )
 }
