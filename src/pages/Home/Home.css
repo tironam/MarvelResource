@@ -28,6 +28,11 @@ body {
     /* background-image: url("https://allears.net/wp-content/uploads/2020/04/Spider-man-web-slingers-avengers-campus-disneyland-april-2020.png"); background-size: cover; */
 }
 
+.card-img-overlay {
+    /* margin: 20px; */
+    padding: 30px;
+}
+
 .header-img {
     opacity: 0.4;
 }

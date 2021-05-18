@@ -20,7 +20,7 @@ const HeaderCard = props => {
             <div className="container">
                 <div className="card-img-overlay">
                     <h1 className="display-4 text">MARVEL IN THE DISNEY PARKS</h1>
-                <p className="lead text">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <p className="lead text">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                 </div>
             </div>
         </div>
