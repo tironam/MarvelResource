@@ -9,7 +9,9 @@ const Home = () => {
         <div>
             <h1 className="text text-center">WELCOME TO MCU AND YOU</h1>
             <h4 className="text">The ultimate resource for new and seasoned fans of the MCU</h4>
-            <Carousel />
+            <Carousel 
+                image1="http://media.comicbook.com/2017/09/avengers-infinity-war-thanos-infinity-gauntlet-1018561-1280x0.jpeg"
+            />
         </div>
     )
 }
