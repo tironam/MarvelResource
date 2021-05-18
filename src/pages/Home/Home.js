@@ -2,17 +2,13 @@ import React from 'react';
 import Navbar from '../../components/Navbar.js';
 import './Home.css';
 import HeaderCard from '../../components/HeaderCard';
+import Carousel from '../../components/Carousel';
 
 const Home = () => {
     return (
         <div>
-            <div className="row text-center header-card">
-                <HeaderCard 
-                    image="https://allears.net/wp-content/uploads/2020/04/Spider-man-web-slingers-avengers-campus-disneyland-april-2020-700x438.png"
-                    name="Welcome to MCU and You!"
-                    text="Your ultimate resource for the Marvel Cinematic Universe!"
-                />
-            </div>
+            <h1 className="text text-center">WELCOME TO MCU AND YOU</h1>
+            <h4 className="text">The ultimate resource for new and seasoned fans of the MCU</h4>
         </div>
     )
 }
