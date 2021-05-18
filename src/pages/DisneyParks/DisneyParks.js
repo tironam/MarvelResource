@@ -7,12 +7,15 @@ import WDW from '../../components/ThemeParks/WDW';
 import HK from '../../components/ThemeParks/HK';
 import DLP from '../../components/ThemeParks/DLP';
 import DCL from '../../components/ThemeParks/DCL';
+import HeaderCard from '../../components/HeaderCard';
+import ScrollUpButton from "react-scroll-up-button";
 
 const DisneyParks = () => {
 
     return (
         <div>
-            <h1 className="text">Marvel in the Disney Parks and Resorts</h1>
+            <ScrollUpButton />
+            <h1 className="text">MARVEL IN THE DISNEY PARKS AND RESORTS</h1>
             <h4 className="text"></h4>
             <h2 className="text">The Disneyland Resort</h2>
             <div className="text-center">

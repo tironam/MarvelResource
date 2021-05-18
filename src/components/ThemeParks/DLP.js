@@ -52,9 +52,9 @@ const DLP = () => {
                     image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/11/igatg383671a-1024x590.jpg"
                     name="Disney's Hotel New York - The Art of Marvel"
                     synopsis="A New York-inspired hotel filled with over 300 pieces of Marvel artwork by artists from around the world."
-                    info=""
+                    info="The hotel will feature an area with unique Marvel-themed photo ops and character meet and greets."
                     locale="Disneyland Paris"
-                    date="2021 TBA"
+                    date="June 21, 2021"
                 />
             </div>
             
