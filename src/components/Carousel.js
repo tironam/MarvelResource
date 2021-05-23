@@ -1,36 +1,79 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {
+    Carousel,
+    CarouselItem,
+    CarouselControl,
+    CarouselIndicators,
+    CarouselCaption
+} from 'reactstrap';
 
-const Carousel = props => {
+const items = [
+    {
+        src: 'https://www.brickfanatics.com/wp-content/uploads/Avengers-infinity-Saga-featured.jpg',
+        altText: 'The Infinity Saga poster',
+        caption: 'The Infinity Saga',
+        text: 'This is where the MCU begins'
+    },
+    {
+        src: 'https://www.brickfanatics.com/wp-content/uploads/Avengers-infinity-Saga-featured.jpg',
+        altText: '',
+        caption: 'Phase 4 and Beyond',
+        text: 'Where does the MCU go next?'
+    },
+    {
+        src: 'https://www.brickfanatics.com/wp-content/uploads/Avengers-infinity-Saga-featured.jpg',
+        altText: 'Marvel and the Disney Parks',
+        caption: 'Marvel in the Disney Parks',
+        text: 'Learn all about the real Marvel experiences Disney has made'
+    }
+];
+
+const Carousel1 = (props) => {
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [animating, setAnimating] = useState(false);
+
+    const next = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const previous = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const goToIndex = (newIndex) => {
+        if (animating) return;
+        setActiveIndex(newIndex);
+    }
+
+    const slides = items.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
+                <CarouselCaption className="carousel-text text-center" captionText={item.text} captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
+
     return (
-        <div>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={props.image1} className="d-block w-100" alt={props.alt1} />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={props.image2} className="d-block w-100" alt={props.alt2} />
-                    </div>
-                        <div className="carousel-item">
-                            <img src={props.image3} className="d-block w-100" alt={props.alt3} />
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+        <Carousel
+            activeIndex={activeIndex}
+            next={next}
+            previous={previous}
+        >
+            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+            {slides}
+            <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+            <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+        </Carousel>
     );
 }
 
-export default Carousel
+export default Carousel1;

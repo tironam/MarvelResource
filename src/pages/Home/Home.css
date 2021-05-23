@@ -19,6 +19,10 @@ body {
     /* text-shadow: 10px 10px 10px #ababab; */
 }
 
+.carousel-text {
+    text-shadow: 20px black;
+}
+
 /* .header-card {
     width: 100% !important;
     height: 15% !importantl
@@ -74,4 +78,13 @@ body {
     .attraction-card {
         width: 43rem;
     }
+}
+
+.carousel {
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
