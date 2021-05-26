@@ -23,6 +23,17 @@ body {
     text-shadow: 20px black;
 }
 
+.ImgButton {
+    max-width: 20rem;
+    margin: 20px;
+    border-radius:20px;
+    1-webkit-border-radius:50%;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+
 /* .header-card {
     width: 100% !important;
     height: 15% !importantl
