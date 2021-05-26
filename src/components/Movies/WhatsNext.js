@@ -38,7 +38,7 @@ const WhatsNext = () => {
                     writer="Ryan Coogler"
                 />
                 <UpcomingMovie
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel2_lob_crd_01_0.jpg"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/themarvels_lob_crd_01.jpg"
                     alt="logo poster for The Marvels"
                     title="The Marvels"
                     synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from WandaVision and Ms. Marvel herself Kamala Khan (Iman Vellani)."
