@@ -1,13 +1,13 @@
 body {
-    background-color: #8c0101 !important;
+    background-color: white !important;
     /* background: linear-gradient(to bottom, #ca0303 0%, #870101 100%) */
 }
 
 .text {
-    color: white;
+    color: #df0000;
     text-align: center;
     Margin: 25px 0 25px 0;
-    font-family: "Audiowide", sans-serif;
+    /* font-family: "Audiowide", sans-serif; */
 }
 
 .header-card-text {
@@ -26,12 +26,12 @@ body {
 .ImgButton {
     max-width: 20rem;
     margin: 20px;
-    border-radius:20px;
-    1-webkit-border-radius:50%;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
-    -webkit-border-radius:20px;
+    border-radius: 20px;
+    1-webkit-border-radius: 50%;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 
 /* .header-card {
@@ -69,7 +69,7 @@ body {
 }
 
 .info {
-    color: white;
+    color: black;
 }
 
 .movie-item {
@@ -77,7 +77,7 @@ body {
 }
 
 .card-link {
-    color: white;
+    color: #df0000;
 }
 
 .attraction-card {
