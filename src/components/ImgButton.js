@@ -12,7 +12,8 @@ const ImgButton = (props) => {
                         src={props.image}
                         alt={props.alt}
                     />
-                    <p className="btn-text">{props.link}</p>
+                    <h1 className="btn-text">{props.link}</h1>
+                    <p className="info-text">{props.text}</p>
                 </Button>
             </div>
             {/* <div className="col">

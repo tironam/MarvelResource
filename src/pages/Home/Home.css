@@ -31,10 +31,18 @@ body {
 }
 
 .btn-text {
-    font-size: 30px;
+    font-size: 50px;
     color: #df0000;
     text-align: center;
-    Margin: 25px 25px 25px 25px;
+    Margin: 15px 0px 0px 0px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.info-text {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    Margin: 5px 0px 20px 0px;
     font-family: "Bebas Neue", cursive;
 }
 
@@ -44,7 +52,7 @@ body {
 
 .ImgButton {
     margin: auto 20px auto 20px;
-    max-width: 35rem;
+    width: 18rem;
     /* margin: 20px; */
     border-radius: 20px;
     1-webkit-border-radius: 50%;
@@ -52,6 +60,12 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     -webkit-border-radius: 20px;
+}
+
+@media (min-width: 500px) {
+    .ImgButton {
+        width: 35rem;
+    }
 }
 
 .img {
