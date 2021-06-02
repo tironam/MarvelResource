@@ -7,16 +7,35 @@ body {
     color: #df0000;
     text-align: center;
     Margin: 25px 0 25px 0;
+    font-family: "Bebas Neue", cursive;
     /* font-family: "Audiowide", sans-serif; */
 }
 
-.header-card-text {
+.navbar-text {
     color: white;
+    font-family: "Bebas Neue", cursive;
+}
+
+.header-text {
+    font-size: 55px;
+    color: #df0000;
     text-align: center;
-    /* margin: 25px 0px 25px 0px; */
-    font-family: "Audiowide", sans-serif;
-    font-size: 50px;
-    /* text-shadow: 10px 10px 10px #ababab; */
+    Margin: 25px 25px 25px 25px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.homeBtn {
+    background-color: rgba(52, 52, 52, 0.0);
+    border: none;
+    border-Radius: 25px;
+}
+
+.btn-text {
+    font-size: 30px;
+    color: #df0000;
+    text-align: center;
+    Margin: 25px 25px 25px 25px;
+    font-family: "Bebas Neue", cursive;
 }
 
 .carousel-text {

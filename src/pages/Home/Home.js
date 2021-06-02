@@ -7,26 +7,29 @@ import ImgButton from '../../components/ImgButton';
 
 const Home = () => {
     return (
-        <div>
-            <h1 className="text text-center">WELCOME TO MCU AND YOU</h1>
-            <h4 className="text">The ultimate resource for new and seasoned fans of the MCU</h4>
-            <div className="row">
+        <div className="container-fluid">
+            <h1 className="header-text  text-center">MCU and You</h1>
+            <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
+            <div className="row text-center">
                 <ImgButton 
-                image="https://cdn.mos.cms.futurecdn.net/TkGBPEiAxyXDphCpELDsQ7-1200-80.jpg"
-                alt=""
-            />
-            <ImgButton 
-                image="http://media.comicbook.com/2017/09/avengers-infinity-war-thanos-infinity-gauntlet-1018561-1280x0.jpeg"
-                alt=""
-            />
-            <ImgButton
-                image="http://media.comicbook.com/2017/09/avengers-infinity-war-thanos-infinity-gauntlet-1018561-1280x0.jpeg"
-                alt=""
-            />
-        </div>
-            <Carousel 
-                image1="http://media.comicbook.com/2017/09/avengers-infinity-war-thanos-infinity-gauntlet-1018561-1280x0.jpeg"
-            />
+                    href="/InfinitySaga"
+                    image="https://cdn.mos.cms.futurecdn.net/TkGBPEiAxyXDphCpELDsQ7-1200-80.jpg"
+                    alt=""
+                    link="The Infinity Saga"
+                />
+                <ImgButton 
+                    href="/NextSaga"
+                    image="https://cdn3.whatculture.com/images/2020/09/286b83bfb0b66bea-600x338.jpg"
+                    alt=""
+                    link="Phase 4 and Beyond"
+                />
+                <ImgButton
+                    href="/DisneyParks"
+                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/03/avc345789523428593406457567.jpg"
+                    alt=""
+                    link="Marvel in the Disney Parks"
+                />
+            </div>
         </div>
     )
 }
