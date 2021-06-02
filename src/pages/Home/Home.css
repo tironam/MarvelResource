@@ -43,7 +43,8 @@ body {
 }
 
 .ImgButton {
-    max-width: 20rem;
+    margin: auto 20px auto 20px;
+    max-width: 35rem;
     /* margin: 20px; */
     border-radius: 20px;
     1-webkit-border-radius: 50%;
@@ -51,6 +52,15 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     -webkit-border-radius: 20px;
+}
+
+.img {
+    webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    filter: drop-shadow(0px 0px 10px black);
+    -webkit-filter: drop-shadow(0px 0px 10px black);
 }
 
 /* .header-card {

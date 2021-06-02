@@ -4,11 +4,11 @@ import { Button,  Link } from 'reactstrap';
 
 const ImgButton = (props) => {
     return (
-        <div className="text-center">
-            <div className="col">
+        <div>
+            <div className="ImgButton">
                 <Button color="primary" className="homeBtn" href={props.href}>
                     <img 
-                        className="ImgButton"
+                        className="ImgButton img"
                         src={props.image}
                         alt={props.alt}
                     />
