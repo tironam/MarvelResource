@@ -24,12 +24,12 @@ const Navbar = () => {
     return (
         // <NavB className="navbar navbar-expand-md navbar-light bg-light">
             <NavB color="danger" light expand="md">
-            <NavbarBrand href="/" className="navbar-text">MCU and You</NavbarBrand>
+            <NavbarBrand href="/" className="navbar-text" size="lg" style={{ "color": "white" }}>MCU and You</NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2" />
                 <Collapse className="navbar-right" isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret className="navbar-text">
+                        <DropdownToggle nav caret className="navbar-text" style={{ "color": "white" }}>
                                 The MCU So Far
                             </DropdownToggle>
                             <DropdownMenu right className="text-center">
@@ -42,10 +42,10 @@ const Navbar = () => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                        <NavL href="/DisneyParks" className="navbar-text">Marvel & The Disney Parks</NavL>
+                        <NavL href="/DisneyParks" className="navbar-text" style={{"color": "white"}}>Marvel & The Disney Parks</NavL>
                         </NavItem>
                         <NavItem>
-                        <NavL href="/FAQ" className="navbar-text">FAQ</NavL>
+                        <NavL href="/FAQ" className="navbar-text" style={{ "color": "white" }}>FAQ</NavL>
                         </NavItem>
                     </Nav>
                 </Collapse>
