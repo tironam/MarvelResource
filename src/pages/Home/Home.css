@@ -44,7 +44,7 @@ body {
 
 .ImgButton {
     max-width: 20rem;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 20px;
     1-webkit-border-radius: 50%;
     -moz-border-radius: 20px;
