@@ -1,26 +1,80 @@
 body {
-    background-color: #8c0101 !important;
+    background-color: white !important;
     /* background: linear-gradient(to bottom, #ca0303 0%, #870101 100%) */
 }
 
 .text {
-    color: white;
+    color: #df0000;
     text-align: center;
     Margin: 25px 0 25px 0;
-    font-family: "Audiowide", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    /* font-family: "Audiowide", sans-serif; */
 }
 
-.header-card-text {
+.navbar-text {
     color: white;
+    font-family: "Bebas Neue", cursive;
+}
+
+.header-text {
+    font-size: 55px;
+    color: #df0000;
     text-align: center;
-    /* margin: 25px 0px 25px 0px; */
-    font-family: "Audiowide", sans-serif;
+    Margin: 25px 25px 25px 25px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.homeBtn {
+    background-color: rgba(52, 52, 52, 0.0);
+    border: none;
+    border-Radius: 25px;
+}
+
+.btn-text {
     font-size: 50px;
-    /* text-shadow: 10px 10px 10px #ababab; */
+    color: #df0000;
+    text-align: center;
+    Margin: 15px 0px 0px 0px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.info-text {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    Margin: 5px 0px 20px 0px;
+    font-family: "Bebas Neue", cursive;
 }
 
 .carousel-text {
     text-shadow: 20px black;
+}
+
+.ImgButton {
+    margin: auto 20px auto 20px;
+    width: 18rem;
+    /* margin: 20px; */
+    border-radius: 20px;
+    1-webkit-border-radius: 50%;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+@media (min-width: 500px) {
+    .ImgButton {
+        width: 35rem;
+    }
+}
+
+.img {
+    webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    filter: drop-shadow(0px 0px 10px black);
+    -webkit-filter: drop-shadow(0px 0px 10px black);
 }
 
 /* .header-card {
@@ -58,7 +112,7 @@ body {
 }
 
 .info {
-    color: white;
+    color: black;
 }
 
 .movie-item {
@@ -66,7 +120,7 @@ body {
 }
 
 .card-link {
-    color: white;
+    color: #df0000;
 }
 
 .attraction-card {

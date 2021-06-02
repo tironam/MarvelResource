@@ -107,17 +107,20 @@ const Phase3 = () => {
                     writer="Christopher Markus, Stephen McFeely"
                     trailer="https://www.youtube.com/watch?v=hA6hldpSTF8"
                 />
-                <MovieCard
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfarfromhome_lob_crd_04_0.jpg"
-                    alt="Theatrical poster for Spider-Man: Far From Home"
-                    title="Spider-Man: Far From Home"
-                    synopsis="Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
-                    date="July 2, 2019"
-                    director="Jon Watts"
-                    writer="Chris McKenna & Erik Sommers"
-                    trailer="https://www.youtube.com/watch?v=Nt9L1jCKGnE"
-                />
-            </div>
+                </div>
+                <h1 className="text">END OF THE INFINITY SAGA</h1>
+                <div className="text-center">
+                    <MovieCard
+                        poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfarfromhome_lob_crd_04_0.jpg"
+                        alt="Theatrical poster for Spider-Man: Far From Home"
+                        title="Spider-Man: Far From Home"
+                        synopsis="Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
+                        date="July 2, 2019"
+                        director="Jon Watts"
+                        writer="Chris McKenna & Erik Sommers"
+                        trailer="https://www.youtube.com/watch?v=Nt9L1jCKGnE"
+                    />
+                </div>
         </div>
     )
 }

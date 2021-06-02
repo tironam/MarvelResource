@@ -12,17 +12,17 @@ const InfinitySaga = () => {
 
     return (
         <div>
-            <h1 className="text">THE INFINITY SAGA</h1>
+            <h1 className="header-text">THE INFINITY SAGA</h1>
             <ScrollUpButton />
             <h5 className="text descriptor">From a playboy-billionaire trying to escape his terrorist captors in a cave to trying to save all of existence in the universe, the Marvel Cinematic Universe begins with The Infinity Saga. Buckle up.</h5>
             <div className="text">
-                <Button className="phaseBtn phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
                 </Button>
-                <Button className="phaseBtn phase2" color="danger" href="#phase2" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn phase2" color="danger" href="#phase2" style={{ marginBottom: '1rem' }}>
                     Phase 2
                 </Button>
-                <Button className="phaseBtn phase3" color="danger" href="#phase3" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn phase3" color="danger" href="#phase3" style={{ marginBottom: '1rem' }}>
                     Phase 3
                 </Button>
             </div>

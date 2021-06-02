@@ -23,29 +23,29 @@ const Navbar = () => {
 
     return (
         // <NavB className="navbar navbar-expand-md navbar-light bg-light">
-            <NavB color="light" light expand="md">
-                <NavbarBrand href="/">MCU and You</NavbarBrand>
+            <NavB color="danger" light expand="md">
+            <NavbarBrand href="/" className="navbar-text" size="lg" style={{ "color": "white" }}>MCU and You</NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2" />
                 <Collapse className="navbar-right" isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
+                        <DropdownToggle nav caret className="navbar-text" style={{ "color": "white" }}>
                                 The MCU So Far
                             </DropdownToggle>
                             <DropdownMenu right className="text-center">
-                                <DropdownItem href="/InfinitySaga" >
+                            <DropdownItem href="/InfinitySaga" className="navbar-text">
                                     The Infinity Saga
                                 </DropdownItem>
-                                <DropdownItem href="/NextSaga">
+                            <DropdownItem href="/NextSaga" className="navbar-text">
                                     Phase 4 & Beyond
                                 </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavL href="/DisneyParks">Marvel & The Disney Parks</NavL>
+                        <NavL href="/DisneyParks" className="navbar-text" style={{"color": "white"}}>Marvel & The Disney Parks</NavL>
                         </NavItem>
                         <NavItem>
-                            <NavL href="/FAQ">FAQ</NavL>
+                        <NavL href="/FAQ" className="navbar-text" style={{ "color": "white" }}>FAQ</NavL>
                         </NavItem>
                     </Nav>
                 </Collapse>
