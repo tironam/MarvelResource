@@ -5,7 +5,7 @@ const WDW = () => {
 
     return (
         <div>
-            <h4 className="text">Walt Disney World Resort</h4>
+            <h4 className="title-text">Walt Disney World Resort</h4>
             <h5 className="text">Marvel Attractions</h5>
             <div className="row text-center">
                 <AttractionCard

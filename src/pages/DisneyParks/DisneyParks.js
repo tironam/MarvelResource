@@ -16,7 +16,7 @@ const DisneyParks = () => {
     return (
         <div>
             <ScrollUpButton />
-            <h1 className="text">MARVEL IN THE DISNEY PARKS AND RESORTS</h1>
+            <h1 className="header-text">MARVEL IN THE DISNEY PARKS AND RESORTS</h1>
             <div className="text">
                 <Button size="lg" className="phaseBtn phase1" color="danger" href="#DLR" style={{ marginBottom: '1rem' }}>
                     Disneyland Resort
@@ -35,7 +35,7 @@ const DisneyParks = () => {
                 </Button>
             </div>
             <h4 className="text"></h4>
-            <h2 className="text" id="DLR">The Disneyland Resort</h2>
+            <h2 className="title-text" id="DLR">The Disneyland Resort</h2>
             <div className="text-center">
                 <AvengersCampus />
             </div>

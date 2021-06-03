@@ -16,6 +16,7 @@ body {
 }
 
 .text {
+    font-size: 30px;
     color: #df0000;
     text-align: center;
     Margin: 25px 0 25px 0;
@@ -46,6 +47,14 @@ body {
 
 .header-text {
     font-size: 55px;
+    color: #df0000;
+    text-align: center;
+    Margin: 25px 25px 25px 25px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.title-text {
+    font-size: 40px;
     color: #df0000;
     text-align: center;
     Margin: 25px 25px 25px 25px;

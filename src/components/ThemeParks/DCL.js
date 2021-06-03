@@ -5,7 +5,7 @@ const DLP = () => {
 
     return (
         <div>
-            <h4 className="text">Disney Cruise Line</h4>
+            <h4 className="title-text">Disney Cruise Line</h4>
             <h5 className="text">Marvel Experiences at Sea</h5>
             <div className="row text-center">
                 <AttractionCard
