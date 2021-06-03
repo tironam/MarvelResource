@@ -6,6 +6,7 @@ import {
   Redirect 
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import NextSaga from './pages/NextSaga';
 import InfinitySaga from './pages/InfinitySaga';
@@ -43,6 +44,7 @@ const App = () => {
               <FAQ />
             </Route>
           </Switch>
+          <Footer />
         </div>
       </Router>
   );
