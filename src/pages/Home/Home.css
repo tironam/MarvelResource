@@ -10,9 +10,8 @@ body {
 }
 
 .homepage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text {
@@ -62,6 +61,7 @@ body {
 }
 
 .homeBtn {
+    padding: none;
     background-color: rgba(52, 52, 52, 0.0);
     border: none;
     border-Radius: 25px;
@@ -88,7 +88,7 @@ body {
 }
 
 .ImgButton {
-    margin: 20px;
+    
     width: 18rem;
     /* margin: 20px; */
     border-radius: 20px;

@@ -7,10 +7,12 @@ import ImgButton from '../../components/ImgButton';
 
 const Home = () => {
     return (
-        <div className="container-fluid">
-            <h1 className="header-text">MCU and You</h1>
-            <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
-            <div className="row homepage">
+        <div>
+            <div className="container-fluid">
+                <h1 className="header-text">MCU and You</h1>
+                <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
+            </div>
+            <div className="row text-center">
                 <ImgButton
                     href="/InfinitySaga"
                     image="https://cdn.mos.cms.futurecdn.net/TkGBPEiAxyXDphCpELDsQ7-1200-80.jpg"
