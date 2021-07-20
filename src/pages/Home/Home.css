@@ -88,15 +88,14 @@ body {
 }
 
 .ImgButton {
-    
     width: 18rem;
     /* margin: 20px; */
-    border-radius: 20px;
+    /* border-radius: 20px;
     1-webkit-border-radius: 50%;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    -webkit-border-radius: 20px;
+    -webkit-border-radius: 20px; */
 }
 
 @media (min-width: 500px) {
@@ -150,6 +149,8 @@ body {
 
 .info {
     color: black;
+    font-size: 21px;
+    font-family: "Bebas Neue", cursive;
 }
 
 .movie-item {

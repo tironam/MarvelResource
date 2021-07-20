@@ -1,11 +1,24 @@
 import React from 'react';
 import QA from '../QA';
+import { Button } from 'reactstrap';
 
 const MCUfaq = () => {
     return (
         <div>
             <div className="header-text">
-                Your MCU Questions Answered
+                Your Marvel Questions Answered
+            </div>
+            <div className="answer-text text-center">What's the best order to watch the movies in? Is Venom part of the MCU? Why can't Walt Disney World have an Avengers Campus? Time to find out.</div>
+            <div className="text">
+                <Button size="lg" className="phaseBtn phase1" color="danger" href="#MCU" style={{ marginBottom: '1rem' }}>
+                MCU & Other Marvel Films
+            </Button>
+            <Button size="lg" className="phaseBtn phase1" color="danger" href="#Disney" style={{ marginBottom: '1rem' }}>
+                Marvel & Theme Parks
+            </Button>
+            </div>
+            <div className="header-text" id="MCU"> 
+                MCU & Other Marvel Films
             </div>
             <QA 
                 question="What is the MCU?"
@@ -43,8 +56,8 @@ const MCUfaq = () => {
                 question="So are “Venom” and “Morbius” in the MCU?"
                 answer="Almost definitely not. Nothing about the first Venom movie suggests it takes place in the MCU and so far Venom 2 director Andy Serkis has been adamant the sequel is not in the MCU. However, Morbius may be a different story. The first trailer for the film featured Michael Keaton’s Adrian Toomes from “Spider-Man: Homecoming” and also featured a graffiti of Spider-Man on a wall. “Morbius” cast member Tyrese Gibson has also said on at least two occasions that it takes place in the MCU, but it’s hard to know if he misspoke or is misunderstanding the connection between the film."
             />
-            <div className="header-text">
-                Your Disney Parks Marvel Questions Answered
+            <div className="header-text" id="Disney">
+                Marvel & Theme Parks
             </div>
             <QA
                 question="What’s up with the Universal Marvel contract?"
