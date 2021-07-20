@@ -7,31 +7,35 @@ import ImgButton from '../../components/ImgButton';
 
 const Home = () => {
     return (
-        <div className="container-fluid">
-            <h1 className="header-text  text-center">MCU and You</h1>
-            <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
-            <div className="row text-center">
-                <ImgButton 
+        <div>
+            <div className="container-fluid">
+                {/* <h1 className="header-text">MCU and You</h1> */}
+                <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
+            </div>
+            <div className="container-fluid">
+                <div className="col-lg-4">
+                <ImgButton
                     href="/InfinitySaga"
                     image="https://cdn.mos.cms.futurecdn.net/TkGBPEiAxyXDphCpELDsQ7-1200-80.jpg"
                     alt="Poster for Avengers: Endgame"
-                    text="This is where it all began"
-                    link="The Infinity Saga"
+                    text="The Infinity Saga"
+                    link="Where it all began"
                 />
-                <ImgButton 
+                <ImgButton
                     href="/NextSaga"
                     image="https://cdn3.whatculture.com/images/2020/09/286b83bfb0b66bea-600x338.jpg"
                     alt="WandaVision Poster"
-                    text="What could possibly come next?"
-                    link="Phase 4 and Beyond"
+                    text="Check out Phase 4 and beyond"
+                    link="What's next?"
                 />
                 <ImgButton
                     href="/DisneyParks"
-                    image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/03/avc345789523428593406457567.jpg"
+                    image="https://pbs.twimg.com/media/E25Hs3NWYAMWOrj?format=jpg&name=4096x4096"
                     alt="Avengers Campus concept art"
-                    text="like the mcu, but for theme parks"
-                    link="Marvel in the Disney Parks"
+                    text="marvel in the disney parks"
+                    link="The MCU comes to life"
                 />
+            </div>
             </div>
         </div>
     )

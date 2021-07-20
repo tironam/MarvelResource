@@ -4,7 +4,6 @@ import { Button,  Link } from 'reactstrap';
 
 const ImgButton = (props) => {
     return (
-        <div>
             <div className="ImgButton">
                 <Button color="primary" className="homeBtn" href={props.href}>
                     <img 
@@ -16,10 +15,6 @@ const ImgButton = (props) => {
                     <p className="info-text">{props.text}</p>
                 </Button>
             </div>
-            {/* <div className="col">
-                <Button color="danger">{props.link}</Button>
-            </div> */}
-        </div>
     );
 };
 

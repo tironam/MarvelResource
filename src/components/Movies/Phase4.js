@@ -55,14 +55,15 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=Fp9pNPdNwjI"
                 />
                 <ShowCard
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/whatif_card_1.jpg"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/what_if_s1_digital_keyart_vert_v3_lg.jpg"
                     alt="logo poster for WHAT IF...?"
                     title="WHAT IF...?"
                     synopsis="Marvel Studios' first animated show features The Watcher (Jeffrey Wright) as our guide through the alternate realities of the Marvel Cinematic Universe multiverse."
-                    date="Summer 2021"
+                    date="August 11, 2021"
                     director="Bryan Andrew"
                     writer="Ashley Bradley"
-                    trailer="https://www.youtube.com/watch?v=4iLVoEg9aLk"
+                    episodes="10"
+                    trailer="https://www.youtube.com/watch?v=x9D0uUKJ5KI"
                 />
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shangchi_lob_crd-04.jpg"

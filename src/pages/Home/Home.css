@@ -1,14 +1,42 @@
 body {
-    background-color: white !important;
+    background-image: url("../../Images/webb.png");
+    /* min-height: 500px; */
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-color: white !important; */
     /* background: linear-gradient(to bottom, #ca0303 0%, #870101 100%) */
 }
 
+.homepage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text {
+    font-size: 30px;
     color: #df0000;
     text-align: center;
     Margin: 25px 0 25px 0;
     font-family: "Bebas Neue", cursive;
     /* font-family: "Audiowide", sans-serif; */
+}
+
+.question-text {
+    font-size: 35px;
+    color: #df0000;
+    /* text-align: left; */
+    Margin: 0 25px 0 25px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.answer-text {
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    Margin: 0 25px 0 25px;
+    font-family: "Bebas Neue", cursive;
 }
 
 .navbar-text {
@@ -24,7 +52,16 @@ body {
     font-family: "Bebas Neue", cursive;
 }
 
+.title-text {
+    font-size: 40px;
+    color: #df0000;
+    text-align: center;
+    Margin: 25px 25px 25px 25px;
+    font-family: "Bebas Neue", cursive;
+}
+
 .homeBtn {
+    padding: none;
     background-color: rgba(52, 52, 52, 0.0);
     border: none;
     border-Radius: 25px;
@@ -51,15 +88,14 @@ body {
 }
 
 .ImgButton {
-    margin: auto 20px auto 20px;
     width: 18rem;
     /* margin: 20px; */
-    border-radius: 20px;
+    /* border-radius: 20px;
     1-webkit-border-radius: 50%;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    -webkit-border-radius: 20px;
+    -webkit-border-radius: 20px; */
 }
 
 @media (min-width: 500px) {
@@ -113,6 +149,8 @@ body {
 
 .info {
     color: black;
+    font-size: 21px;
+    font-family: "Bebas Neue", cursive;
 }
 
 .movie-item {
@@ -141,4 +179,16 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.faq {
+    margin: 30px 0px;
+}
+
+.footer {
+    background-color: #df0000;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
 }
