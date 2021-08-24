@@ -14,6 +14,14 @@ body {
     margin-right: auto;
 }
 
+.banner {
+    display: flex;
+    object-fit: cover;
+    height: 45%;
+    position: fixed;
+    z-index: -1;
+}
+
 .text {
     font-size: 30px;
     color: #df0000;

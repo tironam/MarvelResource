@@ -8,7 +8,8 @@ import ImgButton from '../../components/ImgButton';
 const Home = () => {
     return (
         <div>
-            <div className="container-fluid">
+            <div className="banner">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2021-08-11-at-10-14-01-am-1628691837.png" alt="Uatu The Watcher" />
                 {/* <h1 className="header-text">MCU and You</h1> */}
                 <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
             </div>

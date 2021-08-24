@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'reactstrap';
 import './ImgButton.css';
 import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
 
@@ -20,13 +19,6 @@ const ImgButton = (props) => {
                     </div>
                 </Link>
             </div>
-            // <div>
-            //     <li className="ImgButton">
-            //         <Link to={props.path}>
-            //             div
-            //         </Link>
-            //     </li>
-            // </div>
     );
 };
 
