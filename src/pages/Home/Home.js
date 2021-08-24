@@ -12,8 +12,8 @@ const Home = () => {
                 {/* <h1 className="header-text">MCU and You</h1> */}
                 <h2 className="text">The ultimate resource for new and seasoned fans of the MCU</h2>
             </div>
-            <div className="container-fluid">
-                <div className="col-lg-4">
+            <div className=" home-cards">
+                {/* <div className="col-lg-4"> */}
                 <ImgButton
                     href="/InfinitySaga"
                     image="https://cdn.mos.cms.futurecdn.net/TkGBPEiAxyXDphCpELDsQ7-1200-80.jpg"
@@ -35,7 +35,7 @@ const Home = () => {
                     text="marvel in the disney parks"
                     link="The MCU comes to life"
                 />
-            </div>
+            {/* </div> */}
             </div>
         </div>
     )

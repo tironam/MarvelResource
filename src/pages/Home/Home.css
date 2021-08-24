@@ -87,7 +87,12 @@ body {
     text-shadow: 20px black;
 }
 
-.ImgButton {
+.home-cards {
+    text-align: center;
+    align-item: center;
+}
+
+/* .ImgButton {
     width: 18rem;
     /* margin: 20px; */
     /* border-radius: 20px;
@@ -95,14 +100,9 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    -webkit-border-radius: 20px; */
-}
+    -webkit-border-radius: 20px; 
+} */
 
-@media (min-width: 500px) {
-    .ImgButton {
-        width: 35rem;
-    }
-}
 
 .img {
     webkit-border-radius: 15px;
