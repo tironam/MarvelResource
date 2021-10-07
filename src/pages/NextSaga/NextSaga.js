@@ -12,7 +12,7 @@ const NextSaga = () => {
     return (
         <div className="container-fluid">
             <ScrollUpButton />
-            <h1 className="text">TO PHASE 4 AND BEYOND</h1>
+            <h1 className="header-text">TO PHASE 4 AND BEYOND</h1>
             <h5 className="text descriptor">The Infinity Saga is complete. The world is changed forever and there's no going back. Now what?</h5>
             <div className="text">
                 <Button size="lg" className="phaseBtn phase1" color="danger" href="#phase4" style={{ marginBottom: '1rem' }}>

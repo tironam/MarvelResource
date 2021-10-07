@@ -76,7 +76,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=giWIr7U1deA"
                 />
                 <UpcomingMovie
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/theeternals_lob_crd_01.jpg"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/eternals_lob_crd_03.jpg"
                     alt="theatrical poster for Eternals"
                     title="Eternals"
                     synopsis="Marvel Studios' Eternals features an exciting new team of Super Heroes in the Marvel Cinematic Universe, ancient aliens who have been living on Earth in secret for thousands of years. Following the events of Avengers: Endgame, an unexpected tragedy forces them out of the shadows to reunite against mankind's most ancient enemy, the Deviants."
@@ -84,26 +84,26 @@ const Phase4 = () => {
                     director="Chloé Zhao"
                     writer="Kaz Firpo, Ryan Firpo, Chloé Zhao"
                 />
+                <UpcomingShow
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/hawkeye_lob_crd_02.jpg"
+                    alt="logo poster for Hawkeye"
+                    title="Hawkeye"
+                    synopsis="Follows original Avenger Clint Barton aka Hawkeye (Jeremy Renner) and fan-favorite Marvel comics character Kate Bishop (Hailee Steinfeld), who picks up the bow and quiver."
+                    date="November 24, 2021"
+                    director="Rhys Thomas, Bert and Bertie"
+                    writer="TBA"
+                    episodes="TBA"
+                />
                 <ShowCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/msmarvel_lob_crd_02_0.jpg"
                     alt="logo poster for Ms. Marvel"
                     title="Ms. Marvel"
                     synopsis="Ms. Marvel, a newer character to Marvel comics has grabbed the world's imagination and we are excited to announce Iman Vellani as Kamala Khan. Ms. Marvel, an Original Series from Marvel Studios, is coming late 2021 to #DisneyPlus."
-                    date="Late 2021"
+                    date="Early 2022"
                     director="Adil El Arbi & Bilall Fallah, Meera Menon and Sharmeen Obaid-Chinoy"
                     writer="TBA"
                     episodes="TBA"
                     trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
-                />
-                <UpcomingShow
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/hawkeye_lob_crd_01_0.jpg"
-                    alt="logo poster for Hawkeye"
-                    title="Hawkeye"
-                    synopsis="Follows original Avenger Clint Barton aka Hawkeye (Jeremy Renner) and fan-favorite Marvel comics character Kate Bishop (Hailee Steinfeld), who picks up the bow and quiver."
-                    date="Late 2021"
-                    director="Rhys Thomas, Bert and Bertie"
-                    writer="TBA"
-                    episodes="TBA"
                 />
                 <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"

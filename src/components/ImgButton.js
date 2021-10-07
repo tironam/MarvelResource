@@ -15,6 +15,7 @@ const ImgButton = (props) => {
                     </div>
                     <div>
                         <h1 className="btn-text">{props.link}</h1>
+                        <p className="info-text">{props.name}</p>
                         <p className="info-text">{props.text}</p>
                     </div>
                 </Link>
