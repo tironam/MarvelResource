@@ -6,13 +6,14 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
+import ImgButton from './ImgButton';
 
 const items = [
     {
         src: 'https://www.brickfanatics.com/wp-content/uploads/Avengers-infinity-Saga-featured.jpg',
-        altText: 'The Infinity Saga poster',
-        caption: 'The Infinity Saga',
-        text: 'This is where the MCU begins'
+        altText: '',
+        caption: 'Phase 4 and Beyond',
+        text: 'Where does the MCU go next?'
     },
     {
         src: 'https://www.brickfanatics.com/wp-content/uploads/Avengers-infinity-Saga-featured.jpg',

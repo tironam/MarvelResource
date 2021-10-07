@@ -44,7 +44,7 @@ const App = () => {
               <FAQ />
             </Route>
           </Switch>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
   );
