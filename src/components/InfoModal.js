@@ -4,7 +4,10 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 const InfoModal = (props) => {
     const {
         buttonLabel,
-        className
+        className, 
+        text,
+        text2,
+        title
     } = props;
 
     const [modal, setModal] = useState(false);
@@ -12,11 +15,12 @@ const InfoModal = (props) => {
 
     return (
         <div>
-            <Button color="danger" onClick={toggle}>{buttonLabel}</Button>
+            <Button color="" style={{ color: "white" }} onClick={toggle}>{buttonLabel}</Button>
             <Modal isOpen={modal} toggle={toggle} className={className}>
-                <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+                <ModalHeader toggle={toggle}>{title}</ModalHeader>
                 <ModalBody>
-                    Texty text!
+                    {text}
+                    {text2}
                 </ModalBody>
             </Modal>
         </div>
