@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTiktok, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import InfoModal from './InfoModal.js'
 
 const Footer = () => {
     return (
@@ -11,6 +12,7 @@ const Footer = () => {
                 </div>
                 <div className="footer text-white socials-container">
                     <div>
+                        <InfoModal buttonLabel="About the developer" />
                         <a href="https://vm.tiktok.com/ZM8dq4y4F/" target="_blank">
                             <FontAwesomeIcon icon={faTiktok} size="2x" className="socials" />
                         </a>
