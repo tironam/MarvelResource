@@ -8,7 +8,6 @@ import WDW from '../../components/ThemeParks/WDW';
 import HK from '../../components/ThemeParks/HK';
 import DLP from '../../components/ThemeParks/DLP';
 import DCL from '../../components/ThemeParks/DCL';
-import HeaderCard from '../../components/HeaderCard';
 import ScrollUpButton from "react-scroll-up-button";
 
 const DisneyParks = () => {
