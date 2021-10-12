@@ -15,7 +15,7 @@ const Footer = () => {
                         <InfoModal 
                             buttonLabel="About the developer" 
                             title="About the developer"
-                            text="Once I realized I could turn my passion for Marvel into my next web development project, I started working on this website you're looking at right now. There are more new Marvel fans everyday, so I wanted to create a simple resource that would have all the basic information they might need or want, and then answer some of major questions. I've really enjoyed making this site and will continue to keep it updated as new information comes along! "
+                            text="Once I realized I could turn my passion for Marvel into my next web development project, I started working on this website you're looking at right now. There are new Marvel fans everyday, so I wanted to create a simple resource that would have all the basic information they might need or want, and answer some major questions for them. I've really enjoyed making this site and will continue to keep it updated as new information comes along!"
                             text2="I recognize there are going to be more detailed Marvel resource sites about there, but I made this one so I could practice web development. The technologies I used for this site HTML, CSS, React.JS, Reactstrap, Fontawesome, and react-scroll-up-button. Feel free to check out my portfolio site linked down here. It will have all of my contact info. I'd love to work with you and I'm always willing to learn something new! Can't wait to hear from you."
                         />
                         <a href="https://vm.tiktok.com/ZM8dq4y4F/" target="_blank">

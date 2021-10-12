@@ -1,6 +1,5 @@
 import React from 'react';
 import AttractionCard from './AttractionCard';
-import HeaderCard from '../HeaderCard';
 
 const DLR = () => {
 

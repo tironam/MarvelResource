@@ -62,7 +62,7 @@ const Phase4 = () => {
                     date="August 11, 2021"
                     director="Bryan Andrew"
                     writer="Ashley Bradley"
-                    episodes="10"
+                    episodes="9"
                     trailer="https://www.youtube.com/watch?v=x9D0uUKJ5KI"
                 />
                 <MovieCard

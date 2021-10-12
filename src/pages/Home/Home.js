@@ -1,10 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar.js';
 import './Home.css';
-import HeaderCard from '../../components/HeaderCard';
-import Carousel from '../../components/Carousel';
-import ImgButton from '../../components/ImgButton';
-import HomeBanner from '../../components/HomeBanner.js';
 import BtnSection from '../../components/BtnSection.js';
 
 const Home = () => {
