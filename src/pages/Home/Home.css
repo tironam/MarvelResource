@@ -14,18 +14,6 @@ body {
     margin-right: auto;
 }
 
-.banner {
-    display: flex;
-    object-fit: cover;
-    height: 45%;
-    position: fixed;
-    z-index: -1;
-    padding-bottom: 10px;
-    display: flex;
-    object-fit: contain;
-    margin-bottom: 10px;
-}
-
 .text {
     font-size: 30px;
     color: #df0000;
@@ -204,6 +192,8 @@ body {
     bottom: 0;
     width: 100%;
     position: bottom;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
 }
 
 .socials-container {
