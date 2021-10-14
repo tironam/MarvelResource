@@ -1,11 +1,13 @@
 import React from 'react';
 import QA from '../../components/QA';
 import { Button } from 'reactstrap';
+import ScrollUpButton from "react-scroll-up-button";
 import MCUfaq from '../../components/Movies/MCUfaq';
 
 const FAQ = () => {
     return (
         <div className="Container">
+            <ScrollUpButton />
             <div className="header-text">
                 Your Marvel Questions Answered
             </div>

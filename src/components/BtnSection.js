@@ -4,7 +4,6 @@ import ImgButton from './ImgButton'
 function BtnSection() {
     return (
         <div className=" home-cards row">
-            {/* <div className="col-lg-4"> */}
             <h1 className="header-text">What's on now?</h1>
             <ImgButton
                 href="/InfinitySaga"

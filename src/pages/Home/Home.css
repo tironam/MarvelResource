@@ -5,7 +5,7 @@ body {
     background-position: center;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
-    /* background-color: white !important; */
+    background-color: white !important;
     /* background: linear-gradient(to bottom, #ca0303 0%, #870101 100%) */
 }
 
@@ -32,7 +32,6 @@ body {
     text-align: center;
     Margin: 25px 0 25px 0;
     font-family: "Bebas Neue", cursive;
-    /* font-family: "Audiowide", sans-serif; */
 }
 
 .black-text {
@@ -41,13 +40,11 @@ body {
     text-align: center;
     Margin: 25px 15px 25px 15px;
     font-family: "Bebas Neue", cursive;
-    /* font-family: "Audiowide", sans-serif; */
 }
 
 .question-text {
     font-size: 35px;
     color: #df0000;
-    /* text-align: left; */
     Margin: 0 25px 0 25px;
     font-family: "Bebas Neue", cursive;
 }
@@ -71,6 +68,17 @@ body {
     text-align: center;
     Margin: 25px 15px 25px 15px;
     font-family: "Bebas Neue", cursive;
+}
+
+@media (max-width: 400px) {
+    .header-text {
+        font-size: 35px;
+        margin: 10px;
+    }
+    .black-text {
+        font-size: 22px;
+        margin: 10px;
+    }
 }
 
 .title-text {
@@ -115,20 +123,7 @@ body {
     margin: 10px;
     display: flex;
     flex-flow: column;
-    padding-top: 4rem;
 }
-
-/* .ImgButton {
-    width: 18rem;
-    /* margin: 20px; */
-
-/* border-radius: 20px;
-    1-webkit-border-radius: 50%;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    -webkit-border-radius: 20px; 
-} */
 
 .img {
     webkit-border-radius: 15px;
@@ -139,17 +134,7 @@ body {
     -webkit-filter: drop-shadow(0px 0px 10px black);
 }
 
-/* .header-card {
-    width: 100% !important;
-    height: 15% !importantl
-} */
-
-.jumbotron {
-    /* background-image: url("https://allears.net/wp-content/uploads/2020/04/Spider-man-web-slingers-avengers-campus-disneyland-april-2020.png"); background-size: cover; */
-}
-
 .card-img-overlay {
-    /* margin: 20px; */
     padding: 30px;
 }
 
@@ -175,7 +160,7 @@ body {
 
 .info {
     color: black;
-    font-size: 21px;
+    font-size: 20px;
     font-family: "Bebas Neue", cursive;
 }
 
@@ -220,7 +205,6 @@ body {
 
 .socials-container {
     display: flex;
-
     justify-content: center;
 }
 
