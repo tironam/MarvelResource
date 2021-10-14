@@ -75,7 +75,7 @@ const Phase4 = () => {
                     writer="David Callaham, Destin Daniel Cretton and Andrew Lanham"
                     trailer="https://www.youtube.com/watch?v=giWIr7U1deA"
                 />
-                <UpcomingMovie
+                <MovieCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/eternals_lob_crd_03.jpg"
                     alt="theatrical poster for Eternals"
                     title="Eternals"
@@ -83,8 +83,9 @@ const Phase4 = () => {
                     date="November 5, 2021"
                     director="Chloé Zhao"
                     writer="Kaz Firpo, Ryan Firpo, Chloé Zhao"
+                    trailer="https://www.youtube.com/watch?v=x_me3xsvDgk"
                 />
-                <UpcomingShow
+                <ShowCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/hawkeye_lob_crd_02.jpg"
                     alt="logo poster for Hawkeye"
                     title="Hawkeye"
@@ -93,6 +94,17 @@ const Phase4 = () => {
                     director="Rhys Thomas, Bert and Bertie"
                     writer="TBA"
                     episodes="TBA"
+                    trailer="https://www.youtube.com/watch?v=5VYb3B1ETlk"
+                />
+                <MovieCard
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"
+                    alt="logo poster for Spider-Man: No Way Home"
+                    title="Spider-Man: No Way Home"
+                    synopsis="Following the jaw-dropping cliffhanger from Spider-Man: Far From Home, Peter Parker aka Spider-Man (Tom Holland) is joined by Doctor Strange (Benedict Cumberbatch) for this new adventure. Jamie Foxx and Alfred Molina return."
+                    date="December 17, 2021"
+                    director="Jon Watts"
+                    writer="Chris McKenna & Erik Sommers"
+                    trailer="https://www.youtube.com/watch?v=rt-2cxAiPJk"
                 />
                 <ShowCard
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/msmarvel_lob_crd_02_0.jpg"
@@ -104,16 +116,6 @@ const Phase4 = () => {
                     writer="TBA"
                     episodes="TBA"
                     trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
-                />
-                <MovieCard
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"
-                    alt="logo poster for Spider-Man: No Way Home"
-                    title="Spider-Man: No Way Home"
-                    synopsis="Following the jaw-dropping cliffhanger from Spider-Man: Far From Home, Peter Parker aka Spider-Man (Tom Holland) is joined by Doctor Strange (Benedict Cumberbatch) for this new adventure. Jamie Foxx and Alfred Molina return."
-                    date="December 17, 2021"
-                    director="Jon Watts"
-                    writer="Chris McKenna & Erik Sommers"
-                    trailer="Chris McKenna & Erik Sommers"
                 />
                 <UpcomingMovie
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
