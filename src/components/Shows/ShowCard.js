@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 const ShowCard = props => {
     const {
@@ -28,7 +29,7 @@ const ShowCard = props => {
                     <li className="list-group-item info movie-item">Number of Episodes: {episodes}</li>
                 </ul>
                 <div className="card-body">
-                    <a href={trailer} target="blank" className="card-link">Trailer</a>
+                    <Button size="lg" className="phaseBtn phase2" color="danger" href={trailer} style={{ marginBottom: '1rem' }}>Trailer</Button>
                 </div>
         </div>
     );
