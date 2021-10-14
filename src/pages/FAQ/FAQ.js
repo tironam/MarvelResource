@@ -16,6 +16,9 @@ const FAQ = () => {
                 <Button size="lg" className="phaseBtn phase1" color="danger" href="#MCU" style={{ marginBottom: '1rem' }}>
                     MCU & Other Marvel Films
                 </Button>
+                <Button size="lg" className="phaseBtn phase1" color="danger" href="#Spidey" style={{ marginBottom: '1rem' }}>
+                    Spider-Man's Film Rights
+                </Button>
                 <Button size="lg" className="phaseBtn phase1" color="danger" href="#Disney" style={{ marginBottom: '1rem' }}>
                     Marvel & Theme Parks
                 </Button>

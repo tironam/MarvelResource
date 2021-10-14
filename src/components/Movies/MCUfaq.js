@@ -7,35 +7,62 @@ const MCUfaq = () => {
         <div>
             <QA 
                 question="What is the MCU?"
-                answer="The MCU stands for the Marvel Cinematic Universe. It’s comprised of all the films and tv shows produced by Marvel Studios, which is a movie studio created by Marvel so they could make their own movies."
+                answer="In the mid-2000's, Marvel created their own movie studio called Marvel Studios to create comic book movies that were more faithful to their characters. The Marvel Cinematic Universe is comprised of all the films and tv show they've produced, starting with 2008's Iron Man. Marvel Studios President and Chief Creative Officer for Marvel Entertainment Kevin Feige is typically considered the driving force behind the MCU, overseeing all projects."
             />
-            <QA
-                question="So, what's NOT in the MCU?"
-                answer="Any of the Marvel films that were produced directly by other studios like Fox, Universal, or Sony."
+            <QA 
+                question="When did Disney come into the picture?"
+                answer="Marvel Studios initially partnered with Paramount Pictures for a six picture deal. Disney bought Marvel in 2009, and this purchase included Marvel Studios. Disney ended up paying Paramount $115 million for the rights to distribute the last two pictures in that deal, The Avengers and Iron Man 3. As part of the deal, Disney would market and distribute these two films, but the films would be credited to Paramount with their logo appearing before both films. Essentially, Paramount got the credit without doing a lot of the work. Thor: The Dark World was the first MCU film to be fully produced and credited to Disney."
             />
-            <QA
-                question="Why are there Marvel movies that aren't in the MCU?"
-                answer="Back in the 90's, Marvel was on the verge of bankruptcy. They sold the films rights to their most popular characters to help with that, so that's how studios like Fox, Sony, and Universal ended up with different Marvel characters."
+            <QA 
+                question="Why doesn't the Disney logo appear before Marvel Studios films then?"
+                answer="Disney felt that the Marvel Studios brand was strong enough to stand on its own and that people would associate it with Disney in time, so they didn't feel the need to put their stamp on it. Disney has done the same with their Star Wars films."
             />
             <QA
                 question="What’s the best way to watch the MCU films? Release order or chronological order?"
-                answer="This is all a matter of opinion, but if you’ve never seen any of the MCU films before, release order is the way to go. Chronological order isn’t great for first timers. Just because some of the films take place before other ones doesn’t mean viewing them that way works best. Some of the MCU films that place before other ones, like “Captain America: The First Avenger” and “Captain Marvel,” were written and designed around the idea that you had seen the other films first. That means that viewing them before the films that released before them means certain moments or character introductions won’t be as impactful because you have no idea who these people are or why a certain moment is exciting."
+                answer="This is all a matter of opinion, but if you’ve never seen any of the MCU films before, release order is the way to go. Chronological order isn’t great for first timers. Just because some of the films take place before other ones doesn’t mean viewing them that way works best. Some of the MCU films that take place chronologically before other ones, like “Captain America: The First Avenger” and “Captain Marvel,” were written and designed around the idea that you had seen the other films first. That means that viewing them before the films that released before means certain moments or character introductions won’t be as impactful because you have no idea who these people are or why a certain moment is exciting."
             />
             <QA
+                question="Why haven't there been more Hulk movies?"
+                answer="Universal currently has the film rights to solo Hulk films. That means if Marvel Studios wants to make a new Hulk solo film, they would need to partner with Universal and distribute the film through them, which they don't want to do. However, Disney can include Hulk in any Marvel film they want that isn't his. That's why the iconic Planet Hulk storyline from the comics was inserted into Thor: Ragnarok instead of being its own film."
+            />
+            <QA
+                question="So, what's NOT in the MCU?"
+                answer="Any of the Marvel films that were produced directly by other studios like Fox, Universal, or Sony. That's gotten a little iffy recently, though. More on that later."
+            />
+            <QA
+                question="Why are there Marvel movies that aren't in the MCU?"
+                answer="Back in the 90's, Marvel was on the verge of bankruptcy. They sold the films rights to their most popular characters to help with that, so that's how studios like Fox, Sony, and Universal ended up with different Marvel characters like Spider-Man, the X-Men, the Hulk, and more."
+            />
+            <QA
+                question="What Fox characters are making their way to the MCU?"
+                answer="Now that Disney has acquired 20th Century Fox, all the Marvel characters they had the film rights to are back with Marvel! The X-Men, the Fantastic Four, Deadpool, and Silver Surfer are just a few of those returning to Marvel. While Kevin Feige has mentioned that mutants will be coming to the MCU soon, the only movies that have been officially announced with former Fox characters are Fantastic Four and Deadpool 3."
+            />
+            <QA
+                question="Deadpool's coming to the MCU?! What about the R-rating?"
+                answer="Yes! Deadpool is officially coming to the MCU! Even better, they've confirmed that Ryan Reynolds is still attached to play the character, it will take place in the MCU, and the film will be rated R just like the other Deadpool films. They haven't mentioned how Deadpool will make his way to the MCU yet. So far, this is the only R-rated MCU film they have planned."
+            />
+            <QA 
+                question="Has anything from the Fox Marvel properties made their way into the MCU yet?"
+                answer="A little bit! The biggest confirmed one we've had so far has been the appearance of the location Madripoor in Falcon and the Winter Soldier. We also saw Evan Peters return as the speedster Quicksilver/Pietro Maximoff in WandaVision. The descriptive audio (intended for those that are hard of hearing) for this scene identified Peter's character as Pietro from the X-Men films. However, it turned out that this was not in fact the Pietro from the X-Men films and was just a fake out."
+            />
+            <div className="header-text" id="Spidey">
+                Spider-Man's Film Rights
+            </div>
+            <QA
                 question="What’s the deal with Spider-Man?"
-                answer="When Marvel sold the film rights to many of its characters, Sony ended up with the film rights to Spider-Man. Every Spider-Man movie before 2016 was produced solely by Sony/Columbia Pictures. In 2015, Marvel and Sony reached a deal to share Spider-Man and bring him in the MCU. This meant that Marvel Studios would get to use Spider-Man in their films and MCU characters could make appearances in Sony’s Spider-Man films. Marvel Studios also produces the MCU Spider-Man films for Sony now, with Sony still marketing and distributing them and getting all the profit for those films, but Disney gets all of Spidey’s merchandising. The original deal was for three Spider-Man solo films and a certain amount of MCU films that Spider-Man would appear in."
+                answer="When Marvel sold the film rights to many of its characters, Sony ended up with the film rights to Spider-Man. Every Spider-Man movie before 2016 was produced solely by Sony/Columbia Pictures. In 2015, Marvel and Sony reached a deal to share Spider-Man and bring him into the MCU with a new reboot. This meant that Marvel Studios would get to use Spider-Man in their films and MCU characters could make appearances in Sony’s Spider-Man films. Marvel Studios also produces the MCU Spider-Man films for Sony now, with Sony still marketing and distributing them. The original deal was for three Spider-Man solo films and a certain amount of MCU films that Spider-Man would appear in."
             />
             <QA
                 question="Didn’t Sony and Marvel almost end their deal?"
-                answer="Yes. After “Spider-Man: Far From Home,” there was a disagreement over not splitting profits and production costs. Because of this, Sony was about to take Spider-Man back and leave Marvel empty handed and pull Tom Holland out of the MCU. Luckily, because Tom Holland drunkenly called then Disney CEO Bob Iger to explain how much fans wanted the deal to work out, the two companies became more motivated to work it out, and they did! Marvel Studios will produce at least one more solo Spider-Man film (“Spider-Man: No Way Home”) and Spidey will appear in one more MCU film."
+                answer="Yes. After “Spider-Man: Far From Home,” there was a disagreement over not splitting profits and production costs. Because of this, Sony was about to take Spider-Man back, leave Marvel empty handed, and pull Tom Holland out of the MCU. Luckily, because Tom Holland drunkenly called then Disney CEO Bob Iger to explain how much fans wanted the deal to work out, the two companies became more motivated to work it out, and they did! Marvel Studios will produce at least one more solo Spider-Man film (“Spider-Man: No Way Home”) and Spidey will appear in one more MCU film."
             />
             <QA
                 question="What happens after that?"
                 answer="Well, things are looking up! A large point of contention between the two studios is that Sony is making a number of spin-off films and rumor has it that they want Tom Holland’s Spider-Man to appear in these, but Marvel Studios didn’t want these films connected to the MCU because they don’t have control over them. However, when Sony/Marvel announced that they’d repaired their relationship, Marvel Studios President Kevin Feige essentially said Spider-Man may pop up in other non-MCU films, and that’s all on Sony. Sounds like if Marvel wanted to keep playing with Spider-Man, they have to let Sony use him however they want."
             />
             <QA 
-                question="So the Spider-Man movies are coming to Disney+?"
-                answer="Yes! Eventually! Sony and Disney’s relationship seems to be stronger than ever. In early 2021, Sony and Disney announced a deal that would bring new Sony films from 2022 and onward could come to Disney+ after a period of time on Netflix, who Sony also recently signed a different deal with. Disney+ would also see Sony catalogue titles coming to the service, including the older Spider-Man films, Jumanji, Hotel Transylvania, and more. Since this deal will last for years, let’s hope that means Spider-Man and Tom Holland will stick around the MCU for a while!"
+                question="Will the Spider-Man movies come to Disney+?"
+                answer="Yes! Eventually! Sony and Disney’s relationship seems to be stronger than ever. In early 2021, Sony and Disney announced a deal that would bring new Sony films from 2022 and onward to Disney+ after a period of time on Netflix, who Sony also recently signed a different deal with. Disney+ would also see Sony catalogue titles coming to the service, including the older Spider-Man films, Jumanji, Hotel Transylvania, and more. Since this deal will last for years, let’s hope that means Spider-Man and Tom Holland will stick around the MCU for a while!"
             />
             <QA
                 question="Is Venom part of the MCU?"

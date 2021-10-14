@@ -79,6 +79,9 @@ body {
         font-size: 22px;
         margin: 10px;
     }
+    .answer-text {
+        font-size: 22px;
+    }
 }
 
 .title-text {
