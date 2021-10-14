@@ -5,21 +5,6 @@ import { Button } from 'reactstrap';
 const MCUfaq = () => {
     return (
         <div>
-            <div className="header-text">
-                Your Marvel Questions Answered
-            </div>
-            <div className="answer-text text-center">What's the best order to watch the movies in? Is Venom part of the MCU? Why can't Walt Disney World have an Avengers Campus? Time to find out.</div>
-            <div className="text">
-                <Button size="lg" className="phaseBtn phase1" color="danger" href="#MCU" style={{ marginBottom: '1rem' }}>
-                MCU & Other Marvel Films
-            </Button>
-            <Button size="lg" className="phaseBtn phase1" color="danger" href="#Disney" style={{ marginBottom: '1rem' }}>
-                Marvel & Theme Parks
-            </Button>
-            </div>
-            <div className="header-text" id="MCU"> 
-                MCU & Other Marvel Films
-            </div>
             <QA 
                 question="What is the MCU?"
                 answer="The MCU stands for the Marvel Cinematic Universe. It’s comprised of all the films and tv shows produced by Marvel Studios, which is a movie studio created by Marvel so they could make their own movies."
