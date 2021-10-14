@@ -77,15 +77,15 @@ const MCUfaq = () => {
             />
             <QA
                 question="Why can’t Disneyland say “Marvel?”"
-                answer="Because of that pesky Universal/Marvel contract! Disney can’t use the Marvel name to promote an attraction in the US or Japan because Universal has Marvel attractions in those regions. In regions Once you realize this, it becomes very obvious how often they have to dance around saying the Marvel name. However, international parks like Hong Kong Disneyland and Disneyland Paris have been using the Marvel name for years because there aren’t any restrictions in those regions. Disney Cruise Lines can also say Marvel, even in the US."
+                answer="Because of that pesky Universal/Marvel contract! Disney can’t use the Marvel name to promote an attraction in the US or Japan because Universal has Marvel attractions in those regions. Once you realize this, it becomes very obvious how often they have to dance around saying the Marvel name. However, international parks like Hong Kong Disneyland and Disneyland Paris have been using the Marvel name for years because there aren’t any restrictions in those regions. Disney Cruise Lines can also say Marvel, even in the US."
             />
             <QA
                 question="Why is Walt Disney World getting a Guardians of the Galaxy ride then?"
-                answer="Because the Guardians of the Galaxy get a pass! They don’t belong to any of the character families Universal has access to East of the Mississippi and the characters aren’t featured in Marvel Super Hero Island in any way. Basically they were too obscure back then, so it works out in Disney’s favor! WDW can use the Guardians all they want."
+                answer="Because the Guardians of the Galaxy get a pass! They don’t belong to any of the character families Universal has access to East of the Mississippi and the characters aren’t featured in Marvel Super Hero Island in any way. Basically, they were too obscure back when the contract was signed, so it works out in Disney’s favor! WDW can use the Guardians all they want."
             />
             <QA
                 question="What other Marvel characters can Disney us in Florida?"
-                answer="We know for sure they can use Doctor Strange because he made his first Disney theme park appearance at Disney’s Hollywood Studios in 2016 when his first film released. It’s likely they can also use the Eternals since it’s unlikely they fall under any of the previously mentioned character families."
+                answer="We know for sure they can use Doctor Strange because he made his first Disney theme park appearance at Disney’s Hollywood Studios in 2016 when his first film released. They may also be able to use the Eternals since it’s unlikely they fall under any of the previously mentioned character families."
             />
             <QA
                 question="Are there any types of Marvel rides Disney can’t make?"
@@ -93,11 +93,11 @@ const MCUfaq = () => {
             />
             <QA
                 question="Does Avengers Campus take place in the MCU?"
-                answer="No. They’re definitely inspired by the MCU, but Avengers Campus and the other Marvel attractions exist in their own separate, shared universe."
+                answer="No. While inspired by the MCU, Avengers Campus and the other Marvel attractions exist in their own separate, shared universe."
             />
             <QA
                 question="Why not have it take place in the MCU the same way Star Wars: Galaxy’s Edge takes place between “The Last Jedi” and “The Rise of Skywalker?”"
-                answer="By having Avengers Campus take place at some ambiguous point in the Marvel Multiverse, they can do whatever they want! If a character in the MCU dies or changes in some major way, they don’t have to get rid of them in the parks. It also means as more things are added to the MCU, they can add them to the parks! We’ve already seen some great examples of this. Sam Wilson as Captain America from “The Falcon and the Winter Soldier” is in Avengers Campus along with Steve Rogers’ Cap! Loki has also been getting new costumes to tie-in with his show on Disney+. Basically, it’s more fun this way and gives them tons of freedom."
+                answer="By having Avengers Campus take place at some ambiguous point in the Marvel Multiverse, they can do whatever they want! If a character in the MCU dies or changes in some major way, they don’t have to get rid of them in the parks. It also means as more things are added to the MCU, they can add them to the parks! We’ve already seen some great examples of this. Sam Wilson as Captain America from The Falcon and the Winter Soldier is in Avengers Campus along with Steve Rogers’ Cap! Loki received new costumes frequently during the summer of 2021 to coincide with outfit changes on his show. Even Black Widow got her snow suit for a month when her movie came out! Basically, it’s more fun this way and gives them tons of freedom."
             />
             <QA
                 question=""
