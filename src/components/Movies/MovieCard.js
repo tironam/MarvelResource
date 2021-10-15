@@ -3,6 +3,7 @@ import { Button } from 'reactstrap';
 
 const MovieCard = props => {
     const {
+        id,
         poster,
         alt,
         title,
@@ -14,7 +15,7 @@ const MovieCard = props => {
     } = props;
 
     return (
-        <div className="card" style={{ width: '22rem', backgroundColor: 'transparent' }}>
+        <div className="card" style={{ width: '22rem', backgroundColor: 'transparent' }} id={id}>
             <img src={poster} className="card-img-top" alt={alt} />
                 <div className="card-body">
                     <h5 className="card-title info">{title}</h5>

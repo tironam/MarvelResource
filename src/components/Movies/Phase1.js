@@ -7,6 +7,7 @@ const Phase1 = () => {
             <h1 className="text">Phase 1</h1>
             <div className="row text-center">
                 <MovieCard
+                    id="ironman"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironman_lob_crd_01_4.jpg"
                     alt="Theatrical poster for Iron Man"
                     title="Iron Man"
@@ -17,6 +18,7 @@ const Phase1 = () => {
                     trailer="https://www.youtube.com/watch?v=8ugaeA-nMTc"
                 />
                 <MovieCard
+                    id="incrediblehulk"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/theincrediblehulk_lob_crd_01_3.jpg"
                     alt="Theatrical poster for The Incredible Hulk"
                     title="The Incredible Hulk"
@@ -27,6 +29,7 @@ const Phase1 = () => {
                     trailer="https://www.youtube.com/watch?v=xbqNb2PFKKA"
                 />
                 <MovieCard
+                    id="ironman2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironman2_lob_crd_01_4.jpg"
                     alt="Theatrical poster for Iron Man 2"
                     title="Iron Man 2"
@@ -37,6 +40,7 @@ const Phase1 = () => {
                     trailer="https://www.youtube.com/watch?v=BoohRoVA9W"
                 />
                 <MovieCard
+                    id="thor"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/thor_lob_crd_01_1.jpg"
                     alt="Theatrical poster for Thor"
                     title="Thor"
@@ -47,6 +51,7 @@ const Phase1 = () => {
                     trailer="https://www.youtube.com/watch?v=JOddp-nlNvQ"
                 />
                 <MovieCard
+                    id="firstavenger"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainamericathefirstavenger_lob_crd_01_0.jpg"
                     alt="Theatrical poster for Captain America: The First Avenger"
                     title="Captain America: The First Avenger"
@@ -57,6 +62,7 @@ const Phase1 = () => {
                     trailer="https://www.youtube.com/watch?v=JerVrbLldXw"
                 />
                 <MovieCard
+                    id="avengers"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/theavengers_lob_crd_03_0.jpg"
                     alt="Theatrical poster for The Avengers"
                     title="The Avengers"

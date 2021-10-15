@@ -19,6 +19,9 @@ const FAQ = () => {
                 <Button size="lg" className="phaseBtn navColor phase1" color="danger" href="#Spidey" style={{ marginBottom: '1rem' }}>
                     Spider-Man's Film Rights
                 </Button>
+                <Button size="lg" className="phaseBtn phase1" color="danger" href="#oldmarvelshows" style={{ marginBottom: '1rem' }}>
+                    The Old Marvel Shows
+                </Button>
                 <Button size="lg" className="phaseBtn phase1" color="danger" href="#Disney" style={{ marginBottom: '1rem' }}>
                     Marvel & Theme Parks
                 </Button>

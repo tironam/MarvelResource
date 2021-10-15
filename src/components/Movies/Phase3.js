@@ -7,6 +7,7 @@ const Phase3 = () => {
             <h1 className="text">Phase 3</h1>
             <div className="row text-center">
                 <MovieCard
+                    id="cap3"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainamericacivilwar_lob_crd_01_10.jpg"
                     alt="Theatrical poster for Captain America: Civil War"
                     title="Captain America: Civil War"
@@ -17,6 +18,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=dKrVegVI0Us"
                 />
                 <MovieCard
+                    id="doctorstrange"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrange_lob_crd_01_7.jpg"
                     alt="Theatrical poster for Doctor Strange"
                     title="Doctor Strange"
@@ -27,6 +29,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=HSzx-zryEgM"
                 />
                 <MovieCard
+                    id="gotgvol2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/guardiansofthegalaxyvol.2_lob_crd_01_0.jpg"
                     alt="Theatrical poster for Guardians of the Galaxy Vol. 2"
                     title="Guardians of the Galaxy Vol. 2"
@@ -37,6 +40,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=wUn05hdkhjM"
                 />
                 <MovieCard
+                    id="homecoming"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manhomecoming_lob_crd_01_4.jpg"
                     alt="Theatrical poster for Spider-Man: Homecoming"
                     title="Spider-Man: Homecoming"
@@ -47,6 +51,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=39udgGPyYMg"
                 />
                 <MovieCard
+                    id="thor3"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/thorragnarok_lob_crd_03_0.jpg"
                     alt="Theatrical poster for Thor: Ragnarok"
                     title="Thor: Ragnarok"
@@ -57,6 +62,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=ue80QwXMRHg"
                 />
                 <MovieCard
+                    id="blackpanther"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther_lob_crd_01_5.jpg"
                     alt="Theatrical poster for Black Panther"
                     title="Black Panther"
@@ -67,6 +73,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=xjDjIWPwcPU"
                 />
                 <MovieCard
+                    id="avengers3"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersinfinitywar_lob_crd_02.jpg"
                     alt="Theatrical poster for Agengers: Infinity War"
                     title="Avengers: Infinity War"
@@ -78,6 +85,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=QwievZ1Tx-8"
                 />
                 <MovieCard
+                    id="antman2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ant-manthewasp_lob_crd_01_0.jpg"
                     alt="Theatrical poster for Ant-Man and the Wasp"
                     title="Ant-Man and the Wasp"
@@ -88,6 +96,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=UUkn-enk2RU"
                 />
                 <MovieCard
+                    id="captainmarvel"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/captainmarvel_lob_crd_06.jpg"
                     alt="Theatrical poster for Captain Marvel"
                     title="Captain Marvel"
@@ -98,6 +107,7 @@ const Phase3 = () => {
                     trailer="https://www.youtube.com/watch?v=0LHxvxdRnYc"
                 />
                 <MovieCard
+                    id="avengers4"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg"
                     alt="Theatrical poster for Avengers: Endgame"
                     title="Avengers: Endgame"
@@ -111,6 +121,7 @@ const Phase3 = () => {
                 <h1 className="text">END OF THE INFINITY SAGA</h1>
                 <div className="text-center">
                     <MovieCard
+                        id="farfromhome"
                         poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfarfromhome_lob_crd_04_0.jpg"
                         alt="Theatrical poster for Spider-Man: Far From Home"
                         title="Spider-Man: Far From Home"

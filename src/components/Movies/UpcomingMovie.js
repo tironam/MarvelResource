@@ -2,6 +2,7 @@ import React from 'react';
 
 const UpcomingMovie = props => {
     const {
+        id,
         poster,
         alt,
         title,
@@ -12,7 +13,7 @@ const UpcomingMovie = props => {
     } = props;
 
     return (
-        <div className="card movie-item" style={{ width: '22rem' }}>
+        <div className="card movie-item" style={{ width: '22rem' }} id={id}>
             <img src={poster} className="card-img-top" alt={alt} />
             <div className="card-body">
                 <h5 className="card-title info">{title}</h5>

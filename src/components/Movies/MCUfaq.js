@@ -65,10 +65,38 @@ const MCUfaq = () => {
                 answer="Yes! Eventually! Sony and Disney’s relationship seems to be stronger than ever. In early 2021, Sony and Disney announced a deal that would bring new Sony films from 2022 and onward to Disney+ after a period of time on Netflix, who Sony also recently signed a different deal with. Disney+ would also see Sony catalogue titles coming to the service, including the older Spider-Man films, Jumanji, Hotel Transylvania, and more. Since this deal will last for years, let’s hope that means Spider-Man and Tom Holland will stick around the MCU for a while!"
             />
             <QA
+                id="venom"
                 question="Is Venom part of the MCU?"
                 answer="**SPOILERS for Venom: Let there be carnage** Seems like he is now! While the events of the first and second Venom films take place in a different universe, the mid-credits scene for Venom: Let there be carnage changes everything. The scene shows Eddie Brock/Venom relaxing in a hotel room when a big flash of yellow light happens and the room changes. We then see J Jonah Jameson from the end of Spider-Man: Far From Home on the room's tv outing Peter Parker as Spider-Man. We even see Tom Holland's Spider-Man on the screen. Whether this is permanent or temporary is hard to say, but for the time being we can expect Tom Hardy's Venom to clash with Tom Holland's Spider-Man!"
             />
-            <div className="header-text" id="Disney">
+            <div className="header-text" id="oldmarvelshows">
+                The Old Marvel Shows
+            </div>
+            <QA
+                question="What was Marvel Television?"
+                answer="Marvel Television was created by Marvel Entertainment to create and produce Marvel tv shows for various networks, including ABC, Netflix, Freeform, and Hulu."
+            />
+            <QA
+                question="What shows did they make?"
+                answer="Marvel Television's first show was Agents of S.H.I.E.L.D. which released in 2013. They would also release Daredevil, Jessica Jones, Luke Cage, Agent Carter, and more for Netflix and other networks and platforms."
+            />
+            <QA
+                question="What happened to the Netflix shows?"
+                answer="While many have speculated it was Marvel/Disney that pulled the plug on future seasons of the Netflix shows, some working on the shows have suggested it was Netflix who decided to pull the plug on these series. One of Daredevil's producers claimed that they even pitched season four to Netflix. It may have been because with Disney launching their own streaming service soon, they didn't want to actively promote a competitor's brand."
+            />
+            <QA
+                question="Are these shows canon to the MCU?"
+                answer="Almost definitely no. While Kevin Feige has not outright said the old shows are not canon, he has alluded to it. In an interview he said that with the new Disney+ shows, the shows and movies will interlink for the first time. While the old shows made attempts to link themselves to the films by making it seem like they were the reason events in the film happened, the films never acknowledged the events of the shows and the events in the shows were purely reactionary to what the films did. While some characters like Nick Fury and Lady Sif crossed from the films to the shows, the only time a character from any of the shows had crossed over to the films was when James D'Arcy's Edwin Jarvis from ABC's Agent Carter made a brief appearance in Avengers: Endgame."
+            />
+            <QA
+                question="What about the Netflix characters returning to the MCU?"
+                answer="There have been rumors of varying degrees of authenticity that some of the Netflix characters will be popping in MCU films and shows soon. These rumors include Charlie Cox's Matt Murdock/Daredevil and Vincent D'Onofrio's Wilson Fisk/Kingpin from Netflix's Daredevil returning for Spider-Man: No Way Home and Hawkeye respectively. It's not clear whether these iterations of the characters will build on their versions from the Netflix shows or if they will be soft rebooted with the same actors. Even then, until we have confirmation that either indeed are returning, it's best to remember these are just rumors for now."
+            />
+            <QA
+                question="What happened to Marvel Television?"
+                answer="Buckle up. Previously, Marvel Studios was structured underneath Marvel Entertainment, the main Marvel entity that Disney acquired. Reports stated that Keven Feige's relationship with Marvel CEO Ike Perlmutter was straining due to Ike's odd distrust of Feige and his constraints he would place on the films financially and creatively. In 2015, Disney moved Marvel Studios from underneath Marvel Entertainment to under The Walt Disney Studios umbrella in order to keep Kevin Feige happy and from quitting. This now meant that instead of reporting to Perlmutter, Feige now only reported to Alan Horn at Disney Studios and Bob Iger directly. Disney's then CEO Bob Iger recounted these events in his biography. Years later, Feige's title would be expanded to include Chief Creative Officer for Marvel. Once this happened, Marvel Television's days were numbered. Shows already in production like Hulu's Helstrom, M.O.D.O.K., and Hit Monkey were allowed to finish production, but other shows that were being planned like Ghost Rider for Hulu and other animated projects were cancelled.  Marvel Television has since been disbanded and all Marvel tv shows going forward would be handled by Marvel Studios, with the possible exceptions being animated shows for children on different Disney platforms."
+            />
+            <div className="header-text" id="disney">
                 Marvel & Theme Parks
             </div>
             <QA
@@ -98,14 +126,6 @@ const MCUfaq = () => {
             <QA
                 question="Why not have it take place in the MCU the same way Star Wars: Galaxy’s Edge takes place between “The Last Jedi” and “The Rise of Skywalker?”"
                 answer="By having Avengers Campus take place at some ambiguous point in the Marvel Multiverse, they can do whatever they want! If a character in the MCU dies or changes in some major way, they don’t have to get rid of them in the parks. It also means as more things are added to the MCU, they can add them to the parks! We’ve already seen some great examples of this. Sam Wilson as Captain America from The Falcon and the Winter Soldier is in Avengers Campus along with Steve Rogers’ Cap! Loki received new costumes frequently during the summer of 2021 to coincide with outfit changes on his show. Even Black Widow got her snow suit for a month when her movie came out! Basically, it’s more fun this way and gives them tons of freedom."
-            />
-            <QA
-                question=""
-                answer=""
-            />
-            <QA
-                question=""
-                answer=""
             />
         </div>
     );
