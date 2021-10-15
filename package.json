@@ -21,7 +21,7 @@
     "react-scripts": "4.0.3",
     "react-scroll-up-button": "^1.6.4",
     "react-slick": "^0.28.1",
-    "reactstrap": "^8.9.0",
+    "reactstrap": "^8.10.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.1"
   },
