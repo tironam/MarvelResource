@@ -29,7 +29,7 @@ const ShowCard = props => {
                     <li className="list-group-item info movie-item">Number of Episodes: {episodes}</li>
                 </ul>
                 <div className="card-body">
-                    <Button size="lg" className="phaseBtn phase2" color="danger" href={trailer} style={{ marginBottom: '1rem' }}>Trailer</Button>
+                <Button size="lg" className="phaseBtn phase2 navColor" color="danger" href={trailer} style={{ marginBottom: '1rem' }}>Trailer</Button>
                 </div>
         </div>
     );
