@@ -62,7 +62,7 @@ body {
     font-family: "Bebas Neue", cursive;
 }
 
-@media (max-width: 411px) {
+@media (max-width: 500px) {
     .header-text {
         font-size: 35px;
         margin: 10px;
