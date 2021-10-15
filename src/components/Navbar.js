@@ -14,7 +14,6 @@ import {
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-// import MCUPhases from '../pages/MCUPhases';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +21,6 @@ const Navbar = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        // <NavB className="navbar navbar-expand-md navbar-light bg-light">
         <NavB className="navColor" color="danger" light expand="md">
             <NavbarBrand href="/" className="navbar-text" size="lg" style={{ "color": "white", "fontSize": "35px" }}>MCU and You</NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2" />
@@ -50,7 +48,6 @@ const Navbar = () => {
                     </Nav>
                 </Collapse>
             </NavB>
-        // </NavB>
     )
 };
 
