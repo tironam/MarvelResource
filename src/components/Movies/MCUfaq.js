@@ -69,7 +69,7 @@ const MCUfaq = () => {
                 question="Is Venom part of the MCU?"
                 answer="**SPOILERS for Venom: Let there be carnage** Seems like he is now! While the events of the first and second Venom films take place in a different universe, the mid-credits scene for Venom: Let there be carnage changes everything. The scene shows Eddie Brock/Venom relaxing in a hotel room when a big flash of yellow light happens and the room changes. We then see J Jonah Jameson from the end of Spider-Man: Far From Home on the room's tv outing Peter Parker as Spider-Man. We even see Tom Holland's Spider-Man on the screen. Whether this is permanent or temporary is hard to say, but for the time being we can expect Tom Hardy's Venom to clash with Tom Holland's Spider-Man!"
             />
-            <div className="header-text" id="oldmarvelshows">
+            <div className="header-text" id="Oldmarvelshows">
                 The Old Marvel Shows
             </div>
             <QA
@@ -96,7 +96,7 @@ const MCUfaq = () => {
                 question="What happened to Marvel Television?"
                 answer="Buckle up. Previously, Marvel Studios was structured underneath Marvel Entertainment, the main Marvel entity that Disney acquired. Reports stated that Keven Feige's relationship with Marvel CEO Ike Perlmutter was straining due to Ike's odd distrust of Feige and his constraints he would place on the films financially and creatively. In 2015, Disney moved Marvel Studios from underneath Marvel Entertainment to under The Walt Disney Studios umbrella in order to keep Kevin Feige happy and from quitting. This now meant that instead of reporting to Perlmutter, Feige now only reported to Alan Horn at Disney Studios and Bob Iger directly. Disney's then CEO Bob Iger recounted these events in his biography. Years later, Feige's title would be expanded to include Chief Creative Officer for Marvel. Once this happened, Marvel Television's days were numbered. Shows already in production like Hulu's Helstrom, M.O.D.O.K., and Hit Monkey were allowed to finish production, but other shows that were being planned like Ghost Rider for Hulu and other animated projects were cancelled.  Marvel Television has since been disbanded and all Marvel tv shows going forward would be handled by Marvel Studios, with the possible exceptions being animated shows for children on different Disney platforms."
             />
-            <div className="header-text" id="disney">
+            <div className="header-text" id="Disney">
                 Marvel & Theme Parks
             </div>
             <QA
