@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         // <NavB className="navbar navbar-expand-md navbar-light bg-light">
-            <NavB color="danger" light expand="md">
+        <NavB className="navColor" color="danger" light expand="md">
             <NavbarBrand href="/" className="navbar-text" size="lg" style={{ "color": "white", "fontSize": "35px" }}>MCU and You</NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2" />
                 <Collapse className="navbar-right" isOpen={isOpen} navbar>
