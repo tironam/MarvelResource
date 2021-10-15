@@ -10,6 +10,7 @@ const Phase4 = () => {
             <h1 className="text">Phase 4 (So far):</h1>
             <div className="row text-center">
                 <ShowCard
+                    id="wandavision"
                     className="card"
                     poster="https://lumiere-a.akamaihd.net/v1/images/p_wandavision_disneyplus_poster03_20118_66028c77.jpeg"
                     alt=" poster for WandaVision"
@@ -22,6 +23,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=UBhlqe2OTt4"
                 />
                 <ShowCard
+                    id="falcontws"
                     className="card"
                     poster="https://lumiere-a.akamaihd.net/v1/images/p_thefalconandthewintersoldier_disneyplus_20653-1_a0638b8c.jpeg"
                     alt="poster for The Falcon and the Winter Soldier"
@@ -34,6 +36,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=IWBsDaFWyTE"
                 />
                 <ShowCard
+                    id="loki"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/loki_lob_crd_03.jpg"
                     alt="poster for Loki"
                     title="Loki"
@@ -45,6 +48,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=nW948Va-l10"
                 />
                 <MovieCard
+                    id="blackwidow"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackwidow_lob_crd_05.jpg"
                     alt="theatrical poster for Black Widow"
                     title="Black Widow"
@@ -55,6 +59,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=Fp9pNPdNwjI"
                 />
                 <ShowCard
+                    id="whatif"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/what_if_s1_digital_keyart_vert_v3_lg.jpg"
                     alt="logo poster for WHAT IF...?"
                     title="WHAT IF...?"
@@ -66,6 +71,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=x9D0uUKJ5KI"
                 />
                 <MovieCard
+                    id="blackwidow"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shangchi_lob_crd-04.jpg"
                     alt="theatrical poster for Shang-Chi and the Legend of the Ten Rings"
                     title="Shang-Chi and the Legend of the Ten Rings"
@@ -76,6 +82,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=giWIr7U1deA"
                 />
                 <MovieCard
+                    id="eternals"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/eternals_lob_crd_03.jpg"
                     alt="theatrical poster for Eternals"
                     title="Eternals"
@@ -86,6 +93,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=x_me3xsvDgk"
                 />
                 <ShowCard
+                    id="hawkeye"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/hawkeye_lob_crd_02.jpg"
                     alt="logo poster for Hawkeye"
                     title="Hawkeye"
@@ -97,6 +105,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=5VYb3B1ETlk"
                 />
                 <MovieCard
+                    id="nowayhome"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"
                     alt="logo poster for Spider-Man: No Way Home"
                     title="Spider-Man: No Way Home"
@@ -107,6 +116,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=rt-2cxAiPJk"
                 />
                 <ShowCard
+                    id="msmarvel"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/msmarvel_lob_crd_02_0.jpg"
                     alt="logo poster for Ms. Marvel"
                     title="Ms. Marvel"
@@ -118,6 +128,7 @@ const Phase4 = () => {
                     trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
                 />
                 <UpcomingMovie
+                    id="doctorstrange2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
                     alt="logo poster for Doctor Strange in the Multiverse of Madness"
                     title="Doctor Strange in the Multiverse of Madness"
@@ -127,6 +138,7 @@ const Phase4 = () => {
                     writer="Jade Halley Bartlett, Michael Waldron"
                 />
                 <UpcomingMovie
+                    id="thor4"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/thorloveandthunder_lob_crd_02_0.jpg"
                     alt="logo poster for Thor: Love and Thunder"
                     title="Thor: Love and Thunder"

@@ -1,6 +1,7 @@
-import React from 'react';
-import './ImgButton.css';
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
+import React from 'react'
+import './ImgButton.css'
+import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const ImgButton = (props) => {
 const {
@@ -10,11 +11,11 @@ const {
     link,
     name,
     text
-} = props;
+} = props
 
     return (
             <div className="ImgButton">
-                <Link className="ImgButton-link" to={href}>
+                <HashLink className="ImgButton-link" to={href}>
                     <div className="ImgButton-wrap">
                         <img 
                             className="ImgButton-img"
@@ -27,9 +28,9 @@ const {
                         <p className="info-text">{name}</p>
                         <p className="info-text">{text}</p>
                     </div>
-                </Link>
+                </HashLink>
             </div>
-    );
-};
+    )
+}
 
-export default ImgButton;
+export default ImgButton

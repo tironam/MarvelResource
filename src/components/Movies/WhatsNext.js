@@ -9,6 +9,7 @@ const WhatsNext = () => {
             <h1 className="text">What's Next?</h1>
             <div className="row text-center">
                 <UpcomingShow
+                    id="moonknight"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_02_0.jpg"
                     alt="logo poster for Moon Knight"
                     title="Moon Knight"
@@ -19,6 +20,7 @@ const WhatsNext = () => {
                     episodes="TBA"
                 />
                 <UpcomingShow
+                    id="shehulk"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_01_0.jpg"
                     alt="logo poster for She-Hulk"
                     title="She-Hulk"
@@ -29,6 +31,7 @@ const WhatsNext = () => {
                     episodes="10"
                 />
                 <UpcomingMovie
+                    id="blackpanther2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_02.jpg"
                     alt="logo poster for Black Panther: Wakanda Forever"
                     title="Black Panther: Wakanda Forever"
@@ -38,6 +41,7 @@ const WhatsNext = () => {
                     writer="Ryan Coogler"
                 />
                 <UpcomingMovie
+                    id="themarvels"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/themarvels_lob_crd_01.jpg"
                     alt="logo poster for The Marvels"
                     title="The Marvels"
@@ -47,6 +51,7 @@ const WhatsNext = () => {
                     writer="TBA"
                 />
                 <UpcomingMovie
+                    id="antman3"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/antman_lob_crd_01_0.jpg"
                     alt="logo poster for Ant-Man and the Wasp: Quantumania"
                     title="Ant-Man and the Wasp: Quantumania"
@@ -56,6 +61,7 @@ const WhatsNext = () => {
                     writer="Jeff Loveness"
                 />
                 <UpcomingShow
+                    id="secretinvasion"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/secretinvasion_lob_crd_01.jpg"
                     alt="logo poster for Secret Invasion"
                     title="Secret Invasion"
@@ -66,6 +72,7 @@ const WhatsNext = () => {
                     episodes="TBA"
                 />
                 <UpcomingShow
+                    id="gotgholiday"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/gotg-holiday_lob_crd_01_0.jpg"
                     alt="logo poster for The Guardians of the Galaxy Holiday Special"
                     title="The Guardians of the Galaxy Holiday Special"
@@ -76,6 +83,7 @@ const WhatsNext = () => {
                     episodes="1"
                 />
                 <UpcomingShow
+                    id="ironheart"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironheart_lob_crd_01_0.jpg"
                     alt="logo poster for Ironheart"
                     title="Ironheart"
@@ -86,6 +94,7 @@ const WhatsNext = () => {
                     episodes="6"
                 />
                 <UpcomingShow
+                    id="armorwars"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/armorwars_lob_crd_01_0.jpg"
                     alt="logo poster for Armor Wars"
                     title="Armor Wars"
@@ -96,6 +105,7 @@ const WhatsNext = () => {
                     episodes="TBA"
                 />
                 <UpcomingMovie
+                    id="fantasticfour"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/fantasticfour_lob_crd_01_0.jpg"
                     alt="logo poster for Fantastic Four"
                     title="Fantastic Four"
@@ -105,6 +115,7 @@ const WhatsNext = () => {
                     writer="TBA"
                 />
                 <UpcomingMovie
+                    id="gotgvol3"
                     poster="https://i.pinimg.com/originals/fe/51/89/fe51897d65b86b2d96e3e325670ff53e.jpg"
                     alt="Image of Rocket with Baby Groot"
                     title="Guardians of the Galaxy Vol. 3"
@@ -114,6 +125,7 @@ const WhatsNext = () => {
                     writer="James Gunn"
                 />
                 <UpcomingMovie
+                    id="blade"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blade_lob_crd_01_0.jpg"
                     alt="logo poster for Blade"
                     title="Blade"
@@ -123,6 +135,7 @@ const WhatsNext = () => {
                     writer="TBA"
                 />
                 <UpcomingShow
+                    id="iamgroot"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_01_0.jpg"
                     alt="logo poster for I Am Groot"
                     title="I Am Groot"
@@ -132,6 +145,7 @@ const WhatsNext = () => {
                     episodes="TBA"
                 />
                 <UpcomingShow
+                    id="wakandashow"
                     poster="https://tv-fanatic-res.cloudinary.com/iu/s--3457zZKz--/f_auto,q_auto/v1612280249/ryan-coogler-attends-black-panther-premiere"
                     alt="Image of Ryan Coogler"
                     title="Untitled show about Wakanda"

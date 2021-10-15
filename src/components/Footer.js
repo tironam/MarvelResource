@@ -1,6 +1,6 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTiktok, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTiktok, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import InfoModal from './InfoModal.js'
 
 const Footer = () => {
@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
         </div>
-    );
+    )
 }
 
-export default Footer;
+export default Footer
