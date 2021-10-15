@@ -16,13 +16,13 @@ const InfinitySaga = () => {
             <ScrollUpButton />
             <h5 className="black-text">From a playboy-billionaire trying to escape his terrorist captors in a cave to trying to save all of existence in the universe, the Marvel Cinematic Universe begins with The Infinity Saga. Buckle up.</h5>
             <div className="text">
-                <Button size="lg" className="phaseBtn phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase1" color="danger" href="#phase1" style={{ marginBottom: '1rem' }}>
                     Phase 1
                 </Button>
-                <Button size="lg" className="phaseBtn phase2" color="danger" href="#phase2" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase2" color="danger" href="#phase2" style={{ marginBottom: '1rem' }}>
                     Phase 2
                 </Button>
-                <Button size="lg" className="phaseBtn phase3" color="danger" href="#phase3" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase3" color="danger" href="#phase3" style={{ marginBottom: '1rem' }}>
                     Phase 3
                 </Button>
             </div>

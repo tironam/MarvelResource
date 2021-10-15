@@ -17,19 +17,19 @@ const DisneyParks = () => {
             <ScrollUpButton />
             <h1 className="header-text">MARVEL IN THE DISNEY PARKS AND RESORTS</h1>
             <div className="text">
-                <Button size="lg" className="phaseBtn phase1" color="danger" href="#DLR" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase1" color="danger" href="#DLR" style={{ marginBottom: '1rem' }}>
                     Disneyland Resort
                 </Button>
-                <Button size="lg" className="phaseBtn phase2" color="danger" href="#WDW" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase2" color="danger" href="#WDW" style={{ marginBottom: '1rem' }}>
                     Walt Disney World
                 </Button>
-                <Button size="lg" className="phaseBtn phase3" color="danger" href="#HKDL" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase3" color="danger" href="#HKDL" style={{ marginBottom: '1rem' }}>
                     Hong Kong Disneyland
                 </Button>
-                <Button size="lg" className="phaseBtn phase3" color="danger" href="#DLP" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase3" color="danger" href="#DLP" style={{ marginBottom: '1rem' }}>
                     Disneyland Paris
                 </Button>
-                <Button size="lg" className="phaseBtn phase3" color="danger" href="#DCL" style={{ marginBottom: '1rem' }}>
+                <Button size="lg" className="phaseBtn navColor phase3" color="danger" href="#DCL" style={{ marginBottom: '1rem' }}>
                     Disney Cruise Line
                 </Button>
             </div>

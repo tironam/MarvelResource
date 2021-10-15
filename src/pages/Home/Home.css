@@ -16,7 +16,7 @@ body {
 
 .text {
     font-size: 30px;
-    color: #df0000;
+    color: #cc0000;
     text-align: center;
     Margin: 25px 0 25px 0;
     font-family: "Bebas Neue", cursive;
@@ -32,7 +32,7 @@ body {
 
 .question-text {
     font-size: 35px;
-    color: #df0000;
+    color: #cc0000;
     Margin: 0 25px 0 25px;
     font-family: "Bebas Neue", cursive;
 }
@@ -45,6 +45,10 @@ body {
     font-family: "Bebas Neue", cursive;
 }
 
+.navColor {
+    background-color: #cc0000 !important;
+}
+
 .navbar-text {
     color: white;
     font-family: "Bebas Neue", cursive;
@@ -52,13 +56,13 @@ body {
 
 .header-text {
     font-size: 55px;
-    color: #df0000;
+    color: #cc0000;
     text-align: center;
     Margin: 25px 15px 25px 15px;
     font-family: "Bebas Neue", cursive;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 411px) {
     .header-text {
         font-size: 35px;
         margin: 10px;
@@ -74,7 +78,7 @@ body {
 
 .title-text {
     font-size: 40px;
-    color: #df0000;
+    color: #cc0000;
     text-align: center;
     Margin: 25px 25px 25px 25px;
     font-family: "Bebas Neue", cursive;
@@ -89,7 +93,7 @@ body {
 
 .btn-text {
     font-size: 50px;
-    color: #df0000;
+    color: #cc0000;
     text-align: center;
     Margin: 15px 0px 0px 0px;
     font-family: "Bebas Neue", cursive;
@@ -160,7 +164,7 @@ body {
 }
 
 .card-link {
-    color: #df0000;
+    color: #cc0000;
 }
 
 .attraction-card {
@@ -188,7 +192,7 @@ body {
 }
 
 .footer {
-    background-color: #df0000;
+    background-color: #cc0000;
     bottom: 0;
     width: 100%;
     position: bottom;
