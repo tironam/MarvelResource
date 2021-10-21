@@ -133,7 +133,7 @@ const Phase4 = () => {
                     alt="logo poster for Doctor Strange in the Multiverse of Madness"
                     title="Doctor Strange in the Multiverse of Madness"
                     synopsis="Stephen Strrange aka Doctor Strange (Benedict Cumberbatch) is joined by Wanda Maximoff aka the Scarlet Witch (Elizabeth Olsen) in the sequel to the 2016 film."
-                    date="March 25, 2022"
+                    date="May 6, 2022"
                     director="Sam Raimi"
                     writer="Jade Halley Bartlett, Michael Waldron"
                 />
@@ -143,7 +143,7 @@ const Phase4 = () => {
                     alt="logo poster for Thor: Love and Thunder"
                     title="Thor: Love and Thunder"
                     synopsis="God of thunder Thor (Chris Hemsworth) returns alongside the Guardians of the Galaxy in a space-hopping adventure that features the return of Jane Foster (Natalie Portman). Thor must face off against new villain Gorr the God Butcher (Christian Bale)."
-                    date="May 6, 2022"
+                    date="July 8, 2022"
                     director="Taika Waititi"
                     writer="Taika Waititi, Jennifer Kaytin Robinson"
                 />

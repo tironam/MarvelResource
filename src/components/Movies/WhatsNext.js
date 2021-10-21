@@ -36,7 +36,7 @@ const WhatsNext = () => {
                     alt="logo poster for Black Panther: Wakanda Forever"
                     title="Black Panther: Wakanda Forever"
                     synopsis="The follow up to 2018's Best Picture nominee Black Panther."
-                    date="July 8, 2022"
+                    date="November 11, 2022"
                     director="Ryan Coogler"
                     writer="Ryan Coogler"
                 />
@@ -46,7 +46,7 @@ const WhatsNext = () => {
                     alt="logo poster for The Marvels"
                     title="The Marvels"
                     synopsis="Carol Danvers aka Captain Marvel (Brie Larson) returns in this new adventure, joined by Monica Rambeau (Teyonah Parris) from WandaVision and Ms. Marvel herself Kamala Khan (Iman Vellani)."
-                    date="November 11, 2022"
+                    date="February 17, 2023"
                     director="Nia DaCosta"
                     writer="TBA"
                 />
@@ -56,7 +56,7 @@ const WhatsNext = () => {
                     alt="logo poster for Ant-Man and the Wasp: Quantumania"
                     title="Ant-Man and the Wasp: Quantumania"
                     synopsis="Scott Lang aka Ant-Man (Paul Rudd) and Hope Van Dyne aka The Wasp (Evangeline Lilly) return with Jonathan Majors taking on the role of villainous Kang the Conqueror."
-                    date="February 17, 2023"
+                    date="July 28, 2023"
                     director="Peyton Reed"
                     writer="Jeff Loveness"
                 />
