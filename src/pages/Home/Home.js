@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar.js';
 import './Home.css';
 import BtnSection from '../../components/BtnSection.js';
+import '../../components/InfoModal.js';
 
 const Home = () => {
     return (
