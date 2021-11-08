@@ -94,7 +94,7 @@ const Phase4 = () => {
                 />
                 <ShowCard
                     id="hawkeye"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/hawkeye_lob_crd_02.jpg"
+                    poster="https://pbs.twimg.com/media/FCeJytEXEAYdOL9?format=jpg&name=large"
                     alt="logo poster for Hawkeye"
                     title="Hawkeye"
                     synopsis="Follows original Avenger Clint Barton aka Hawkeye (Jeremy Renner) and fan-favorite Marvel comics character Kate Bishop (Hailee Steinfeld), who picks up the bow and quiver."
@@ -106,7 +106,7 @@ const Phase4 = () => {
                 />
                 <MovieCard
                     id="nowayhome"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sn_lob_crd_01.jpg"
+                    poster="https://pbs.twimg.com/media/FDo0mohVQAAP5Td?format=jpg&name=large"
                     alt="logo poster for Spider-Man: No Way Home"
                     title="Spider-Man: No Way Home"
                     synopsis="Following the jaw-dropping cliffhanger from Spider-Man: Far From Home, Peter Parker aka Spider-Man (Tom Holland) is joined by Doctor Strange (Benedict Cumberbatch) for this new adventure. Jamie Foxx and Alfred Molina return."
