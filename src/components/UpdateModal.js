@@ -19,6 +19,8 @@ const UpdateModal = (props) => {
                 <ModalHeader toggle={toggle}>{title}</ModalHeader>
                 <ModalBody>
                     <ul>
+                        <li>Added new shows to Phase 4 & Beyond section that were announced on Disney+ Day - 11.12.21</li>
+                        <li>Updated What's Next button on homepage to reflect next MCU movie coming out - 11.12.21</li>
                         <li>Updated the poster for Spider-Man: No Way Home - 11.7.21</li>
                         <li>Updated the poster for Hawkeye - 10.24.21</li>
                         <li>Updated the release dates for Doctor Strange in the Multiverse of Madness, Thor: Love and Thunder, Black Panther: Wakanda Forever, The Marvels, and Ant-Man and the Wasp: Quantumania - 10.21</li>
