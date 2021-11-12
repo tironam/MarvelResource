@@ -154,6 +154,28 @@ const WhatsNext = () => {
                     writer="TBA"
                     episodes="TBA"
                 />
+                <UpcomingShow 
+                    id="xmen97"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/xmen97_lob_crd_01_rev.jpg"
+                    alt="Poster for X-Men '97"
+                    title="X-Men '97"
+                    synopsis="X-Men ’97 will be a continuation of the beloved 1990s X-Men animated series that ran for five seasons on the Fox network from 1992 through 1997."
+                    date="2023"
+                    director="TBA"
+                    writer="TBA"
+                    episodes="TBA"
+                />
+                <UpcomingShow 
+                    id="spidermanfreshmanyear"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfreshmanyear_lob_crd_01.jpg"
+                    alt="Poster fro Spider-Man: Freshman Year"
+                    title="Spider-Man: Freshman Year"
+                    synopsis="Spider-Man: Freshman Year is a new animated show that will have an aesthetic approach that, according to a press release, “celebrates the character’s early comic book roots.” This show will follow Peter Parker on his journey to becoming Spider-Man within the MCU, suggesting the show might dramatize this Peter’s origin story."
+                    date="TBA"
+                    director="TBA"
+                    writer="Jeff Trammel"
+                    episodes="TBA"
+                />
             </div>
         </div>
     )

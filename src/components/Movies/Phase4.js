@@ -106,7 +106,7 @@ const Phase4 = () => {
                 />
                 <MovieCard
                     id="nowayhome"
-                    poster="https://pbs.twimg.com/media/FDo0mohVQAAP5Td?format=jpg&name=large"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-mannowayhome_lob_crd_02.jpg"
                     alt="logo poster for Spider-Man: No Way Home"
                     title="Spider-Man: No Way Home"
                     synopsis="Following the jaw-dropping cliffhanger from Spider-Man: Far From Home, Peter Parker aka Spider-Man (Tom Holland) is joined by Doctor Strange (Benedict Cumberbatch) for this new adventure. Jamie Foxx and Alfred Molina return."
