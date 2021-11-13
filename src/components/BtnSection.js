@@ -5,7 +5,15 @@ import { HashLink } from 'react-router-hash-link'
 function BtnSection() {
     return (
         <div className=" home-cards row">
-            <h1 className="header-text">What's on now?</h1>
+            <h1 className="header-text">Disney+ Day</h1>
+                <ImgButton
+                    href="/NextSaga#whatsnext"
+                    image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/disney_day_2021.jpg"
+                    alt="Artwork featuring logos for Marvel shows announced at Disney+ Day"
+                    link="New live action and animated shows coming to Disney+"
+                    text="Check out what was announced on Disney+ Day in Phase 4 & Beyond"
+                />
+                <h1 className="header-text">What's on now?</h1>
                 <ImgButton
                     href="/NextSaga#whatif"
                     image="https://media.vanityfair.com/photos/6114a5d50b170c6defc5cb3f/master/pass/What%20If%20lead%20image.jpeg"

@@ -6,7 +6,7 @@ import UpcomingShow from '../Shows/UpcomingShow.js'
 const WhatsNext = () => {
     return (
         <div className="container-fluid">
-            <h1 className="text">What's Next?</h1>
+            <h1 className="text" id="whatsnext">What's Next?</h1>
             <div className="row text-center">
                 <UpcomingShow
                     id="moonknight"
@@ -21,7 +21,7 @@ const WhatsNext = () => {
                 />
                 <UpcomingShow
                     id="shehulk"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_1.png"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_01_0.jpg"
                     alt="logo poster for She-Hulk"
                     title="She-Hulk"
                     synopsis="She-Hulk follows Jennifer Walters (Tatiana Maslany), a lawyer who specializes in superhuman-oriented legal cases. She-Hulk will welcome a host of Marvel characters to the series, including the Hulk, played by Mark Ruffalo, and the Abomination, played by Tim Roth. The new comedy series coming to Disney+ in 2022 is written by Executive Producer Jessica Gao and directed by Executive Producer Kat Coiro and Anu Valia."
@@ -65,7 +65,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/secretinvasion_lob_crd_01.jpg"
                     alt="logo poster for Secret Invasion"
                     title="Secret Invasion"
-                    synopsis="Based on the hit Marvel comics storyline, Nick Fury (Samuel L. Jackson) and Talos (Ben Mendelsohn) face a secret Skrull invasion of Earth in Marvel Studios' next big event, joined by Kinsgley Ben-Adir, Olivia Colman, and Emilia Clarke."
+                    synopsis="The series stars Samuel L. Jackson as Nick Fury and Ben Mendelsohn as the Skrull Talos—characters who first met in Marvel Studios’ Captain Marvel. The crossover comic event series showcases a faction of shapeshifting Skrulls who have been infiltrating Earth for years."
                     date="TBA"
                     director="Thomas Bezuka and Ali Selim"
                     writer="Kyle Bradstreet"
@@ -87,7 +87,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironheart_lob_crd_01_0.jpg"
                     alt="logo poster for Ironheart"
                     title="Ironheart"
-                    synopsis="Dominique Thorne takes on the roll of Riri Williams, young genius inventor who creates her own suit of technologically advanced armor."
+                    synopsis="The series stars Dominique Thorne as Riri Williams, a genius inventor who creates the most advanced suit of armor since Iron Man."
                     date="TBA"
                     director="TBA"
                     writer="Chinaka Hodge"
@@ -139,8 +139,8 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_01_0.jpg"
                     alt="logo poster for I Am Groot"
                     title="I Am Groot"
-                    synopsis="A series of animated shorts following the galaxy-saving Groot."
-                    director="TBA"
+                    synopsis="The series of shorts follows Baby Groot’s glory days growing up, and getting into trouble, among the stars. Directed by Executive Producer Kirsten Lepore."
+                    director="Kirsten Lepore"
                     writer="TBA"
                     episodes="TBA"
                 />
