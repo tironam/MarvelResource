@@ -8,6 +8,7 @@ const ShowCard = props => {
         alt,
         title,
         synopsis,
+        type,
         date,
         director,
         writer,
@@ -24,6 +25,7 @@ const ShowCard = props => {
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item info movie-item">Disney+ Original Series</li>
+                    <li className="list-group-item info movie-item">{type}</li>
                     <li className="list-group-item info movie-item">Release Date: {date}</li>
                     <li className="list-group-item info movie-item">Director(s): {director}</li>
                     <li className="list-group-item info movie-item">Head Writer: {writer}</li>
