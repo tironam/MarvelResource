@@ -6,14 +6,14 @@ import UpcomingShow from '../Shows/UpcomingShow.js'
 const WhatsNext = () => {
     return (
         <div className="container-fluid">
-            <h1 className="text">What's Next?</h1>
+            <h1 className="text" id="whatsnext">What's Next?</h1>
             <div className="row text-center">
                 <UpcomingShow
                     id="moonknight"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_02_0.jpg"
                     alt="logo poster for Moon Knight"
                     title="Moon Knight"
-                    synopsis="Marc Spector (Oscar Isaac) is a former CIA agent that's left for dead in the Egyptian desert, before his life is saved by the Moon God Khonshu and he becomes Moon Knight."
+                    synopsis="Moon Knight is a new globetrotting action-adventure series featuring a complex vigilante (Oscar Isaac) who suffers from dissociative identity disorder. The multiple identities who live inside him find themselves thrust into a deadly war of the gods against the backdrop of modern and ancient Egypt. Moon Knight is directed by Mohamed Diab and is coming to Disney+ in 2022"
                     date="TBA 2022"
                     director="Mohamed Diab"
                     writer="TBA"
@@ -24,7 +24,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_01_0.jpg"
                     alt="logo poster for She-Hulk"
                     title="She-Hulk"
-                    synopsis="Tatiana Maslany plays Jennifer Walters aka She-Hulk in the upcoming comedy series. The show sees the return of Tim Roth's Abomination and Hulk himself Mark Ruffalo."
+                    synopsis="She-Hulk follows Jennifer Walters (Tatiana Maslany), a lawyer who specializes in superhuman-oriented legal cases. She-Hulk will welcome a host of Marvel characters to the series, including the Hulk, played by Mark Ruffalo, and the Abomination, played by Tim Roth. The new comedy series coming to Disney+ in 2022 is written by Executive Producer Jessica Gao and directed by Executive Producer Kat Coiro and Anu Valia."
                     date="TBA 2022"
                     director="Kat Coiro and Anu Valia"
                     writer="Jessica Gao"
@@ -65,7 +65,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/secretinvasion_lob_crd_01.jpg"
                     alt="logo poster for Secret Invasion"
                     title="Secret Invasion"
-                    synopsis="Based on the hit Marvel comics storyline, Nick Fury (Samuel L. Jackson) and Talos (Ben Mendelsohn) face a secret Skrull invasion of Earth in Marvel Studios' next big event, joined by Kinsgley Ben-Adir, Olivia Colman, and Emilia Clarke."
+                    synopsis="The series stars Samuel L. Jackson as Nick Fury and Ben Mendelsohn as the Skrull Talos—characters who first met in Marvel Studios’ Captain Marvel. The crossover comic event series showcases a faction of shapeshifting Skrulls who have been infiltrating Earth for years."
                     date="TBA"
                     director="Thomas Bezuka and Ali Selim"
                     writer="Kyle Bradstreet"
@@ -87,7 +87,7 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironheart_lob_crd_01_0.jpg"
                     alt="logo poster for Ironheart"
                     title="Ironheart"
-                    synopsis="Dominique Thorne takes on the roll of Riri Williams, young genius inventor who creates her own suit of technologically advanced armor."
+                    synopsis="The series stars Dominique Thorne as Riri Williams, a genius inventor who creates the most advanced suit of armor since Iron Man."
                     date="TBA"
                     director="TBA"
                     writer="Chinaka Hodge"
@@ -139,9 +139,78 @@ const WhatsNext = () => {
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_01_0.jpg"
                     alt="logo poster for I Am Groot"
                     title="I Am Groot"
-                    synopsis="A series of animated shorts following the galaxy-saving Groot."
+                    synopsis="The series of shorts follows Baby Groot’s glory days growing up, and getting into trouble, among the stars. Directed by Executive Producer Kirsten Lepore."
+                    director="Kirsten Lepore"
+                    writer="TBA"
+                    episodes="TBA"
+                />
+                <UpcomingShow 
+                    id="xmen97"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/xmen97_lob_crd_01_rev.jpg"
+                    alt="Poster for X-Men '97"
+                    title="X-Men '97"
+                    synopsis="The animated series from Marvel Studios explores new stories in the iconic 90s timeline of the original series. Written by Executive Producer Beau DeMayo."
+                    date="2023"
+                    director="TBA"
+                    writer="Beau DeMayo"
+                    episodes="TBA"
+                />
+                <UpcomingShow 
+                    id="spidermanfreshmanyear"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfreshmanyear_lob_crd_01.jpg"
+                    alt="Poster fro Spider-Man: Freshman Year"
+                    title="Spider-Man: Freshman Year"
+                    synopsis="The animated series follows Peter Parker on his way to becoming Spider-Man in the MCU, with a journey unlike we've ever seen and a style that celebrates the character’s early comic book roots. Written by Executive Producer Jeff Trammel."
+                    date="TBA"
+                    director="TBA"
+                    writer="Jeff Trammel"
+                    episodes="TBA"
+                />
+                <UpcomingShow 
+                    id="echo"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/echo_lob_crd_01.jpg"
+                    alt="Poster for Echo"
+                    synopsis="The series stars Alaqua Cox as Maya Lopez, a character who will be introduced in Marvel Studios’ Hawkeye."
+                    type="Live Action"
+                    date="TBA"
                     director="TBA"
                     writer="TBA"
+                    episodes="TBA"
+                />
+                <UpcomingShow
+                    id="whatifs2"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/whatif2_lob_crd_01.jpg"
+                    alt=""
+                    synopsis="**SPOILERS FOR WHAT IF...? SEASON 1** The second season of the fan-favorite animated series. After enlisting the Guardians of the Multiverse to stop Infinity Ultron, The Watcher returns in Season 2 of What If...? to meet new heroes and explore more strange new worlds in the MCU’s ever-expanding Multiverse. Directed by Executive Producer Bryan Andrews and written by Executive Producer AC Bradley."
+                    title="WHAT IF...? Season 2"
+                    type="Animated"
+                    date="TBA"
+                    director="Bryan Andrews"
+                    writer="AC Bradley"
+                    episodes="8"
+                />
+                <UpcomingShow
+                    id="agatha"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/agathahouseofharkness_lob_crd_01.jpg"
+                    alt="Poster for Agatha: House of Harkness"
+                    synopsis="Agatha: House of Harkness will reveal more about the character first introduced in Marvel Studios’ WandaVision. Jac Schaefer, who served as head writer and executive producer on WandaVision, returns for Agatha: House of Harkness. Be sure to hide all dogs named Sparky."
+                    title="Agatha: House of Harkness"
+                    type="Live Action"
+                    date="TBA"
+                    director="TBA"
+                    writer="Jac Schaefer"
+                    episodes="TBA"
+                />
+                <UpcomingShow
+                    id="marvelzombies"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelzombies_lob_crd_01.jpg"
+                    alt="Poster for Marvel Zombies"
+                    synopsis="The animated series from Marvel Studios reimagines the Marvel Universe as a new generation of heroes battle against an ever-spreading zombie scourge. Directed by Executive Producer Bryan Andrews and written by Executive Producer Zeb Wells."
+                    title="Marvel Zombies"
+                    type="Animated"
+                    date="TBA"
+                    director="Bryan Andrews"
+                    writer="Zeb Wells"
                     episodes="TBA"
                 />
                 <UpcomingShow
@@ -152,28 +221,6 @@ const WhatsNext = () => {
                     synopsis="Ryan Coogler (Black Panther, Black Panther 2) is developing an untitled show about Wakanda for Disney+."
                     director="TBA"
                     writer="TBA"
-                    episodes="TBA"
-                />
-                <UpcomingShow 
-                    id="xmen97"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/xmen97_lob_crd_01_rev.jpg"
-                    alt="Poster for X-Men '97"
-                    title="X-Men '97"
-                    synopsis="X-Men ’97 will be a continuation of the beloved 1990s X-Men animated series that ran for five seasons on the Fox network from 1992 through 1997."
-                    date="2023"
-                    director="TBA"
-                    writer="TBA"
-                    episodes="TBA"
-                />
-                <UpcomingShow 
-                    id="spidermanfreshmanyear"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfreshmanyear_lob_crd_01.jpg"
-                    alt="Poster fro Spider-Man: Freshman Year"
-                    title="Spider-Man: Freshman Year"
-                    synopsis="Spider-Man: Freshman Year is a new animated show that will have an aesthetic approach that, according to a press release, “celebrates the character’s early comic book roots.” This show will follow Peter Parker on his journey to becoming Spider-Man within the MCU, suggesting the show might dramatize this Peter’s origin story."
-                    date="TBA"
-                    director="TBA"
-                    writer="Jeff Trammel"
                     episodes="TBA"
                 />
             </div>

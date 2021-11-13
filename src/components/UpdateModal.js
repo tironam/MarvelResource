@@ -19,6 +19,7 @@ const UpdateModal = (props) => {
                 <ModalHeader toggle={toggle}>{title}</ModalHeader>
                 <ModalBody>
                     <ul>
+                        <li>Added a Disney+ day button on the home page - 11.13.21</li>
                         <li>Added new shows to Phase 4 & Beyond section that were announced on Disney+ Day - 11.12.21</li>
                         <li>Updated What's Next button on homepage to reflect next MCU movie coming out - 11.12.21</li>
                         <li>Updated the poster for Spider-Man: No Way Home - 11.7.21</li>

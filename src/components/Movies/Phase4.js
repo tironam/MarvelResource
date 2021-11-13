@@ -115,18 +115,6 @@ const Phase4 = () => {
                     writer="Chris McKenna & Erik Sommers"
                     trailer="https://www.youtube.com/watch?v=rt-2cxAiPJk"
                 />
-                <ShowCard
-                    id="msmarvel"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/msmarvel_lob_crd_02_0.jpg"
-                    alt="logo poster for Ms. Marvel"
-                    title="Ms. Marvel"
-                    synopsis="Ms. Marvel, a newer character to Marvel comics has grabbed the world's imagination and we are excited to announce Iman Vellani as Kamala Khan. Ms. Marvel, an Original Series from Marvel Studios, is coming late 2021 to #DisneyPlus."
-                    date="Early 2022"
-                    director="Adil El Arbi & Bilall Fallah, Meera Menon and Sharmeen Obaid-Chinoy"
-                    writer="TBA"
-                    episodes="TBA"
-                    trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
-                />
                 <UpcomingMovie
                     id="doctorstrange2"
                     poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
@@ -136,6 +124,18 @@ const Phase4 = () => {
                     date="May 6, 2022"
                     director="Sam Raimi"
                     writer="Jade Halley Bartlett, Michael Waldron"
+                />
+                <ShowCard
+                    id="msmarvel"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/msmarvel_lob_crd_02_0.jpg"
+                    alt="logo poster for Ms. Marvel"
+                    title="Ms. Marvel"
+                    synopsis="Ms. Marvel introduces viewers to Kamala, a 16-year old Pakistani American from Jersey City.  An aspiring artist, an avid gamer, and a voracious fan-fiction scribe, she is a huge fan of the Avengers — and one in particular, Captain Marvel. But Kamala has always struggled to find her place in the world — that is until she gets super powers like the heroes she’s always looked up to. Iman Vellani stars as Kamala Khan aka Ms. Marvel. Episodes are directed by Executive Producers Adil El Arbi & Bilall Fallah, Meera Menon, and Sharmeen Obaid-Chinoy."
+                    date="Summer 2022"
+                    director="Adil El Arbi & Bilall Fallah, Meera Menon and Sharmeen Obaid-Chinoy"
+                    writer="TBA"
+                    episodes="TBA"
+                    trailer="https://www.youtube.com/watch?v=TRNI9TtBM5E"
                 />
                 <UpcomingMovie
                     id="thor4"
