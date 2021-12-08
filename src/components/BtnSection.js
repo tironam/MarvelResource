@@ -11,7 +11,7 @@ function BtnSection() {
                 image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/apt-106-12941_r2_1.jpg"
                 alt="Poster for Hawkeye"
                 link="Hawkeye"
-                text="New episodes every Wednesday on Disney+, Bro"
+                text="Bro, new episodes every Wednesday on Disney+, Bro"
             />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
