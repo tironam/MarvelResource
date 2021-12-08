@@ -5,13 +5,13 @@ import { HashLink } from 'react-router-hash-link'
 function BtnSection() {
     return (
         <div className=" home-cards row">
-            <h1 className="header-text">What's on now?</h1>
+            <h1 className="header-text">What's on now, bro?</h1>
             <ImgButton
                 href="/NextSaga#hawkeye"
                 image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/apt-106-12941_r2_1.jpg"
                 alt="Poster for Hawkeye"
                 link="Hawkeye"
-                text="New episodes every Wednesday on Disney+"
+                text="New episodes every Wednesday on Disney+, Bro"
             />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
