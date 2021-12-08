@@ -113,7 +113,7 @@ const Phase4 = () => {
                     date="December 17, 2021"
                     director="Jon Watts"
                     writer="Chris McKenna & Erik Sommers"
-                    trailer="https://www.youtube.com/watch?v=rt-2cxAiPJk"
+                    trailer="https://www.youtube.com/watch?v=JfVOs4VSpmA"
                 />
                 <UpcomingMovie
                     id="doctorstrange2"

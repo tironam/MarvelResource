@@ -5,22 +5,14 @@ import { HashLink } from 'react-router-hash-link'
 function BtnSection() {
     return (
         <div className=" home-cards row">
-            <h1 className="header-text">Disney+ Day</h1>
-                <ImgButton
-                    href="/NextSaga#whatsnext"
-                    image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/disney_day_2021.jpg"
-                    alt="Artwork featuring logos for Marvel shows announced at Disney+ Day"
-                    link="New live action and animated shows coming to Disney+"
-                    text="Check out what was announced on Disney+ Day in Phase 4 & Beyond"
-                />
-                <h1 className="header-text">What's on now?</h1>
-                <ImgButton
-                    href="/NextSaga#whatif"
-                    image="https://media.vanityfair.com/photos/6114a5d50b170c6defc5cb3f/master/pass/What%20If%20lead%20image.jpeg"
-                    alt="Poster for WHAT IF...?"
-                    link="WHAT IF...?"
-                    text="All episodes now streaming on Disney+"
-                />
+            <h1 className="header-text">What's on now, bro?</h1>
+            <ImgButton
+                href="/NextSaga#hawkeye"
+                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/apt-106-12941_r2_1.jpg"
+                alt="Poster for Hawkeye"
+                link="Hawkeye"
+                text="Bro, new episodes every Wednesday on Disney+, Bro"
+            />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
                 href="/NextSaga#nowayhome"
@@ -28,6 +20,14 @@ function BtnSection() {
                 alt="WandaVision Poster"
                 link="Spider-Man: No Way Home"
                 text="In theaters December 17th"
+            />
+            <h1 className="header-text">Disney+ Day</h1>
+            <ImgButton
+                href="/NextSaga#whatsnext"
+                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/disney_day_2021.jpg"
+                alt="Artwork featuring logos for Marvel shows announced at Disney+ Day"
+                link="New live action and animated shows coming to Disney+"
+                text="Check out what was announced on Disney+ Day in Phase 4 & Beyond"
             />
             <h1 className="header-text">What do you want to know?</h1>
             <ImgButton
