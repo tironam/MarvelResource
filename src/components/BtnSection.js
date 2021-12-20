@@ -33,7 +33,7 @@ function BtnSection() {
             <ImgButton
                 href="/FAQ#venom"
                 image="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/Venom-Let-There-Be-Carnage-Marvel-Sony-Tom-Hardy.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5"
-                alt="Avengers Campus concept art"
+                alt="Venom 2 poster"
                 link="Is Venom part of the MCU?"
                 text="Find out in the FAQ"
             />
