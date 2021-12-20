@@ -15,11 +15,11 @@ function BtnSection() {
             />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
-                href="/NextSaga#nowayhome"
-                image="https://bgr.com/wp-content/uploads/2021/08/spider-man-no-way-home-spider-man-trailer.jpg?quality=82&strip=all&w=1440&h=810&crop=1"
-                alt="WandaVision Poster"
-                link="Spider-Man: No Way Home"
-                text="In theaters December 17th"
+                href="/NextSaga#doctorstrange2"
+                image="https://marvelblog.com/wp-content/uploads/2021/06/Doctor-Strange-in-the-Multiverse-of-Madness-Cast-Gift.png"
+                alt="Doctor Strange in the Multiverse of Madness poster"
+                link="Doctor Strange in the Multiverse of Madness"
+                text="In theaters May 6th, 2022"
             />
             <h1 className="header-text">Disney+ Day</h1>
             <ImgButton
