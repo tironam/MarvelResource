@@ -16,7 +16,7 @@ function BtnSection() {
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
                 href="/NextSaga#doctorstrange2"
-                image="https://marvelblog.com/wp-content/uploads/2021/06/Doctor-Strange-in-the-Multiverse-of-Madness-Cast-Gift.png"
+                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrange_card.png"
                 alt="Doctor Strange in the Multiverse of Madness poster"
                 link="Doctor Strange in the Multiverse of Madness"
                 text="In theaters May 6th, 2022"
