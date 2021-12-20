@@ -15,11 +15,11 @@ function BtnSection() {
             />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
-                href="/NextSaga#nowayhome"
-                image="https://bgr.com/wp-content/uploads/2021/08/spider-man-no-way-home-spider-man-trailer.jpg?quality=82&strip=all&w=1440&h=810&crop=1"
-                alt="WandaVision Poster"
-                link="Spider-Man: No Way Home"
-                text="In theaters December 17th"
+                href="/NextSaga#doctorstrange2"
+                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrange_card.png"
+                alt="Doctor Strange in the Multiverse of Madness poster"
+                link="Doctor Strange in the Multiverse of Madness"
+                text="In theaters May 6th, 2022"
             />
             <h1 className="header-text">Disney+ Day</h1>
             <ImgButton
@@ -33,7 +33,7 @@ function BtnSection() {
             <ImgButton
                 href="/FAQ#venom"
                 image="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/Venom-Let-There-Be-Carnage-Marvel-Sony-Tom-Hardy.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5"
-                alt="Avengers Campus concept art"
+                alt="Venom 2 poster"
                 link="Is Venom part of the MCU?"
                 text="Find out in the FAQ"
             />

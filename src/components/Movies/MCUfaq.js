@@ -67,7 +67,7 @@ const MCUfaq = () => {
             <QA
                 id="venom"
                 question="Is Venom part of the MCU?"
-                answer="**SPOILERS for Venom: Let there be carnage** Seems like he is now! While the events of the first and second Venom films take place in a different universe, the mid-credits scene for Venom: Let there be carnage changes everything. The scene shows Eddie Brock/Venom relaxing in a hotel room when a big flash of yellow light happens and the room changes. We then see J Jonah Jameson from the end of Spider-Man: Far From Home on the room's tv outing Peter Parker as Spider-Man. We even see Tom Holland's Spider-Man on the screen. Whether this is permanent or temporary is hard to say, but for the time being we can expect Tom Hardy's Venom to clash with Tom Holland's Spider-Man!"
+                answer="**SPOILERS for Venom: Let there be carnage and Spider-Man: No Way Home** He was! Only for a little bit, though. The end credit scene for Venom: Let There Be Carnage saw Eddie Brock/Venom mysteriously transported into the MCU via a flash of yellow light, but the end credit scene of Spider-Man: No Way Home saw him get sent right back after Doctor Strange sends everyone back to their respective universes. However, it wasn't all for nothing! Once Eddie gets sent back, we see a small piece of the black Symbiote from Venom starting to crawl across a bar 's counter top."
             />
             <div className="header-text" id="Oldmarvelshows">
                 The Old Marvel Shows
@@ -86,11 +86,11 @@ const MCUfaq = () => {
             />
             <QA
                 question="Are these shows canon to the MCU?"
-                answer="Almost definitely no. While Kevin Feige has not outright said the old shows are not canon, he has alluded to it. In an interview he said that with the new Disney+ shows, the shows and movies will interlink for the first time. While the old shows made attempts to link themselves to the films by making it seem like they were the reason events in the film happened, the films never acknowledged the events of the shows and the events in the shows were purely reactionary to what the films did. While some characters like Nick Fury and Lady Sif crossed from the films to the shows, the only time a character from any of the shows had crossed over to the films was when James D'Arcy's Edwin Jarvis from ABC's Agent Carter made a brief appearance in Avengers: Endgame."
+                answer="Almost definitely no. While Kevin Feige has not outright said the old shows are not canon, he has alluded to it. In an interview he said that with the new Disney+ shows, the shows and movies will interlink for the first time. While the old shows made attempts to link themselves to the films by making it seem like they were the reason events in the film happened, the films never acknowledged the events of the shows and the events in the shows were purely reactionary to what the films did."
             />
             <QA
-                question="What about the Netflix characters returning to the MCU?"
-                answer="There have been rumors of varying degrees of authenticity that some of the Netflix characters will be popping in MCU films and shows soon. These rumors include Charlie Cox's Matt Murdock/Daredevil and Vincent D'Onofrio's Wilson Fisk/Kingpin from Netflix's Daredevil returning for Spider-Man: No Way Home and Hawkeye respectively. It's not clear whether these iterations of the characters will build on their versions from the Netflix shows or if they will be soft rebooted with the same actors. Even then, until we have confirmation that either indeed are returning, it's best to remember these are just rumors for now."
+                question="Which Marvel Television actors have shown up in the MCU so far?"
+                answer="**SPOILERS for Hawkeye episode 5 and and Spider-Man: No Way Home** So far, only a few actors from the Marvel Television shows have reprised their roles in the MCU proper. The first was James D'Arcy's reprising his role as Edwin Jarvis from ABC's Agent Carter in Avengers: Endgame. The next was Vincent D'Onofrio's Wilson Fisk/Kingpin, who made his first official MCU appearance in the fifth episode of Hawkeye, followed a couple days later by Charlie Cox's Matt Murdock/Daredevil as Peter Parker's lawyer in Spider-Man: No Way Home. What remains to be seen is if their stories from the Netflix shows are still canon or if these characters will be soft-rebooted for the MCU."
             />
             <QA
                 question="What happened to Marvel Television?"
