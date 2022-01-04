@@ -11,12 +11,12 @@ function BtnSection() {
                 image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/apt-106-12941_r2_1.jpg"
                 alt="Poster for Hawkeye"
                 link="Hawkeye"
-                text="Bro, new episodes every Wednesday on Disney+, Bro"
+                text="Bro, all episodes now streaming on Disney+, Bro"
             />
             <h1 className="header-text">What's' Next?</h1>
             <ImgButton
                 href="/NextSaga#doctorstrange2"
-                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrange_card.png"
+                image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/stellarvortex_digital_keyart_vert_v3_lg.jpg"
                 alt="Doctor Strange in the Multiverse of Madness poster"
                 link="Doctor Strange in the Multiverse of Madness"
                 text="In theaters May 6th, 2022"

@@ -115,15 +115,16 @@ const Phase4 = () => {
                     writer="Chris McKenna & Erik Sommers"
                     trailer="https://www.youtube.com/watch?v=JfVOs4VSpmA"
                 />
-                <UpcomingMovie
+                <MovieCard
                     id="doctorstrange2"
-                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_1.jpg"
+                    poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/stellarvortex_digital_keyart_vert_v3_lg.jpg"
                     alt="logo poster for Doctor Strange in the Multiverse of Madness"
                     title="Doctor Strange in the Multiverse of Madness"
                     synopsis="Stephen Strrange aka Doctor Strange (Benedict Cumberbatch) is joined by Wanda Maximoff aka the Scarlet Witch (Elizabeth Olsen) in the sequel to the 2016 film."
                     date="May 6, 2022"
                     director="Sam Raimi"
                     writer="Jade Halley Bartlett, Michael Waldron"
+                    trailer="https://www.youtube.com/watch?v=Rt_UqUm38BI"
                 />
                 <ShowCard
                     id="msmarvel"
