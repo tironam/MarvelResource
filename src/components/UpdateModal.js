@@ -20,7 +20,13 @@ const UpdateModal = (props) => {
                 <ModalBody>
                     <ul>
                         <li>
-                            Updated Doctor Strange in the Multiverse of Madness info on 
+                            Added Moon Knight to homepage - 1.18.22
+                        </li>
+                        <li>
+                            Updated Moon Knight with poster - 1.18.22
+                        </li>
+                        <li>
+                            Updated Doctor Strange in the Multiverse of Madness info - 12.21
                         </li>
                         <li>Updated trailer for Spider-Man: No Way Home - 12.8.21</li>
                         <li>Updated "What's on now?" section on homepage - 12.8.21</li>
