@@ -16,14 +16,14 @@ function BtnSection() {
         <h1 className="header-text">What's' Next?</h1>
         <ImgButton
           href="/NextSaga#moonknight"
-          image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_04.jpg"
+          image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/cmp2970_103_comp_mar_v0023.1027_c.jpg"
           alt="Moon Knight poster"
           link="Moon Knight"
           text="Streaming March 30th, 2022 on Disney+"
         />
         <ImgButton
           href="/NextSaga#doctorstrange2"
-          image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/stellarvortex_digital_keyart_vert_v3_lg.jpg"
+          image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_teaser2_printed_1-sht_v4_lg.jpg"
           alt="Doctor Strange in the Multiverse of Madness poster"
           link="Doctor Strange in the Multiverse of Madness"
           text="In theaters May 6th, 2022"

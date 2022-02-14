@@ -117,18 +117,18 @@ const Phase4 = () => {
           />
           <MovieCard
             id="doctorstrange2"
-            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/stellarvortex_digital_keyart_vert_v3_lg.jpg"
+            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_teaser2_printed_1-sht_v4_lg.jpg"
             alt="logo poster for Doctor Strange in the Multiverse of Madness"
             title="Doctor Strange in the Multiverse of Madness"
-            synopsis="Stephen Strrange aka Doctor Strange (Benedict Cumberbatch) is joined by Wanda Maximoff aka the Scarlet Witch (Elizabeth Olsen) in the sequel to the 2016 film."
+            synopsis="A thrilling ride through the Multiverse with Doctor Strange, his trusted friend Wong and Wanda Maximoff, aka Scarlet Witch."
             date="May 6, 2022"
             director="Sam Raimi"
             writer="Jade Halley Bartlett, Michael Waldron"
-            trailer="https://www.youtube.com/watch?v=Rt_UqUm38BI"
+            trailer="https://www.youtube.com/watch?v=aWzlQ2N6qqg"
           />
           <ShowCard
             id="moonknight"
-            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/moonknight_lob_crd_04.jpg"
+            poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/cia.dm399_second_poster_static_9x16_dated.jpg"
             alt="logo poster for Moon Knight"
             title="Moon Knight"
             synopsis="Moon Knight follows Steven Grant, a mild-mannered gift-shop employee, who becomes plagued with blackouts and memories of another life. Steven discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc's enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt."
