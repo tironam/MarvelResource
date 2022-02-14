@@ -82,11 +82,11 @@ const MCUfaq = () => {
             />
             <QA
                 question="What happened to the Netflix shows?"
-                answer="While many have speculated it was Marvel/Disney that pulled the plug on future seasons of the Netflix shows, some working on the shows have suggested it was Netflix who decided to pull the plug on these series. One of Daredevil's producers claimed that they even pitched season four to Netflix. It may have been because with Disney launching their own streaming service soon, they didn't want to actively promote a competitor's brand."
+                answer="While many have speculated it was Marvel/Disney that pulled the plug on future seasons of the Netflix shows, some working on the shows have suggested it was Netflix who decided to pull the plug on these series. One of Daredevil's producers claimed that they even pitched season four to Netflix. These shows will be leaving Netflix on March 1, 2022. Disney has not yet said where they will play next."
             />
             <QA
                 question="Are these shows canon to the MCU?"
-                answer="Almost definitely no. While Kevin Feige has not outright said the old shows are not canon, he has alluded to it. In an interview he said that with the new Disney+ shows, the shows and movies will interlink for the first time. While the old shows made attempts to link themselves to the films by making it seem like they were the reason events in the film happened, the films never acknowledged the events of the shows and the events in the shows were purely reactionary to what the films did."
+                answer="It's hard to say, but there hasn't been an official answer on the matter. While Kevin Feige has not outright said the old shows are not canon, he has alluded to it. In an interview he said that with the new Disney+ shows, the shows and movies will interlink for the first time."
             />
             <QA
                 question="Which Marvel Television actors have shown up in the MCU so far?"
