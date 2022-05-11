@@ -11,7 +11,7 @@ function BtnSection() {
         image="https://www.slashfilm.com/img/gallery/heres-what-happens-when-you-scan-the-qr-codes-in-moon-knight/intro-1649259889.jpg"
         alt="Poster for Moon Knight"
         link="Moon Knight"
-        text="Streaming now on Disney+"
+        text="All episodes streaming now on Disney+"
       />
       <h1 className="header-text">Coming Soon To Disney Parks</h1>
       <ImgButton
@@ -27,14 +27,14 @@ function BtnSection() {
         image="https://bookriot.com/wp-content/uploads/2022/03/ms-marvel-trailer-1280x720.png"
         alt="Ms. Marvel poster"
         link="Ms. Marvel"
-        text="Streaming June 8th, 2022 on Disney+"
+        text="Streaming June 8, 2022 on Disney+"
       />
       <ImgButton
-        href="/NextSaga#doctorstrange2"
-        image="https://terrigen-cdn-dev.marvel.com/content/prod/1x/doctorstrangeinthemultiverseofmadness_teaser2_printed_1-sht_v4_lg.jpg"
+        href="/NextSaga#thor4"
+        image="https://www.indiewire.com/wp-content/uploads/2022/04/Screen-Shot-2022-04-18-at-10.03.24-AM.png"
         alt="Doctor Strange in the Multiverse of Madness poster"
-        link="Doctor Strange in the Multiverse of Madness"
-        text="In theaters May 6th, 2022"
+        link="Thor: Love and Thunder"
+        text="In theaters July 8, 2022"
       />
       <h1 className="header-text">What do you want to know?</h1>
       <ImgButton
