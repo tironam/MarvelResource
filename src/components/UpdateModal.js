@@ -22,6 +22,7 @@ const UpdateModal = (props) => {
         <ModalHeader toggle={toggle}>{title}</ModalHeader>
         <ModalBody>
           <ul>
+            <li>Update buttons on home page - 5.11.22</li>
             <li>
               Updated Phase 4 & Beyond page with new posters for Ms. Marvel,
               Thor Love And Thunder, I Am Groot, She-Hulk, Secret Invasion,
