@@ -22,6 +22,14 @@ const UpdateModal = (props) => {
         <ModalHeader toggle={toggle}>{title}</ModalHeader>
         <ModalBody>
           <ul>
+            <li>
+              Updated info for "Avengers Assemble: Flight Force" attraction on
+              Marvel & The Disney Parks page - 5.18.22
+            </li>
+            <li>
+              Updated title, poster, and trailer for She-Hulk: Attorney at Law -
+              5.18.22
+            </li>
             <li>Update buttons on home page - 5.11.22</li>
             <li>
               Updated Phase 4 & Beyond page with new posters for Ms. Marvel,
@@ -38,13 +46,6 @@ const UpdateModal = (props) => {
               Updated home page with new images from Moon Knight and Doctor
               Strange in the Multiverse of Madness
             </li>
-            <li>Updated FAQ page to reflect Netflix shows leaving Netflix</li>
-            <li>
-              Updated poster for Moon Knight and poster and trailer for Doctor
-              Strange in the Multiverse of Madness - 2.14.22
-            </li>
-            <li>Added Moon Knight to homepage - 1.18.22</li>
-            <li>Updated Moon Knight with poster - 1.18.22</li>
           </ul>
         </ModalBody>
       </Modal>

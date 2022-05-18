@@ -161,6 +161,18 @@ const Phase4 = () => {
           episodes="TBA"
           trailer="https://youtu.be/m9EX0f6V11Y"
         />
+        <ShowCard
+          id="shehulk"
+          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_03.jpg"
+          alt="Poster for She-Hulk"
+          title="She-Hulk: Attorney at Law"
+          synopsis="She-Hulk follows Jennifer Walters (Tatiana Maslany), a lawyer who specializes in superhuman-oriented legal cases. She-Hulk will welcome a host of Marvel characters to the series, including the Hulk, played by Mark Ruffalo, and the Abomination, played by Tim Roth. The new comedy series coming to Disney+ in 2022 is written by Executive Producer Jessica Gao and directed by Executive Producer Kat Coiro and Anu Valia."
+          date="August 17, 2022"
+          director="Kat Coiro and Anu Valia"
+          writer="Jessica Gao"
+          episodes="9"
+          trailer="https://youtu.be/gim2kprjL50"
+        />
       </div>
     </div>
   );

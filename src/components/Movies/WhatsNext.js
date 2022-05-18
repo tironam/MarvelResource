@@ -11,17 +11,6 @@ const WhatsNext = () => {
         What's Next?
       </h1>
       <div className="row text-center">
-        <UpcomingShow
-          id="shehulk"
-          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/shehulk_lob_crd_02.jpg"
-          alt="logo poster for She-Hulk"
-          title="She-Hulk"
-          synopsis="She-Hulk follows Jennifer Walters (Tatiana Maslany), a lawyer who specializes in superhuman-oriented legal cases. She-Hulk will welcome a host of Marvel characters to the series, including the Hulk, played by Mark Ruffalo, and the Abomination, played by Tim Roth. The new comedy series coming to Disney+ in 2022 is written by Executive Producer Jessica Gao and directed by Executive Producer Kat Coiro and Anu Valia."
-          date="TBA 2022"
-          director="Kat Coiro and Anu Valia"
-          writer="Jessica Gao"
-          episodes="10"
-        />
         <UpcomingMovie
           id="blackpanther2"
           poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackpanther2_lob_crd_02.jpg"
