@@ -27,10 +27,10 @@ const DLP = () => {
           date="2021 TBA"
         />
         <AttractionCard
-          image="https://wdwnt.com/wp-content/uploads/2021/06/E3jMJvKWQAgC_As-7809086.jpeg"
-          name="Untitled Iron Man Rollercoaster"
+          image="https://airmagique.files.wordpress.com/2022/04/ba730651-cc60-4a45-90c0-b8f81031a8cd.jpg?w=1568"
+          name="Avengers Assemble: Flight Force"
           synopsis="This attraction is billed as a high-speed adventure with Iron Man featuring some of your favorite Avengers."
-          info="Very little has been revealed about this attraction. It's expected to be an indoor rollercoaster."
+          info="Very little has been revealed about this attraction, except that it will be an indoor rollercoaster featuring Iron Man and Captain Marvel."
           replace="This attraction replaced the former Rock 'n' Roller Coaster Starring Aerosmith in the park, which closed in September 2019."
           locale="Avengers Campus - Walt Disney Studios Park"
           date="2021 TBA"
