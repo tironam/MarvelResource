@@ -23,6 +23,10 @@ const UpdateModal = (props) => {
         <ModalBody>
           <ul>
             <li>
+              Updated Theme Parks page with Avengers Campus Disneyland Paris
+              details, updated home page, added poster for I Am Groot - 6.9.22
+            </li>
+            <li>
               Updated info for "Avengers Assemble: Flight Force" attraction on
               Marvel & The Disney Parks page - 5.18.22
             </li>
@@ -36,15 +40,6 @@ const UpdateModal = (props) => {
               Thor Love And Thunder, I Am Groot, She-Hulk, Secret Invasion,
               Ironheart, added trailers for Thor Love And Thunder and Ms.
               Marvel, and updated release dates and info. - 5.1.22
-            </li>
-            <li>
-              Updated home page to remove Disney+ Day and Hawkeye, add Guardians
-              of the Galaxy: Cosmic Rewind and Ms. Marvel, update Moon Knight
-              banner. - 5.1.22
-            </li>
-            <li>
-              Updated home page with new images from Moon Knight and Doctor
-              Strange in the Multiverse of Madness
             </li>
           </ul>
         </ModalBody>

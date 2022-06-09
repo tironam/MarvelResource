@@ -22,16 +22,6 @@ const WhatsNext = () => {
           writer="Ryan Coogler"
         />
         <UpcomingShow
-          id="iamgroot"
-          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_02.jpg"
-          alt="logo poster for I Am Groot"
-          title="I Am Groot"
-          synopsis="The series of shorts follows Baby Groot’s glory days growing up, and getting into trouble, among the stars. Directed by Executive Producer Kirsten Lepore."
-          director="Kirsten Lepore"
-          writer="TBA"
-          episodes="TBA"
-        />
-        <UpcomingShow
           id="gotgholiday"
           poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/gotg-holiday_lob_crd_01_0.jpg"
           alt="logo poster for The Guardians of the Galaxy Holiday Special"

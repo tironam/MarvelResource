@@ -8,28 +8,30 @@ const DLP = () => {
       <div className="text-center">
         <AttractionCard
           image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2022/01/dlpan59050922.jpg"
-          name="Avengers Campus"
-          synopsis="Avengers Campus is part of the Global Avengers Initiative to find new recruits to help fight the battles ahead. Here, guests will get to meet some of their favorite heroes in attractions and encounters throughout the land."
+          name="Marvel Avengers Campus"
+          synopsis="Calling all heroes... prepare to assemble in an epic new land in Walt Disney Studios Park, where you’ll team up with the Avengers and take on the mightiest MARVEL missions!
+
+"
           info="The second Avengers Campus to open, following the location in Disney California Adventure. This campus will be unique to Paris and be part of the overarching storyline that extends through all of the Disney Parks Marvel attractions and experiences."
           replace=""
           locale="Walt Disney Studios Park"
-          date="2021 TBA"
+          date="July 20, 2022"
         />
       </div>
       <h5 className="text">The Attractions of Avengers Campus</h5>
       <div className="row text-center">
         <AttractionCard
-          image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/08/asdkjfh32o4324-624x279.jpg"
-          name="WEB SLINGERS: A Spider-Man Adventure"
-          synopsis="The Worldwide Engineering Brigade (or W.E.B. for short) is home to some of the brightest young minds in the world like Peter Parker, come together to help develop new technology for the greatest Super Heroes in the world. When Spider-Bots start running amok around Avengers Campus, it's up to you to board the WEB Slinger to help Spider-Man shoot webs and wrangle them up."
+          image="https://media.disneylandparis.com/d4th/en-usd/images/vignette_spider-man-web-adventure_16-9_tcm1861-236869.png?w=960"
+          name="Spider-Man W.E.B. Adventure"
+          synopsis="Unleash your inner hero in an action-packed mission alongside Spidey himself, and use your innovative new tech to sling your own web and catch all the Spider-Bots before they wreak total techno-havoc across the Campus."
           info="Tom Holland reprises his role as Peter Parker/Spider-Man for the attraction. The attraction is expected to be similar to the version opening with Avengers Campus at Disney California Adventure."
           locale="Avengers Campus - Walt Disney Studios Park"
           date="2021 TBA"
         />
         <AttractionCard
-          image="https://airmagique.files.wordpress.com/2022/04/ba730651-cc60-4a45-90c0-b8f81031a8cd.jpg?w=1568"
+          image="https://media.disneylandparis.com/d4th/en-usd/images/vignette_avengers-assemble_16-9_tcm1861-236731.png?w=960"
           name="Avengers Assemble: Flight Force"
-          synopsis="This attraction is billed as a high-speed adventure with Iron Man featuring some of your favorite Avengers."
+          synopsis="Heroes wanted! Team up with Iron Man and Captain Marvel to help them save the world from an intergalactic threat. Earth is counting on you!"
           info="Very little has been revealed about this attraction, except that it will be an indoor rollercoaster featuring Iron Man and Captain Marvel."
           replace="This attraction replaced the former Rock 'n' Roller Coaster Starring Aerosmith in the park, which closed in September 2019."
           locale="Avengers Campus - Walt Disney Studios Park"
@@ -38,6 +40,22 @@ const DLP = () => {
       </div>
       <h5 className="text">Other Marvel Experiences</h5>
       <div className="row text-center">
+        <AttractionCard
+          image="https://media.disneylandparis.com/d4th/en-usd/images/vignette_stark-factory-interior-2021_16-9_tcm1861-237130.png?w=960"
+          name="Stark Factory"
+          synopsis="Have an appetite for invention… and pizza, pasta and salad? Then fly over to Stark Factory, a quick-service kitchen and high-tech workspace where Super Heroes can come to build and repair their gear."
+          replace=""
+          locale="Walt Disney Studios Park"
+          date="July 20, 2022"
+        />
+        <AttractionCard
+          image="https://media.disneylandparis.com/d4th/en-usd/images/vignette_pym-food-labs-2021_16-9_tcm1861-237131.png?w=960"
+          name="PYM Kitchen"
+          synopsis="With a huge variety of good food at size-defying scales, power up with a buffet of unusually-sized mains and desserts – all prepared by a team of super-smart chefs using Ant-Man and The Wasp’s PYM Particle 'shrinking and growing' technology."
+          replace=""
+          locale="Walt Disney Studios Park"
+          date="July 20, 2022"
+        />
         <AttractionCard
           image="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/03/msh29384295834095834523.jpg"
           name="Marvel Season of Super Heroes"
