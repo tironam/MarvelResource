@@ -7,27 +7,26 @@ function BtnSection() {
     <div className=" home-cards row">
       <h1 className="header-text">What's on now?</h1>
       <ImgButton
-        href="/NextSaga#moonknight"
-        image="https://www.slashfilm.com/img/gallery/heres-what-happens-when-you-scan-the-qr-codes-in-moon-knight/intro-1649259889.jpg"
-        alt="Poster for Moon Knight"
-        link="Moon Knight"
-        text="All episodes streaming now on Disney+"
+        image="https://bookriot.com/wp-content/uploads/2022/03/ms-marvel-trailer-1280x720.png"
+        alt="Ms. Marvel poster"
+        link="Ms. Marvel"
+        text="Streaming now on Disney+"
       />
       <h1 className="header-text">Coming Soon To Disney Parks</h1>
       <ImgButton
         href="/DisneyParks#cosmicrewind"
-        image="https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/703ef9a7-9091-8a66-0d7a-bd2bc4bb4a00/600x400.jpg"
-        alt="Guardians of the Galaxy: Cosmic Rewind"
-        link="Guardians of the Galaxy: Cosmic Rewind"
-        text="Opening May 27, 2022 at Walt Disney World"
+        image="https://media.disneylandparis.com/d4th/en-usd/images/hd00000_2050dec31_world_avengers-campus-digital-key-visual_5-2_tcm1861-236724.jpg?w=1920"
+        alt="Avengers Campus Disneyland Paris"
+        link="Marvel Avengers Campus"
+        text="Opening July 20, 2022 at Disneyland Paris"
       />
       <h1 className="header-text">What's' Next?</h1>
       <ImgButton
-        href="/NextSaga#msmarvel"
-        image="https://bookriot.com/wp-content/uploads/2022/03/ms-marvel-trailer-1280x720.png"
-        alt="Ms. Marvel poster"
-        link="Ms. Marvel"
-        text="Streaming June 8, 2022 on Disney+"
+        href="/NextSaga#shehulk"
+        image="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/aacp0vjsng0ktuejmzdy/disney-plus-marvel-she-hulk"
+        alt="She-Hulk"
+        link="She-Hulk: Attorney At Law"
+        text="Streaming August 17, 2022 on Disney+"
       />
       <ImgButton
         href="/NextSaga#thor4"

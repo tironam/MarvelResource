@@ -138,17 +138,6 @@ const Phase4 = () => {
           episodes="TBA"
           trailer="https://www.youtube.com/watch?v=x7Krla_UxRg&t=1s"
         />
-        <MovieCard
-          id="thor4"
-          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/thorloveandthunder_lob_crd_03.jpg"
-          alt="logo poster for Thor: Love and Thunder"
-          title="Thor: Love and Thunder"
-          synopsis="God of thunder Thor (Chris Hemsworth) returns alongside the Guardians of the Galaxy in a space-hopping adventure that features the return of Jane Foster (Natalie Portman). Thor must face off against new villain Gorr the God Butcher (Christian Bale)."
-          date="July 8, 2022"
-          director="Taika Waititi"
-          writer="Taika Waititi, Jennifer Kaytin Robinson"
-          trailer="https://youtu.be/tgB1wUcmbbw"
-        />
         <ShowCard
           id="msmarvel"
           poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/ms_marvel_0.jpg"
@@ -160,6 +149,28 @@ const Phase4 = () => {
           writer="TBA"
           episodes="TBA"
           trailer="https://youtu.be/m9EX0f6V11Y"
+        />
+        <MovieCard
+          id="thor4"
+          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/thorloveandthunder_lob_crd_03.jpg"
+          alt="logo poster for Thor: Love and Thunder"
+          title="Thor: Love and Thunder"
+          synopsis="God of thunder Thor (Chris Hemsworth) returns alongside the Guardians of the Galaxy in a space-hopping adventure that features the return of Jane Foster (Natalie Portman). Thor must face off against new villain Gorr the God Butcher (Christian Bale)."
+          date="July 8, 2022"
+          director="Taika Waititi"
+          writer="Taika Waititi, Jennifer Kaytin Robinson"
+          trailer="https://youtu.be/tgB1wUcmbbw"
+        />
+        <UpcomingShow
+          id="iamgroot"
+          poster="https://terrigen-cdn-dev.marvel.com/content/prod/1x/iamgroot_lob_crd_03.jpg"
+          alt="Poster for I Am Groot"
+          title="I Am Groot"
+          synopsis="The series of shorts follows Baby Groot’s glory days growing up, and getting into trouble, among the stars. Directed by Executive Producer Kirsten Lepore."
+          date="August 10, 2022"
+          director="Kirsten Lepore"
+          writer="TBA"
+          episodes="TBA"
         />
         <ShowCard
           id="shehulk"
