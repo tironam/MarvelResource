@@ -24,7 +24,7 @@ const UpdateModal = (props) => {
           <ul>
             <li>
               Updated Theme Parks page with Avengers Campus Disneyland Paris
-              details, updated home page, added poster for I Am Groot - 6.9.22
+              details, home page, info for I Am Groot - 6.9.22
             </li>
             <li>
               Updated info for "Avengers Assemble: Flight Force" attraction on
