@@ -23,7 +23,7 @@ const UpdateModal = (props) => {
         <ModalBody>
           <ul>
             <li>
-              Updated Avengers Campus Disneyland Paris details, home page, info
+              Updated Disneyland Paris Avengers Campus details, home page, info
               for I Am Groot - 6.9.22
             </li>
             <li>
